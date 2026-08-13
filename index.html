@@ -7,8 +7,9 @@
 <style>
 :root{--navy:#061b31;--hero:#071d33;--gold:#eda91a;--white:#f6f3ed}
 *{box-sizing:border-box}
-html,body{margin:0;width:100%;min-height:100%;background:var(--navy)}
-body{color:var(--white);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+html{margin:0;width:100%;min-height:100%;background:var(--navy)}
+body{margin:0;width:100%;min-height:100vh;background:var(--hero);color:var(--white);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+body::after{content:"";display:block;width:100%;height:24px;background:var(--navy)}
 .hero-wrap{width:100%;background:var(--hero)}
 .hero{position:relative;width:100vw;max-width:none;margin:0;aspect-ratio:1738/905;overflow:hidden;background:var(--hero)}
 .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
@@ -27,7 +28,7 @@ body{color:var(--white);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden
 .login{left:86.3%;top:1.6%;width:12%;height:9.5%}
 .browse-cta{left:1.8%;top:69.3%;width:17.7%;height:10.5%}
 .list-cta{left:20.7%;top:69.3%;width:15.8%;height:10.5%}
-@media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:70px}}
+@media(max-width:700px){body::after{height:16px}.hotspot{border-radius:3px}.hero-tail{height:70px}}
 </style>
 </head>
 <body>
