@@ -35,12 +35,12 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .market-menu[hidden]{display:none}
 .market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
 .market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
-.state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;pointer-events:none}
-.map-state{pointer-events:all;cursor:pointer;outline:none}
-.state-shape{fill:rgba(246,169,0,0);stroke:transparent;stroke-width:2;transform-box:fill-box;transform-origin:center;transition:transform .22s cubic-bezier(.2,.8,.2,1),fill .16s ease,stroke .16s ease,filter .22s ease;paint-order:stroke fill}
-.state-label{opacity:0;pointer-events:none}
-.map-state:hover .state-shape,.map-state:focus-visible .state-shape{fill:#f6a700;stroke:#ffe2a0;stroke-width:3;transform:scale(1.2);filter:drop-shadow(0 0 12px rgba(255,183,38,.95))}
-@media(prefers-reduced-motion:reduce){.state-shape{transition:none}}
+.state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;overflow:visible;pointer-events:none}
+.map-state{cursor:pointer;outline:none}
+.state-piece{opacity:0;pointer-events:none;transform-box:view-box;transition:opacity .08s linear,transform .22s cubic-bezier(.2,.8,.2,1)}
+.state-hit{fill:rgba(255,255,255,.001);stroke:transparent;pointer-events:all}
+.map-state:hover .state-piece,.map-state:focus-visible .state-piece{opacity:1;transform:scale(1.2)}
+@media(prefers-reduced-motion:reduce){.state-piece{transition:none}}
 @media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:36px}}
 </style>
 </head>
@@ -51,40 +51,64 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <div class="logo-erase" aria-hidden="true"></div>
 <img class="logo-shifted" src="/hero-tilted.webp" alt="" aria-hidden="true">
 <svg class="state-overlay" viewBox="0 0 1400 729" aria-label="Active liquor license markets">
-<g transform="rotate(-2 987.5 355)">
+<defs>
+<mask id="state-mask-ca" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="594" y="274" width="130" height="181">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAAC1CAAAAAC2F3g0AAAB8klEQVR42u2cyW7DMBBDxUH//5fZQ4Hk0rSWNZtk+pJL0D6QHK3jjKGnxYOfD175UiVCLJzVG7GIQD8E7KtCBwQ2UIFsYASPyQJVET5j/MNVEIIfAvdWAacYwXIEqiKEcAgCXBAgI4QghGYIaKDCfQYoC64IOmWpnSffCJARQhjlJz0yQgj9LgNkhBBazZTQxdDecaTv2SlLFpCWdz1+zQhUeGGjnMGnItigKFfubN3GhfsQminPQ7ibBlcV7kHAt8zhpQJ2jiMbVAQ1LtyrigAV2MAIKgvzMiBoaQ4ZMVebcSqwgRHcPgtIlOGTCkB2N3jl6GB1jeg5ceQJoyNTZHjAho5S4ZoM8SpQRlyRobsKSJHBRvk8ZSOBgbtXRIIMNlIYGhjBJQTo9DVDBhvlDLvMlOsyYFkFNDACDbKAuL2lZbYVPvtuCueogAZGYOMsQBWxuo/opgK33kdw+xX0EePCPzJYVhcX/f6sf2NBZi8V1E7zWbtUFdjACDbIAr0Q2CiOmL7IY8QbxlhlQH7HAtTp94tilrJO/5PBRjkDatpoEJUF7HS+wAZFyQbjAiNX5pxMjqXv5VPiiDm1bJQzlE5TDETAPkefDETABINeTohEUOPppFiPVwFNsvCV/2O/70EJta/U8vW/GxhRPVPr6fN8A18qV0XkST1iAAAAAElFTkSuQmCC" x="594" y="274" width="130" height="181" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-az" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="697" y="377" width="108" height="98">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABiCAAAAACQB2lhAAAA5klEQVR42u2aMQ7DMAwDTaP///J16Bg0dRObaVhpzXCgRMuCldYqJoT2PzOV053KcmGP5dX6DMOYRsogd4NRaSzYj/RGjMpIrRlGGEZlRFifLQyjQUhtVxhhpHZ9jDCMyki9qakZpGB7MOWmUbkGUa71lXuoVe3qbtNV6sBjrRmhAw/GNGKsGTVdFaxgWTC5Hq/6tTtP1pH+yY2yKpM1jZK1Zotw7wyyBCfPrwUvkobeyF2HWr5fNCaqG21Xs9zSJyagdp6jucSp7JxVdHAV5rqpj6vTmU2fawaRU9n36k5OV1KruCCeWDckt0O0oQUAAAAASUVORK5CYII=" x="697" y="377" width="108" height="98" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-nm" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="794" y="385" width="86" height="89">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABZCAAAAACBa4z+AAAAb0lEQVR42u3ZMQrAIBBE0RnJ/a+sjSEgKZbgRpS/lYV5yAdBiMTIkuq9SGDDuxPYsFly2sLCwsLuyZoIsLCwsLCwsGtYEwEWFhYWFhYW9i/WROjPz70iXFP/ubyy49f1sxqJ4OMvr5+ITjmtxcydBjnpBa97h89dAAAAAElFTkSuQmCC" x="794" y="385" width="86" height="89" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-fl" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1117" y="452" width="133" height="105">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAABpCAAAAAAxN78ZAAABhElEQVR42u2aSxLDIAxDkSf3v7K67bQd/tgqwDINE/VZNg4kpTu0Bgq/s/bGJSrYI3mmCtbePY8Tah4+HNea+Vxvr8KwOYGlhIpEKqgYw2HzEpCDtqJfFczNmiijS8oSFc1KbFVpZkyOzADHj4u+9fT5ruTQ6S/oalDk/YXxYtQSEc+eZsaj2FBnsK7i8m3WJBnWgw/xEWlLJ3jVToz/E1sMlH+0jlhSgGESJrfluUZPXwxlCtY3WPDOEXSGZKdMHYWxJYtOt7uw4JkR6YNxEosSjD1ZUDkiBXVbRoR9MI7K1AKM01jkYBzHIgPDlQUj+061Hpwa7uTNkRIM+4sT7vmNDnxYoF3kvu5sh2ESZkNEtwsJX9BLBZL+GSK9VKBFxu6rWQuMhSwadoPDIkLH40rWhSzQndTIEXqpgMBHgtXrWnDVokbtpEYFp8Y6woPezWqWE4TvoMAxIrgnE5Uwzty/+M1Ig8UjsX1ioVtJUPAFBGpnQPeL7JVbtUI+4mTIU+/oGi8QUUS1atXnCgAAAABJRU5ErkJggg==" x="1117" y="452" width="133" height="105" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-mi" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1049" y="162" width="122" height="115">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAABzCAAAAAByPUnwAAABnElEQVR42u1b23KFMAhkGf//l7dvPW2nKsEAZgKPRzwb7muiIi2pgquLvFMIg6ZtgV5RC3KMaF2sjxlG0xUSmJAtGYFJ0LQtkEMFY9KlRY+jtepMM9pygXxmNQ2a9DWpa0XTn9LdIc/VGN+eR90YgH4kds6TxTF3Jv4orgCD+eLxoXFRpiEirCFBGsqB3hprTIg1fHMMz4vrvCHCSZAeAxtjjXxk8yB0AZsdPl7imFzzdN86mORwc3B4eNU4DxcvQ73CgGsQYGyxmJIptD413KMcEYQveXxw+KJm0aEXEqTdoI+SMM8pFrpxFo41O8NTodktpaEb+qRf99CMFf71PLK7Geoc/tm2ToAG/n8W3izDmZbhjLEa3cNXgGbTwn3SjGtbjQdmd0tZDBr+21SkanZp3TmTSpnZWne4tllxYRo0nPpbORw79nD05Grohl4B2vkapYpIEVtQKcNGwWkqpqYZCjMchcUFqWMpkDqqAHn3vIbEfGDw64sJ3nlGJ5sEe0yQuSuLssmFrKGJux+QthkOSYb+hi96T7blI1+iyUffS9xIzAAAAABJRU5ErkJggg==" x="1049" y="162" width="122" height="115" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-oh" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1135" y="254" width="73" height="72">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABICAAAAACfRIelAAAAwUlEQVR42u2YwQ7DIAxDeYj//2XvMlWqtI0GjIaAHFGw4mBonZRWDjr26gZQmrZ/ivItnwDIxU6PyKuSkStcVCtID5EuLFUbWDp6fI9s09OaSNqmTxwVVGWwwW1hPXY6L91Besvg9Ok/SBgOb0Z2xH63fmD42TFDn5hPmbiQcNWEix0hj/DQHGaby8zJJc0ResJXE31mPI9x+eqZDGTX8GDYWwC+mtqxiJtxQsuKj3QIjglomhoplE3gy49JL0o7xwu19BuGX+ve0QAAAABJRU5ErkJggg==" x="1135" y="254" width="73" height="72" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-pa" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1191" y="231" width="92" height="71">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABHCAAAAACvlX/cAAAAyUlEQVR42u3Yyw6DMAxEUW7E//9yuokQTc2jZaZtkL1jcwgTBymepqyguArUHQuNG2uo3IhDSfceSrkHkYgbOmL6iUTJ9iZyeoWi4WIdA72wxWI3qljshmGhm1xcdp954kvNrrzHjYXhu4XRVk6e0FvhZCy3wslYvo2zxslYRsfJWH6N4xnhDJ85tpuFIuMaXfdn5/zt00su8YADdSzbb+TyOMjQilXfLbz3gRwuhq7P6vlzcYgj2uD68ijE96c9//bjcowVs/brAZ22IH+g+OoJAAAAAElFTkSuQmCC" x="1191" y="231" width="92" height="71" preserveAspectRatio="none"/>
+</mask>
+<mask id="state-mask-nj" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1269" y="242" width="29" height="53">
+<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAA1CAAAAACYB7+IAAAAiElEQVR42sVUWw7AIAijZPe/cvdhsukGCFvc/PFRWyoSRFYNtInn0kGNCzrsaHJ5E7O4IkJG6CBkoB0dlpkjvDp5YIg2eQ0zqXbYwPO/KFJcvImLmOsVXOpFiF2h5BmFTHLVH7HG7SuW1bhMuqJHflhX+KDaMel1TqfaLkdj09NQMecZFnXh2AGPSxdaYbwE5wAAAABJRU5ErkJggg==" x="1269" y="242" width="29" height="53" preserveAspectRatio="none"/>
+</mask>
+</defs>
 <a class="map-state" href="/browse-markets.html?state=California" aria-label="California market">
-<path class="state-shape" d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/>
-<text class="state-label" x="651" y="360">CA</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-ca)" style="transform-origin:659px 364.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=Arizona" aria-label="Arizona market">
-<path class="state-shape" d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/>
-<text class="state-label" x="750" y="420">AZ</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-az)" style="transform-origin:751px 426px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=New%20Mexico" aria-label="New Mexico market">
-<path class="state-shape" d="M798 384L873 389L870 460L797 462Z"/>
-<text class="state-label" x="835" y="423">NM</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-nm)" style="transform-origin:837px 429.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M798 384L873 389L870 460L797 462Z"/>
 </a>
 <a class="map-state" href="https://www.floridaliquorlicensemarket.com/" aria-label="Florida market">
-<path class="state-shape" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/>
-<text class="state-label" x="1206" y="519">FL</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-fl)" style="transform-origin:1183.5px 504.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=Michigan" aria-label="Michigan market">
-<path class="state-shape" d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/>
-<text class="state-label" x="1143" y="236">MI</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-mi)" style="transform-origin:1110px 219.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=Ohio" aria-label="Ohio market">
-<path class="state-shape" d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/>
-<text class="state-label" x="1175" y="296">OH</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-oh)" style="transform-origin:1171.5px 290px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=Pennsylvania" aria-label="Pennsylvania market">
-<path class="state-shape" d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/>
-<text class="state-label" x="1240" y="275">PA</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-pa)" style="transform-origin:1237px 266.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/>
 </a>
 <a class="map-state" href="/browse-markets.html?state=New%20Jersey" aria-label="New Jersey market">
-<path class="state-shape" d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/>
-<text class="state-label small" x="1287" y="282">NJ</text>
+<image class="state-piece" href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none" mask="url(#state-mask-nj)" style="transform-origin:1283.5px 268.5px"/>
+<path class="state-hit" transform="rotate(-2 987.5 355)" d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/>
 </a>
-</g>
 </svg>
 <a class="hotspot logo" href="/" aria-label="Home"></a>
 <a class="hotspot home" href="/" aria-label="Home"></a>
