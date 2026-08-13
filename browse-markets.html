@@ -1,1 +1,94 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Browse Markets | Liquor License Market</title><style>body{margin:0;background:#071d33;color:#f6f3ed;font-family:Arial,Helvetica,sans-serif}.wrap{max-width:1100px;margin:auto;padding:70px 28px}a{color:#eda91a;text-decoration:none}h1{font:600 52px Georgia,serif;color:#eda91a;margin:20px 0}p{font-size:20px;line-height:1.6;color:#d9e0e8}.back{display:inline-block;border:1px solid #eda91a;border-radius:8px;padding:12px 18px}</style></head><body><main class="wrap"><a class="back" href="/">← Home</a><h1>Browse Markets</h1><p>Explore active liquor-license markets across the United States. State and market-specific listings will appear here as the national marketplace expands.</p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browse Listings by State | Liquor License Market</title>
+<meta name="description" content="Browse Liquor License Market listings by active state market.">
+<style>
+:root{--navy:#071d33;--navy2:#0f243f;--gold:#eda91a;--white:#f6f3ed;--muted:#cbd4df}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--navy);color:var(--white);font-family:Arial,Helvetica,sans-serif}
+body{min-height:100vh;background:radial-gradient(circle at 50% 0%,#123353 0,#0b2744 32%,var(--navy) 72%)}
+a{color:inherit}
+.site-header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid rgba(237,169,26,.32);background:rgba(7,29,51,.96)}
+.brand{font-family:Georgia,serif;font-size:clamp(19px,2vw,29px);font-weight:700;letter-spacing:.02em;text-decoration:none;color:var(--white)}
+.brand span{color:var(--gold)}
+.home-link{padding:10px 16px;border:1px solid rgba(237,169,26,.7);border-radius:7px;color:var(--gold);font-weight:700;text-decoration:none;transition:.18s ease}
+.home-link:hover,.home-link:focus-visible{background:var(--gold);color:var(--navy);outline:none}
+.wrap{max-width:1180px;margin:0 auto;padding:58px 28px 80px}
+.eyebrow{margin:0 0 10px;color:var(--gold);font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,serif}
+.intro{max-width:760px;margin:18px 0 38px;color:var(--muted);font-size:18px;line-height:1.65}
+.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.market-card{min-height:116px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px;border:1px solid rgba(237,169,26,.42);border-radius:14px;background:linear-gradient(135deg,rgba(15,36,63,.98),rgba(7,29,51,.95));box-shadow:0 12px 34px rgba(0,0,0,.16);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.market-card:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 15px 38px rgba(0,0,0,.25)}
+.state-copy{min-width:0}
+.state-name{margin:0;color:var(--white);font:700 clamp(23px,2.7vw,33px)/1.1 Georgia,serif}
+.state-sub{margin:7px 0 0;color:#aebdcb;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.state-map{width:112px;height:76px;flex:0 0 112px;overflow:visible;filter:drop-shadow(0 4px 5px rgba(0,0,0,.22))}
+.state-map path{fill:var(--gold)}
+.florida-card{position:relative;text-decoration:none;border-color:rgba(237,169,26,.72)}
+.florida-card:after{content:'OPEN MARKET  →';position:absolute;right:22px;bottom:13px;color:var(--gold);font-size:10px;font-weight:900;letter-spacing:.12em}
+.florida-card:hover .state-name{color:var(--gold)}
+.note{margin:28px 0 0;color:#91a5b8;font-size:13px;line-height:1.55}
+@media(max-width:760px){
+ .site-header{height:66px;padding:0 18px}.home-link{padding:8px 12px;font-size:13px}.wrap{padding:40px 18px 60px}.intro{font-size:16px;margin-bottom:28px}.market-grid{grid-template-columns:1fr}.market-card{min-height:104px;padding:17px 18px}.state-map{width:96px;height:66px;flex-basis:96px}.florida-card:after{right:18px;bottom:9px;font-size:9px}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="/">LIQUOR LICENSE <span>MARKET</span></a>
+<a class="home-link" href="/">HOME</a>
+</header>
+<main class="wrap">
+<p class="eyebrow">National Liquor License Marketplace</p>
+<h1>Browse Listings by State</h1>
+<p class="intro">Select from our active liquor-license markets across the United States. Each market is represented by the gold states featured on the Liquor License Market map.</p>
+
+<section class="market-grid" aria-label="Active liquor license markets">
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">California</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="590 255 140 215" aria-label="Map of California" role="img"><path d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/></svg>
+</article>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">Arizona</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="675 363 135 110" aria-label="Map of Arizona" role="img"><path d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/></svg>
+</article>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">New Mexico</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="788 375 95 100" aria-label="Map of New Mexico" role="img"><path d="M798 384L873 389L870 460L797 462Z"/></svg>
+</article>
+
+<a class="market-card florida-card" href="https://www.floridaliquorlicensemarket.com/" aria-label="Open Florida Liquor License Market">
+<div class="state-copy"><h2 class="state-name">Florida</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="1108 453 145 120" aria-label="Map of Florida" role="img"><path d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/></svg>
+</a>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">Michigan</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="1045 150 140 140" aria-label="Map of Michigan" role="img"><path d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/></svg>
+</article>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">Ohio</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="1134 257 80 82" aria-label="Map of Ohio" role="img"><path d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/></svg>
+</article>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">Pennsylvania</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="1190 235 102 83" aria-label="Map of Pennsylvania" role="img"><path d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/></svg>
+</article>
+
+<article class="market-card">
+<div class="state-copy"><h2 class="state-name">New Jersey</h2><p class="state-sub">Liquor License Market</p></div>
+<svg class="state-map" viewBox="1268 248 40 68" aria-label="Map of New Jersey" role="img"><path d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/></svg>
+</article>
+</section>
+<p class="note">Additional state markets can be added as Liquor License Market expands.</p>
+</main>
+</body>
+</html>
