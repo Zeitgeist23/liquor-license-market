@@ -16,7 +16,7 @@
   <script>
     fetch('/assets/p1.txt',{cache:'no-store'})
       .then(r=>{if(!r.ok) throw new Error('hero data'); return r.text();})
-      .then(data=>{document.getElementById('hero').src='data:image/jpeg;base64,'+data.trim();})
+      .then(data=>{document.getElementById('hero').src='data:image/webp;base64,'+data.trim();})
       .catch(()=>{document.body.innerHTML='<div style="color:white;font:20px Arial;padding:40px">Loading Liquor License Market…</div>';});
   </script>
 </body>
