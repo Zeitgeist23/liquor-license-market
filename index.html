@@ -39,12 +39,14 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
 .market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
 .state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;pointer-events:none}
-.map-state{pointer-events:all;cursor:pointer;outline:none}
-.state-shape{fill:rgba(255,255,255,0);stroke:transparent;stroke-width:2;transition:fill .15s ease}
+.map-state{pointer-events:all;cursor:pointer;outline:none;transform-box:fill-box;transform-origin:center;transition:transform .2s cubic-bezier(.2,.8,.2,1),filter .2s ease}
+.state-shape{fill:rgba(255,255,255,0);stroke:transparent;stroke-width:2;transition:fill .15s ease,stroke .15s ease}
 .state-label{fill:#050505;font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;letter-spacing:1px;text-anchor:middle;dominant-baseline:middle;opacity:0;pointer-events:none;transition:opacity .15s ease}
 .state-label.small{font-size:11px;letter-spacing:0}
-.map-state:hover .state-shape,.map-state:focus-visible .state-shape{fill:rgba(255,255,255,.08)}
+.map-state:hover,.map-state:focus-visible{transform:scale(1.2);filter:drop-shadow(0 0 8px rgba(255,183,38,.85))}
+.map-state:hover .state-shape,.map-state:focus-visible .state-shape{fill:rgba(246,169,0,.76);stroke:rgba(255,218,125,.95);stroke-width:2.5}
 .map-state:hover .state-label,.map-state:focus-visible .state-label{opacity:1}
+@media(prefers-reduced-motion:reduce){.map-state{transition:none}}
 @media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:36px}}
 </style>
 </head>
