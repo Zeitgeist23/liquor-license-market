@@ -1,5 +1,19 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/home-nologo.html" }
+    { "source": "/", "destination": "/home-final.html" }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0" }
+      ]
+    },
+    {
+      "source": "/home-final.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0" }
+      ]
+    }
   ]
 }
