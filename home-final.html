@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Liquor License Market | National Marketplace</title>
+<meta name="description" content="Liquor License Market — the nation's marketplace for buying, selling, and financing liquor licenses.">
+<style>
+:root{--navy:#071d33;--hero:#071d33;--light:#0f243f;--gold:#eda91a;--white:#f6f3ed}
+*{box-sizing:border-box}
+html{margin:0;width:100%;min-height:100%;background:var(--navy)}
+body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--white);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+.hero-wrap{width:100%;background:var(--light)}
+.hero{position:relative;width:100vw;max-width:none;margin:0;aspect-ratio:1400/729;overflow:hidden;background:var(--hero)}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
+.hero-tail{height:64px;width:100%;background:var(--light)}
+.hero-logo-cover{position:absolute;z-index:100;left:0;top:0;width:29.5%;height:13.75%;background:#021528;pointer-events:none}
+.hotspot{position:absolute;z-index:20;display:block;cursor:pointer;background:rgba(255,255,255,.001);border-radius:7px;text-decoration:none;touch-action:manipulation}
+.hotspot:hover{outline:2px solid rgba(237,169,26,.4);background:rgba(237,169,26,.04)}
+.hotspot:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.home{left:29.5%;top:2.2%;width:5.6%;height:9%}
+.markets{left:35%;top:2.2%;width:11.8%;height:9%;border:0;padding:0;appearance:none}
+.sell{left:46.8%;top:2.2%;width:9.2%;height:9%}
+.financing{left:56.1%;top:2.2%;width:7%;height:9%}
+.resources{left:63.2%;top:2.2%;width:8.9%;height:9%}
+.about{left:72.2%;top:2.2%;width:7.1%;height:9%}
+.contact{left:79.4%;top:2.2%;width:6.8%;height:9%}
+.login{left:86.3%;top:1.6%;width:12%;height:9.5%}
+.browse-cta{left:1.8%;top:69.3%;width:17.7%;height:10.5%}
+.list-cta{left:20.7%;top:69.3%;width:15.8%;height:10.5%}
+.market-menu{position:absolute;z-index:40;left:35%;top:11.2%;width:24%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.25vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
+.market-menu[hidden]{display:none}
+.market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
+.market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
+.state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;pointer-events:none}
+.map-state{pointer-events:all;cursor:pointer;outline:none}
+.state-shape{fill:rgba(255,255,255,0);stroke:transparent;stroke-width:2;transition:fill .15s ease}
+.state-label{fill:#050505;font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;letter-spacing:1px;text-anchor:middle;dominant-baseline:middle;opacity:0;pointer-events:none;transition:opacity .15s ease}
+.state-label.small{font-size:11px;letter-spacing:0}
+.map-state:hover .state-shape,.map-state:focus-visible .state-shape{fill:rgba(255,255,255,.08)}
+.map-state:hover .state-label,.map-state:focus-visible .state-label{opacity:1}
+@media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:36px}}
+</style>
+</head>
+<body>
+<main class="hero-wrap">
+<section class="hero">
+<img src="/hero-tilted.webp?v=nologo3" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
+<div class="hero-logo-cover" aria-hidden="true"></div>
+<svg class="state-overlay" viewBox="0 0 1400 729" aria-label="Active liquor license markets">
+<g transform="rotate(-2 987.5 355)">
+<a class="map-state" href="/browse-markets.html?state=California" aria-label="California market"><path class="state-shape" d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/><text class="state-label" x="651" y="360">CA</text></a>
+<a class="map-state" href="/browse-markets.html?state=Arizona" aria-label="Arizona market"><path class="state-shape" d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/><text class="state-label" x="750" y="420">AZ</text></a>
+<a class="map-state" href="/browse-markets.html?state=New%20Mexico" aria-label="New Mexico market"><path class="state-shape" d="M798 384L873 389L870 460L797 462Z"/><text class="state-label" x="835" y="423">NM</text></a>
+<a class="map-state" href="https://www.floridaliquorlicensemarket.com/" aria-label="Florida market"><path class="state-shape" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/><text class="state-label" x="1206" y="519">FL</text></a>
+<a class="map-state" href="/browse-markets.html?state=Michigan" aria-label="Michigan market"><path class="state-shape" d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/><text class="state-label" x="1143" y="236">MI</text></a>
+<a class="map-state" href="/browse-markets.html?state=Ohio" aria-label="Ohio market"><path class="state-shape" d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/><text class="state-label" x="1175" y="296">OH</text></a>
+<a class="map-state" href="/browse-markets.html?state=Pennsylvania" aria-label="Pennsylvania market"><path class="state-shape" d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/><text class="state-label" x="1240" y="275">PA</text></a>
+<a class="map-state" href="/browse-markets.html?state=New%20Jersey" aria-label="New Jersey market"><path class="state-shape" d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/><text class="state-label small" x="1287" y="282">NJ</text></a>
+</g>
+</svg>
+<a class="hotspot home" href="/" aria-label="Home"></a>
+<button class="hotspot markets" id="header-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"></button>
+<a class="hotspot sell" href="/sell-license.html" aria-label="Sell a License"></a>
+<a class="hotspot financing" href="/financing.html" aria-label="Financing"></a>
+<a class="hotspot resources" href="/resources.html" aria-label="Resources"></a>
+<a class="hotspot about" href="/about.html" aria-label="About Us"></a>
+<a class="hotspot contact" href="/contact.html" aria-label="Contact"></a>
+<a class="hotspot login" href="/client-login.html" aria-label="Client Login"></a>
+<a class="hotspot browse-cta" href="/browse-markets.html" aria-label="Browse Markets"></a>
+<a class="hotspot list-cta" href="/sell-license.html" aria-label="List a License"></a>
+<nav class="market-menu" id="market-menu" aria-label="Active liquor license markets" hidden>
+<a href="/browse-markets.html?state=California">California</a><a href="/browse-markets.html?state=Michigan">Michigan</a><a href="/browse-markets.html?state=Arizona">Arizona</a><a href="/browse-markets.html?state=Ohio">Ohio</a><a href="/browse-markets.html?state=New%20Mexico">New Mexico</a><a href="/browse-markets.html?state=Pennsylvania">Pennsylvania</a><a href="https://www.floridaliquorlicensemarket.com/">Florida</a><a href="/browse-markets.html?state=New%20Jersey">New Jersey</a>
+</nav>
+</section>
+<div class="hero-tail" aria-hidden="true"></div>
+</main>
+<script>
+const marketToggle=document.getElementById('header-markets-toggle');
+const marketMenu=document.getElementById('market-menu');
+function setMarketMenu(open){marketMenu.hidden=!open;marketToggle.setAttribute('aria-expanded',String(open));}
+marketToggle.addEventListener('click',event=>{event.stopPropagation();setMarketMenu(marketMenu.hidden);});
+marketMenu.addEventListener('click',event=>event.stopPropagation());
+document.addEventListener('click',()=>setMarketMenu(false));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){setMarketMenu(false);marketToggle.focus();}});
+</script>
+</body>
+</html>
