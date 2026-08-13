@@ -6,12 +6,18 @@
   <title>Liquor License Market | National Marketplace</title>
   <meta name="description" content="Liquor License Market — a national marketplace for liquor licenses." />
   <style>
-    html,body{margin:0;background:#0a2340;min-height:100%;}
-    body{display:flex;justify-content:center;align-items:flex-start;}
-    img{display:block;width:100%;height:auto;max-width:1660px;}
+    html,body{margin:0;background:#071b31;min-height:100%;}
+    body{display:flex;justify-content:center;align-items:flex-start;overflow-x:hidden;}
+    #hero{display:block;width:100%;height:auto;max-width:1660px;}
   </style>
 </head>
 <body>
-  <img src="/hero.png" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses" />
+  <img id="hero" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses" />
+  <script>
+    fetch('/assets/p1.txt',{cache:'no-store'})
+      .then(r=>{if(!r.ok) throw new Error('hero data'); return r.text();})
+      .then(data=>{document.getElementById('hero').src='data:image/jpeg;base64,'+data.trim();})
+      .catch(()=>{document.body.innerHTML='<div style="color:white;font:20px Arial;padding:40px">Loading Liquor License Market…</div>';});
+  </script>
 </body>
 </html>
