@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/home-final.html" }
+    { "source": "/", "destination": "/home-separated.html" }
   ],
   "headers": [
     {
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/home-final.html",
+      "source": "/home-separated.html",
       "headers": [
         { "key": "Cache-Control", "value": "no-store, max-age=0" }
       ]
