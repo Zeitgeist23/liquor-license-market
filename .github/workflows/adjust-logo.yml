@@ -1,0 +1,42 @@
+name: Adjust homepage logo position
+
+on:
+  push:
+    branches:
+      - logo-up-flush
+
+permissions:
+  contents: write
+
+jobs:
+  adjust-logo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: logo-up-flush
+      - name: Move logo up flush with header
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          old1 = 'transform:translateY(50px) scale(.85)'
+          new1 = 'transform:translateY(0) scale(.85)'
+          old2 = 'top:calc(.5% + 50px);width:23.375%'
+          new2 = 'top:.5%;width:23.375%'
+          if old1 not in s or old2 not in s:
+              raise SystemExit('Expected logo positioning strings not found; refusing to change file.')
+          s = s.replace(old1, new1, 1).replace(old2, new2, 1)
+          p.write_text(s)
+          Path('.github/workflows/adjust-logo.yml').unlink()
+          PY
+      - name: Commit exact adjustment
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html .github/workflows/adjust-logo.yml
+          git commit -m "Move homepage logo up flush with header"
+          git push origin HEAD:logo-up-flush
