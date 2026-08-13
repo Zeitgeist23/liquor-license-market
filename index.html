@@ -32,6 +32,13 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .market-menu[hidden]{display:none}
 .market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
 .market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
+.state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;pointer-events:none}
+.map-state{pointer-events:all;cursor:pointer;outline:none}
+.state-shape{fill:rgba(255,255,255,0);stroke:transparent;stroke-width:2;transition:fill .15s ease}
+.state-label{fill:#050505;font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;letter-spacing:1px;text-anchor:middle;dominant-baseline:middle;opacity:0;pointer-events:none;transition:opacity .15s ease}
+.state-label.small{font-size:11px;letter-spacing:0}
+.map-state:hover .state-shape,.map-state:focus-visible .state-shape{fill:rgba(255,255,255,.08)}
+.map-state:hover .state-label,.map-state:focus-visible .state-label{opacity:1}
 @media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:36px}}
 </style>
 </head>
@@ -39,6 +46,40 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <main class="hero-wrap">
 <section class="hero">
 <img src="/hero.webp" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
+<svg class="state-overlay" viewBox="0 0 1400 729" aria-label="Active liquor license markets">
+<a class="map-state" href="/browse-markets.html?state=California" aria-label="California market">
+<path class="state-shape" d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/>
+<text class="state-label" x="651" y="360">CA</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=Arizona" aria-label="Arizona market">
+<path class="state-shape" d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/>
+<text class="state-label" x="750" y="420">AZ</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=New%20Mexico" aria-label="New Mexico market">
+<path class="state-shape" d="M798 384L873 389L870 460L797 462Z"/>
+<text class="state-label" x="835" y="423">NM</text>
+</a>
+<a class="map-state" href="https://www.floridaliquorlicensemarket.com/" aria-label="Florida market">
+<path class="state-shape" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/>
+<text class="state-label" x="1206" y="519">FL</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=Michigan" aria-label="Michigan market">
+<path class="state-shape" d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/>
+<text class="state-label" x="1143" y="236">MI</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=Ohio" aria-label="Ohio market">
+<path class="state-shape" d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/>
+<text class="state-label" x="1175" y="296">OH</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=Pennsylvania" aria-label="Pennsylvania market">
+<path class="state-shape" d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/>
+<text class="state-label" x="1240" y="275">PA</text>
+</a>
+<a class="map-state" href="/browse-markets.html?state=New%20Jersey" aria-label="New Jersey market">
+<path class="state-shape" d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/>
+<text class="state-label small" x="1287" y="282">NJ</text>
+</a>
+</svg>
 <a class="hotspot logo" href="/" aria-label="Home"></a>
 <a class="hotspot home" href="/" aria-label="Home"></a>
 <button class="hotspot markets" id="header-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"></button>
