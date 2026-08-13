@@ -4,20 +4,108 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Liquor License Market | National Marketplace</title>
-  <meta name="description" content="Liquor License Market — a national marketplace for liquor licenses." />
+  <meta name="description" content="Liquor License Market — the nation's marketplace for buying, selling and financing liquor licenses." />
   <style>
-    html,body{margin:0;background:#071b31;min-height:100%;}
-    body{display:flex;justify-content:center;align-items:flex-start;overflow-x:hidden;}
-    #hero{display:block;width:100%;height:auto;max-width:1660px;}
+    :root{color-scheme:dark;--navy:#071b31;--panel:#0a2440;--gold:#e9a61a;--text:#f7f4ee;}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--navy)}
+    body{margin:0;background:var(--navy);color:var(--text);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+    .hero-shell{position:relative;width:100%;max-width:1738px;margin:0 auto;aspect-ratio:1738/905;background:#081e35;overflow:hidden}
+    #hero{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none}
+    .hotspot{position:absolute;z-index:5;display:block;border-radius:10px;background:transparent;cursor:pointer;text-decoration:none}
+    .hotspot:hover{box-shadow:inset 0 0 0 1px rgba(233,166,26,.32);background:rgba(233,166,26,.025)}
+    .hotspot:focus-visible{outline:3px solid var(--gold);outline-offset:2px;background:rgba(233,166,26,.08)}
+    .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+    .hs-logo{left:.5%;top:.3%;width:27%;height:11.8%}
+    .hs-home{left:29.2%;top:2.5%;width:5.2%;height:8.5%}
+    .hs-markets-nav{left:34.5%;top:2.5%;width:11.8%;height:8.5%}
+    .hs-sell-nav{left:46.4%;top:2.5%;width:9.6%;height:8.5%}
+    .hs-financing{left:56%;top:2.5%;width:6.8%;height:8.5%}
+    .hs-resources{left:62.8%;top:2.5%;width:8.8%;height:8.5%}
+    .hs-about{left:71.6%;top:2.5%;width:7.5%;height:8.5%}
+    .hs-contact{left:79.1%;top:2.5%;width:6.6%;height:8.5%}
+    .hs-login{left:86.2%;top:2.1%;width:11.9%;height:8.4%}
+    .hs-markets-cta{left:1.9%;top:69.1%;width:17.5%;height:9.4%}
+    .hs-sell-cta{left:20.6%;top:69.1%;width:15.8%;height:9.4%}
+
+    .content{width:min(1100px,calc(100% - 32px));margin:0 auto;padding:50px 0 90px}
+    .info-section{scroll-margin-top:24px;margin:0 0 18px;padding:28px 30px;border:1px solid rgba(233,166,26,.25);border-radius:16px;background:linear-gradient(180deg,#0a2745,#081f38)}
+    .info-section h2{margin:0 0 10px;color:var(--gold);font:600 clamp(25px,3vw,38px) Georgia,'Times New Roman',serif}
+    .info-section p{margin:0;color:#d8dde5;line-height:1.65;font-size:16px}
+    .info-section a{color:var(--gold)}
+    .asset-error{display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;padding:30px;text-align:center}
+
+    @media(max-width:720px){
+      .content{padding-top:30px}
+      .info-section{padding:22px 20px}
+      .hotspot{border-radius:5px}
+    }
   </style>
 </head>
-<body>
-  <img id="hero" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses" />
+<body id="top">
+  <main>
+    <section class="hero-shell" id="hero-shell" aria-label="Liquor License Market homepage hero">
+      <img id="hero" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses" />
+
+      <a class="hotspot hs-logo" href="#top" aria-label="Liquor License Market home"><span class="sr-only">Liquor License Market Home</span></a>
+      <a class="hotspot hs-home" href="#top" aria-label="Home"><span class="sr-only">Home</span></a>
+      <a class="hotspot hs-markets-nav" href="#markets" aria-label="Browse Markets"><span class="sr-only">Browse Markets</span></a>
+      <a class="hotspot hs-sell-nav" href="#sell" aria-label="Sell a License"><span class="sr-only">Sell a License</span></a>
+      <a class="hotspot hs-financing" href="#financing" aria-label="Financing"><span class="sr-only">Financing</span></a>
+      <a class="hotspot hs-resources" href="#resources" aria-label="Resources"><span class="sr-only">Resources</span></a>
+      <a class="hotspot hs-about" href="#about" aria-label="About Us"><span class="sr-only">About Us</span></a>
+      <a class="hotspot hs-contact" href="#contact" aria-label="Contact"><span class="sr-only">Contact</span></a>
+      <a class="hotspot hs-login" href="#client-login" aria-label="Client Login"><span class="sr-only">Client Login</span></a>
+      <a class="hotspot hs-markets-cta" href="#markets" aria-label="Browse Markets"><span class="sr-only">Browse Markets</span></a>
+      <a class="hotspot hs-sell-cta" href="#sell" aria-label="List a License"><span class="sr-only">List a License</span></a>
+    </section>
+
+    <div class="content">
+      <section class="info-section" id="markets">
+        <h2>Browse Markets</h2>
+        <p>Explore liquor-license markets across California, Arizona, New Mexico, Florida, Michigan, Ohio, Pennsylvania and New Jersey.</p>
+      </section>
+      <section class="info-section" id="sell">
+        <h2>Sell or List a License</h2>
+        <p>Connect your liquor license with qualified buyers through the national marketplace.</p>
+      </section>
+      <section class="info-section" id="financing">
+        <h2>Financing</h2>
+        <p>Explore financing options for liquor-license acquisitions and transactions.</p>
+      </section>
+      <section class="info-section" id="resources">
+        <h2>Resources</h2>
+        <p>Market information, license guidance and transaction resources will be organized here by state.</p>
+      </section>
+      <section class="info-section" id="about">
+        <h2>About Us</h2>
+        <p>Liquor License Market is being built as a national marketplace connecting buyers, sellers and financing sources.</p>
+      </section>
+      <section class="info-section" id="contact">
+        <h2>Contact</h2>
+        <p>Contact functionality can be connected here without changing the approved hero design.</p>
+      </section>
+      <section class="info-section" id="client-login">
+        <h2>Client Login</h2>
+        <p>The client portal can be connected here when account access is activated.</p>
+      </section>
+    </div>
+  </main>
+
   <script>
-    fetch('/assets/p1.txt',{cache:'no-store'})
-      .then(r=>{if(!r.ok) throw new Error('hero data'); return r.text();})
-      .then(data=>{document.getElementById('hero').src='data:image/webp;base64,'+data.trim();})
-      .catch(()=>{document.body.innerHTML='<div style="color:white;font:20px Arial;padding:40px">Loading Liquor License Market…</div>';});
+    const parts = Array.from({length:7},(_,i)=>`/assets/llm-live-${String(i+1).padStart(2,'0')}.txt`);
+    Promise.all(parts.map(url=>fetch(url,{cache:'force-cache'}).then(r=>{
+      if(!r.ok) throw new Error(`Unable to load ${url}`);
+      return r.text();
+    }))).then(chunks=>{
+      document.getElementById('hero').src='data:image/webp;base64,'+chunks.join('').replace(/\s+/g,'');
+    }).catch(err=>{
+      console.error(err);
+      const shell=document.getElementById('hero-shell');
+      shell.classList.add('asset-error');
+      shell.textContent='Liquor License Market';
+    });
   </script>
 </body>
 </html>
