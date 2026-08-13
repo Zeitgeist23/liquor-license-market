@@ -46,7 +46,22 @@
     </div>
   </main>
   <script>
-    const parts=['/assets/llm-live-01.txt','/assets/llm-live-02.txt','/assets/llm-live-03.txt','/assets/llm-live-04a1.txt','/assets/llm-live-04a2.txt','/assets/llm-live-04b.txt','/assets/llm-live-05.txt','/assets/llm-live-06.txt','/assets/llm-live-07.txt'];
+    const parts=[
+      '/assets/llm-live-01.txt',
+      '/assets/llm-live-02.txt',
+      '/assets/llm-live-03.txt',
+      '/assets/llm-live-04a1a.txt',
+      '/assets/llm-live-04a1b.txt',
+      '/assets/llm-live-04a2.txt',
+      '/assets/llm-live-04b.txt',
+      '/assets/llm-live-05a.txt',
+      '/assets/llm-live-05b1.txt',
+      '/assets/llm-live-05b2.txt',
+      '/assets/llm-live-05b3.txt',
+      '/assets/llm-live-05b4.txt',
+      '/assets/llm-live-06.txt',
+      '/assets/llm-live-07.txt'
+    ];
     Promise.all(parts.map(url=>fetch(url,{cache:'force-cache'}).then(r=>{if(!r.ok)throw new Error(`Unable to load ${url}`);return r.text()}))).then(chunks=>{document.getElementById('hero').src='data:image/webp;base64,'+chunks.join('').replace(/\s+/g,'')}).catch(err=>{console.error(err);const shell=document.getElementById('hero-shell');shell.classList.add('asset-error');shell.textContent='Liquor License Market'});
   </script>
 </body>
