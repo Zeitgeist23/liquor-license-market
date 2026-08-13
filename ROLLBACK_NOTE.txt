@@ -1,0 +1,1 @@
+Homepage/header rollback target: f8b10dd4a691d4c416b754a337aabe533d779fee (state before logo/header edits). Restoring original index.html and hero-tilted.webp behavior while preserving later unrelated files.
