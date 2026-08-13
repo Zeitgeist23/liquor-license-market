@@ -13,11 +13,14 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .hero-wrap{width:100%;background:var(--light)}
 .hero{position:relative;width:100vw;max-width:none;margin:0;aspect-ratio:1400/729;overflow:hidden;background:var(--hero)}
 .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
+.hero-bg{z-index:1}
+.logo-erase{position:absolute;z-index:16;left:0;top:0;width:28.5%;height:10.9%;background:#021528;pointer-events:none}
+.logo-shifted{z-index:17;transform:translateY(30px);clip-path:polygon(0 .35%,28.5% .35%,28.5% 10.7%,0 10.7%)}
 .hero-tail{height:64px;width:100%;background:var(--light)}
 .hotspot{position:absolute;z-index:20;display:block;cursor:pointer;background:rgba(255,255,255,.001);border-radius:7px;text-decoration:none;touch-action:manipulation}
 .hotspot:hover{outline:2px solid rgba(237,169,26,.4);background:rgba(237,169,26,.04)}
 .hotspot:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-.logo{left:.5%;top:.5%;width:27.5%;height:11.5%}
+.logo{left:.5%;top:calc(.5% + 30px);width:27.5%;height:11.5%}
 .home{left:29.5%;top:2.2%;width:5.6%;height:9%}
 .markets{left:35%;top:2.2%;width:11.8%;height:9%;border:0;padding:0;appearance:none}
 .sell{left:46.8%;top:2.2%;width:9.2%;height:9%}
@@ -44,7 +47,9 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <body>
 <main class="hero-wrap">
 <section class="hero">
-<img src="/hero-tilted.webp" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
+<img class="hero-bg" src="/hero-tilted.webp" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
+<div class="logo-erase" aria-hidden="true"></div>
+<img class="logo-shifted" src="/hero-tilted.webp" alt="" aria-hidden="true">
 <svg class="state-overlay" viewBox="0 0 1400 729" aria-label="Active liquor license markets">
 <g transform="rotate(-2 987.5 355)">
 <a class="map-state" href="/browse-markets.html?state=California" aria-label="California market">
