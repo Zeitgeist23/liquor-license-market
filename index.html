@@ -19,16 +19,16 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .hotspot:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .logo{left:.5%;top:.5%;width:27.5%;height:11.5%}
 .home{left:29.5%;top:2.2%;width:5.6%;height:9%}
-.markets{left:35%;top:2.2%;width:11.8%;height:9%}
+.markets{left:35%;top:2.2%;width:11.8%;height:9%;border:0;padding:0;appearance:none}
 .sell{left:46.8%;top:2.2%;width:9.2%;height:9%}
 .financing{left:56.1%;top:2.2%;width:7%;height:9%}
 .resources{left:63.2%;top:2.2%;width:8.9%;height:9%}
 .about{left:72.2%;top:2.2%;width:7.1%;height:9%}
 .contact{left:79.4%;top:2.2%;width:6.8%;height:9%}
 .login{left:86.3%;top:1.6%;width:12%;height:9.5%}
-.browse-cta{left:1.8%;top:69.3%;width:17.7%;height:10.5%;border:0;padding:0;appearance:none}
+.browse-cta{left:1.8%;top:69.3%;width:17.7%;height:10.5%}
 .list-cta{left:20.7%;top:69.3%;width:15.8%;height:10.5%}
-.market-menu{position:absolute;z-index:40;left:1.8%;top:79.5%;width:34.7%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.25vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
+.market-menu{position:absolute;z-index:40;left:35%;top:11.2%;width:24%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.25vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
 .market-menu[hidden]{display:none}
 .market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
 .market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
@@ -41,14 +41,14 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <img src="/hero.webp" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
 <a class="hotspot logo" href="/" aria-label="Home"></a>
 <a class="hotspot home" href="/" aria-label="Home"></a>
-<a class="hotspot markets" href="/browse-markets.html" aria-label="Browse Markets"></a>
+<button class="hotspot markets" id="header-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"></button>
 <a class="hotspot sell" href="/sell-license.html" aria-label="Sell a License"></a>
 <a class="hotspot financing" href="/financing.html" aria-label="Financing"></a>
 <a class="hotspot resources" href="/resources.html" aria-label="Resources"></a>
 <a class="hotspot about" href="/about.html" aria-label="About Us"></a>
 <a class="hotspot contact" href="/contact.html" aria-label="Contact"></a>
 <a class="hotspot login" href="/client-login.html" aria-label="Client Login"></a>
-<button class="hotspot browse-cta" id="browse-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"></button>
+<a class="hotspot browse-cta" href="/browse-markets.html" aria-label="Browse Markets"></a>
 <a class="hotspot list-cta" href="/sell-license.html" aria-label="List a License"></a>
 <nav class="market-menu" id="market-menu" aria-label="Active liquor license markets" hidden>
 <a href="/browse-markets.html?state=California">California</a>
@@ -64,7 +64,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <div class="hero-tail" aria-hidden="true"></div>
 </main>
 <script>
-const marketToggle=document.getElementById('browse-markets-toggle');
+const marketToggle=document.getElementById('header-markets-toggle');
 const marketMenu=document.getElementById('market-menu');
 function setMarketMenu(open){
  marketMenu.hidden=!open;
