@@ -31,9 +31,10 @@
 <script>
 const CDTFA_URL='/data/california-cdtfa.json';
 const MARKET_URL='/data/california-market-inventory.json';
+const BOOTSTRAP_URL='/data/california-market-bootstrap.json';
 const money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
 const $=id=>document.getElementById(id);
-let records=[];let sourceMeta=[];let visible=60;let marketStats={};let marketStats={};let marketStats={};
+let records=[];let sourceMeta=[];let visible=60;let marketStats={};let govRowsCache=[];let fullMarketReady=false;let fullLoadPromise=null;let filtersPopulated=false;let marketStats={};let marketStats={};let marketStats={};
 const initialParams=new URLSearchParams(location.search);
 let activeCategory=initialParams.get('category')||'';
 const categoryCodes={
@@ -88,9 +89,73 @@ function populate(){
  const requestedType=initialParams.get('type')||'';
  if(types.includes(requestedType)){$('type').value=requestedType;activeCategory=''}
 }
-Promise.all([fetch(CDTFA_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[]}),fetch(MARKET_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[],sources:[]})]).then(([gov,market])=>{const govRows=(gov.licenses||[]).map(normalizeAuction),marketRows=(market.licenses||[]).map(normalizeMarket);records=[...govRows,...marketRows];sourceMeta=market.sources||[];marketStats=market||{};$('cdtfaCount').textContent=govRows.length.toLocaleString();$('alcoholCount').textContent=(sourceMeta.find(x=>x.source==='AlcoholPermit.com')?.count||0).toLocaleString();$('marketplaceCount').textContent=(sourceMeta.find(x=>x.source==='Liquor License Marketplace')?.count||0).toLocaleString();populate();const dates=[gov.updatedAt,market.updatedAt].filter(Boolean).map(x=>new Date(x)).sort((a,b)=>b-a);if(dates.length)$('updated').textContent='Inventory feeds last synchronized: '+dates[0].toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});render()}).catch(()=>{$('inventory').innerHTML='<div class="empty">The California inventory feeds are temporarily unavailable. Please use the original source websites.</div>'});
+function setSourceCounts(meta){
+ sourceMeta=meta||[];
+ $('alcoholCount').textContent=(sourceMeta.find(x=>x.source==='AlcoholPermit.com')?.count||0).toLocaleString();
+ $('marketplaceCount').textContent=(sourceMeta.find(x=>x.source==='Liquor License Marketplace')?.count||0).toLocaleString()
+}
+function populateOnce(){
+ if(filtersPopulated)return;
+ filtersPopulated=true;
+ populate()
+}
+function ensureFullMarket(){
+ if(fullMarketReady)return Promise.resolve();
+ if(fullLoadPromise)return fullLoadPromise;
+ fullLoadPromise=fetch(MARKET_URL).then(r=>{if(!r.ok)throw new Error('full market feed unavailable');return r.json()}).then(market=>{
+  const marketRows=(market.licenses||[]).map(normalizeMarket);
+  records=[...govRowsCache,...marketRows];
+  marketStats=market||marketStats;
+  setSourceCounts(market.sources||sourceMeta);
+  fullMarketReady=true;
+  populateOnce();
+  render();
+ }).catch(err=>{
+  console.warn('California full inventory background load failed',err);
+  fullLoadPromise=null;
+ });
+ return fullLoadPromise
+}
+Promise.all([
+ fetch(CDTFA_URL).then(r=>r.ok?r.json():{licenses:[]}),
+ fetch(BOOTSTRAP_URL).then(r=>{if(!r.ok)throw new Error('bootstrap feed unavailable');return r.json()})
+]).then(([gov,boot])=>{
+ govRowsCache=(gov.licenses||[]).map(normalizeAuction);
+ const marketRows=(boot.licenses||[]).map(normalizeMarket);
+ records=[...govRowsCache,...marketRows];
+ marketStats=boot||{};
+ setSourceCounts(boot.sources||[]);
+ $('cdtfaCount').textContent=govRowsCache.length.toLocaleString();
+ const dates=[gov.updatedAt,boot.updatedAt].filter(Boolean).map(x=>new Date(x)).sort((a,b)=>b-a);
+ if(dates.length)$('updated').textContent='Inventory feeds last synchronized: '+dates[0].toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});
+ render();
+ $('loadMore').hidden=false;
+ $('loadMore').textContent='LOAD MORE LISTINGS';
+ if('requestIdleCallback' in window)requestIdleCallback(()=>ensureFullMarket(),{timeout:1200});else setTimeout(()=>ensureFullMarket(),100)
+}).catch(()=>{
+ // Fallback to the full feed if the small bootstrap file is unavailable.
+ Promise.all([
+  fetch(CDTFA_URL).then(r=>r.ok?r.json():{licenses:[]}),
+  fetch(MARKET_URL).then(r=>r.ok?r.json():{licenses:[],sources:[]})
+ ]).then(([gov,market])=>{
+  govRowsCache=(gov.licenses||[]).map(normalizeAuction);
+  records=[...govRowsCache,...((market.licenses||[]).map(normalizeMarket))];
+  marketStats=market||{};
+  fullMarketReady=true;
+  setSourceCounts(market.sources||[]);
+  $('cdtfaCount').textContent=govRowsCache.length.toLocaleString();
+  populateOnce();render()
+ }).catch(()=>{$('inventory').innerHTML='<div class="empty">The California inventory feeds are temporarily unavailable. Please use the original source websites.</div>'})
+});
 $('type').addEventListener('change',()=>{activeCategory=''});
-['search','county','type','source','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{visible=60;render()}));$('loadMore').addEventListener('click',()=>{visible+=60;render()});
+['search','county','type','source','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{
+ visible=60;
+ if(fullMarketReady)render();else ensureFullMarket().then(()=>render())
+}));
+$('loadMore').addEventListener('click',()=>{
+ if(fullMarketReady){visible+=60;render();return}
+ ensureFullMarket().then(()=>{visible+=60;render()})
+});
 </script>
 </body>
 </html>
