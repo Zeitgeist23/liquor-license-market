@@ -33,7 +33,7 @@ const CDTFA_URL='/data/california-cdtfa.json';
 const MARKET_URL='/data/california-market-inventory.json';
 const money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
 const $=id=>document.getElementById(id);
-let records=[];let sourceMeta=[];let visible=60;let marketStats={};
+let records=[];let sourceMeta=[];let visible=60;let marketStats={};let marketStats={};
 const initialParams=new URLSearchParams(location.search);
 let activeCategory=initialParams.get('category')||'';
 const categoryCodes={
@@ -88,7 +88,7 @@ function populate(){
  const requestedType=initialParams.get('type')||'';
  if(types.includes(requestedType)){$('type').value=requestedType;activeCategory=''}
 }
-Promise.all([fetch(CDTFA_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[]}),fetch(MARKET_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[],sources:[]})]).then(([gov,market])=>{const govRows=(gov.licenses||[]).map(normalizeAuction),marketRows=(market.licenses||[]).map(normalizeMarket);records=[...govRows,...marketRows];sourceMeta=market.sources||[];marketStats=market||{};$('cdtfaCount').textContent=govRows.length.toLocaleString();$('alcoholCount').textContent=(sourceMeta.find(x=>x.source==='AlcoholPermit.com')?.count||0).toLocaleString();$('marketplaceCount').textContent=(sourceMeta.find(x=>x.source==='Liquor License Marketplace')?.count||0).toLocaleString();populate();const dates=[gov.updatedAt,market.updatedAt].filter(Boolean).map(x=>new Date(x)).sort((a,b)=>b-a);if(dates.length)$('updated').textContent='Inventory feeds last synchronized: '+dates[0].toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});render()}).catch(()=>{$('inventory').innerHTML='<div class="empty">The California inventory feeds are temporarily unavailable. Please use the original source websites.</div>'});
+Promise.all([fetch(CDTFA_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[]}),fetch(MARKET_URL,{cache:'no-store'}).then(r=>r.ok?r.json():{licenses:[],sources:[]})]).then(([gov,market])=>{const govRows=(gov.licenses||[]).map(normalizeAuction),marketRows=(market.licenses||[]).map(normalizeMarket);records=[...govRows,...marketRows];sourceMeta=market.sources||[];marketStats=market||{};marketStats=market||{};$('cdtfaCount').textContent=govRows.length.toLocaleString();$('alcoholCount').textContent=(sourceMeta.find(x=>x.source==='AlcoholPermit.com')?.count||0).toLocaleString();$('marketplaceCount').textContent=(sourceMeta.find(x=>x.source==='Liquor License Marketplace')?.count||0).toLocaleString();populate();const dates=[gov.updatedAt,market.updatedAt].filter(Boolean).map(x=>new Date(x)).sort((a,b)=>b-a);if(dates.length)$('updated').textContent='Inventory feeds last synchronized: '+dates[0].toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});render()}).catch(()=>{$('inventory').innerHTML='<div class="empty">The California inventory feeds are temporarily unavailable. Please use the original source websites.</div>'});
 $('type').addEventListener('change',()=>{activeCategory=''});
 ['search','county','type','source','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{visible=60;render()}));$('loadMore').addEventListener('click',()=>{visible+=60;render()});
 </script>
