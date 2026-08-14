@@ -11,6 +11,8 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+from inventory_dedupe import dedupe_cross_source
+
 UA = "LiquorLicenseMarket-Inventory/1.0 (+https://www.liquorlicensemarket.com/)"
 
 STATES = {
@@ -109,8 +111,10 @@ def process_state(slug,cfg,now):
         except Exception as exc: rows,note=[],f"sync error: {exc}"
         combined.extend(rows); status.append({"source":source,"url":cfg[key],"count":len(rows),"note":note}); print(f"{cfg['name']} / {source}: {len(rows)}"+(f" ({note})" if note else ""),flush=True)
     if not combined:return slug,cfg,None
-    combined.sort(key=lambda x:(x.get("county") or "",x.get("typeName") or "",x.get("price") if x.get("price") is not None else 10**12,x.get("source") or ""))
-    return slug,cfg,{"state":cfg["name"],"updatedAt":now,"sources":status,"licenses":combined}
+    unique,stats=dedupe_cross_source(combined)
+    print(f"{cfg['name']} dedupe: {stats['rawRecordCount']} raw -> {stats['uniqueCount']} unique; merged {stats['duplicatesMerged']} duplicate records",flush=True)
+    payload={"state":cfg["name"],"updatedAt":now,"sources":status,"rawRecordCount":stats["rawRecordCount"],"uniqueCount":stats["uniqueCount"],"duplicatesMerged":stats["duplicatesMerged"],"mergedCards":stats["mergedCards"],"licenses":unique}
+    return slug,cfg,payload
 
 def main():
     out=Path("data"); out.mkdir(exist_ok=True); now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z"); written=0
@@ -120,7 +124,7 @@ def main():
             slug,cfg,payload=fut.result(); path=out/f"{slug}-market-inventory.json"
             if not payload:
                 print(f"Warning: no {cfg['name']} records retrieved; retaining previous feed if present",flush=True); continue
-            path.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+"\n",encoding="utf-8"); written+=1; print(f"Wrote {len(payload['licenses'])} {cfg['name']} records to {path}",flush=True)
+            path.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+"\n",encoding="utf-8"); written+=1; print(f"Wrote {len(payload['licenses'])} unique {cfg['name']} records to {path}",flush=True)
     if not written:raise SystemExit("No state inventory was retrieved")
 
 if __name__=="__main__":main()
