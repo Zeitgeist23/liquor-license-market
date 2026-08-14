@@ -74,6 +74,11 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .resources-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
 .resources-menu a:hover,.resources-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
 @media(max-width:700px){.resources-menu{left:58%;top:10.8%;width:38%;padding:.55vw}}
+.financing-menu{position:absolute;z-index:43;left:55.3%;top:11.2%;width:20.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
+.financing-menu[hidden]{display:none}
+.financing-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
+.financing-menu a:hover,.financing-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
+@media(max-width:700px){.financing-menu{left:50%;top:10.8%;width:42%;padding:.55vw}}
 .market-detail{position:absolute;z-index:41;left:50.85%;top:11.2%;width:34%;height:48%;min-height:300px;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:.62vw;padding:1vw 1.05vw;background:rgba(5,24,43,.985);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2.2vw rgba(0,0,0,.5)}
 .market-detail-head{display:flex;align-items:baseline;justify-content:space-between;gap:1vw;padding-bottom:.55vw;border-bottom:1px solid rgba(237,169,26,.35)}
 .market-detail h2{margin:0;color:var(--gold);font-family:Georgia,"Times New Roman",serif;font-size:clamp(14px,1.55vw,24px);line-height:1}
@@ -290,7 +295,16 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <a class="hotspot header-menu-item home" href="/" aria-label="Home"><span>Home</span></a>
 <button class="hotspot header-menu-item markets" id="header-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"><span>Browse Markets <b class="markets-caret" aria-hidden="true">⌄</b></span></button>
 <a class="hotspot header-menu-item sell" href="/sell-license.html" aria-label="Sell a License"><span>Sell a License</span></a>
-<a class="hotspot header-menu-item financing" href="/financing.html" aria-label="Financing"><span>Financing</span></a>
+<a class="hotspot header-menu-item financing" id="header-financing-toggle" href="/financing.html" aria-label="Financing" aria-haspopup="menu" aria-expanded="false" aria-controls="financing-menu"><span>Financing <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
+<nav class="financing-menu" id="financing-menu" aria-label="Liquor license financing options" hidden>
+<a href="/financing.html#how-financing-works">How Financing Works</a>
+<a href="/financing.html#borrow-to-buy-a-license">Borrow to Buy a License</a>
+<a href="/financing.html#refinance-a-license">Refinance a License</a>
+<a href="/financing.html#get-pre-qualified">Get Pre-Qualified</a>
+<a href="/financing.html#lend-against-a-license">Lend Against a License</a>
+<a href="/financing.html#lender-opportunities">Lender Opportunities</a>
+<a href="/financing.html#become-a-lender">Become a Lender</a>
+</nav>
 <a class="hotspot header-menu-item resources" id="header-resources-toggle" href="/resources.html" aria-label="Resources" aria-haspopup="menu" aria-expanded="false" aria-controls="resources-menu"><span>Resources <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
 <nav class="resources-menu" id="resources-menu" aria-label="Liquor license resources" hidden>
 <a href="/liquor-license-101.html">Liquor License 101</a>
@@ -516,6 +530,25 @@ document.addEventListener('keydown',event=>{
 (()=>{
  const toggle=document.getElementById('header-resources-toggle');
  const menu=document.getElementById('resources-menu');
+ if(!toggle||!menu)return;
+ let timer;
+ const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
+ const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};
+ toggle.addEventListener('pointerenter',open);
+ toggle.addEventListener('pointerleave',close);
+ toggle.addEventListener('focus',open);
+ menu.addEventListener('pointerenter',open);
+ menu.addEventListener('pointerleave',close);
+ menu.addEventListener('focusin',open);
+ menu.addEventListener('focusout',close);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+})();
+</script>
+
+<script>
+(()=>{
+ const toggle=document.getElementById('header-financing-toggle');
+ const menu=document.getElementById('financing-menu');
  if(!toggle||!menu)return;
  let timer;
  const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
