@@ -392,10 +392,10 @@ textarea{min-height:118px;resize:vertical}
  }
  bindSimpleHoverMenu(document.querySelector('.contact-dropdown'));
  var activeMenuState='Florida';
- var floridaMenuTypes=['4COP','3PS','5COP','3APS','6COP','3BPS','7COP','3CPS','8COP','3DPS'];
+ var floridaMenuTypes=['4COP Quota','3PS Quota','5COP','3APS','6COP','3BPS','7COP','3CPS','8COP','3DPS'];
  var typeDescriptions={
-  '4COP':'Florida quota license generally used for beer, wine, and distilled-spirit sales for on-premise consumption.',
-  '3PS':'Florida quota package-store license generally used for sealed beer, wine, and distilled-spirit sales for off-premise consumption.',
+  '4COP Quota':'Florida quota license generally used for beer, wine, and distilled-spirit sales for on-premise consumption.',
+  '3PS Quota':'Florida quota package-store license generally used for sealed beer, wine, and distilled-spirit sales for off-premise consumption.',
   '5COP':'Florida hotel or motel liquor-license category; privileges and eligibility depend on the applicable record and rules.',
   '3APS':'Florida package-sales category associated with qualifying hotel or motel operations.',
   '6COP':'Florida special-category license with privileges determined by the applicable statutory qualification.',
@@ -416,7 +416,7 @@ textarea{min-height:118px;resize:vertical}
  function stateListingsBase(state){return '/'+stateMarketSlugs[state]+'/licenses-for-sale/'}
  function marketTypeHref(state,type){
   if(state==='Florida'){
-   var query=type==='4COP'?'4COP Quota':type==='3PS'?'3PS Quota / Package Store':type;
+   var query=type==='3PS Quota'?'3PS Quota / Package Store':type;
    return 'https://www.floridaliquorlicensemarket.com/listings?type='+encodeURIComponent(query)+'&status=available'
   }
   return stateListingsBase(state)+'?category='+encodeURIComponent(type)
