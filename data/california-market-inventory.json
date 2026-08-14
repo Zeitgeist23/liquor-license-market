@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T21:41:18Z",
+  "updatedAt": "2026-08-14T22:21:24Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,7 +11,8 @@
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/california/",
       "count": 253,
-      "note": null
+      "note": "sync error: HTTPSConnectionPool(host='liquorlicensemarketplace.com', port=443): Max retries exceeded with url: /california/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='liquorlicensemarketplace.com', port=443) at 0x7fd0982001d0>, 'Connection to liquorlicensemarketplace.com timed out. (connect timeout=20)')); retrieval returned 0; retained 253 last-good records",
+      "retainedPrevious": true
     }
   ],
   "rawRecordCount": 842,
