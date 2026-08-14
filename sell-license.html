@@ -223,7 +223,7 @@ textarea{min-height:118px;resize:vertical}
 <div class="confirmation" id="confirmation">
 <div class="confirm-icon">✓</div>
 <h2>Your seller packet is ready.</h2>
-<p>The information has been saved as a draft on this device. Print or save the summary for your records, or return to edit any section before sending it to the marketplace team.</p>
+<p>Your information is ready for review in this session. Print or save the summary for your records, or return to edit any section before sending it to the marketplace team.</p>
 <div class="confirm-actions"><button class="btn btn-primary" id="print-summary" type="button">Print / Save Summary</button><button class="btn btn-secondary" id="edit-request" type="button">Edit Request</button><a class="btn btn-secondary" href="/contact.html">Contact Us</a></div>
 </div>
 </section>
@@ -291,12 +291,11 @@ textarea{min-height:118px;resize:vertical}
    '<div class="review-block"><h3>Premise</h3><p>'+escapeHtml(value('premise-street'))+'</p><p>'+escapeHtml(value('premise-city'))+', '+escapeHtml(value('premise-region'))+' '+escapeHtml(value('premise-zip'))+'</p></div>';
  }
  function escapeHtml(str){return String(str).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]})}
- form.addEventListener('input',function(){try{var data={};new FormData(form).forEach(function(v,k){data[k]=v});localStorage.setItem('llmSellerDraft',JSON.stringify(data))}catch(e){}if(current===4)renderReview()});
+ form.addEventListener('input',function(){if(current===4)renderReview()});
  form.addEventListener('change',function(){if(current===4)renderReview()});
  form.addEventListener('submit',function(event){
   event.preventDefault();
   if(!validateCurrent())return;
-  try{var data={};new FormData(form).forEach(function(v,k){data[k]=v});localStorage.setItem('llmSellerDraft',JSON.stringify(data))}catch(e){}
   document.getElementById('form-view').style.display='none';
   document.getElementById('confirmation').classList.add('active');
   document.querySelector('.form-shell').scrollIntoView({behavior:'smooth',block:'start'});
@@ -307,11 +306,7 @@ textarea{min-height:118px;resize:vertical}
   setStep(4);
  });
  document.getElementById('print-summary').addEventListener('click',function(){window.print()});
- try{
-  var saved=JSON.parse(localStorage.getItem('llmSellerDraft')||'{}');
-  Object.keys(saved).forEach(function(name){var el=form.elements[name];if(el&&el.type!=='checkbox')el.value=saved[name]});
-  if(stateSelect.value){stateSelect.dispatchEvent(new Event('change'));if(saved.license_type)typeSelect.value=saved.license_type;if(saved.county)countySelect.value=saved.county}
- }catch(e){}
+ try{localStorage.removeItem('llmSellerDraft')}catch(e){}
  setStep(0);
 })();
 </script>
