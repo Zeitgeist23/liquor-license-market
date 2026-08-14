@@ -1,6 +1,6 @@
 {
   "state": "New Mexico",
-  "updatedAt": "2026-08-14T21:28:00Z",
+  "updatedAt": "2026-08-14T21:35:01Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -15,6 +15,10 @@
       "note": null
     }
   ],
+  "rawRecordCount": 72,
+  "uniqueCount": 72,
+  "duplicatesMerged": 0,
+  "mergedCards": 0,
   "licenses": [
     {
       "source": "Liquor License Marketplace",
@@ -27,7 +31,23 @@
       "listedDate": "December 16, 2025",
       "sourceId": null,
       "title": "Bernalillo New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-dispensers-license-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-dispensers-license-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-dispensers-license-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 16, 2025",
+          "price": 700000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 700000,
+      "priceMax": 700000
     },
     {
       "source": "Liquor License Marketplace",
@@ -40,7 +60,23 @@
       "listedDate": "January 29, 2026",
       "sourceId": null,
       "title": "Bernalillo New Mexico – Inter Local Dispenser (ILD)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-inter-local-dispenser-ild-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-inter-local-dispenser-ild-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-inter-local-dispenser-ild-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 29, 2026",
+          "price": 240000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 240000,
+      "priceMax": 240000
     },
     {
       "source": "Liquor License Marketplace",
@@ -53,7 +89,23 @@
       "listedDate": "January 24, 2025",
       "sourceId": null,
       "title": "Lincoln New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lincoln-new-mexico-dispensers-license-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lincoln-new-mexico-dispensers-license-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lincoln-new-mexico-dispensers-license-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 24, 2025",
+          "price": 750000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 750000,
+      "priceMax": 750000
     },
     {
       "source": "AlcoholPermit.com",
@@ -66,7 +118,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Bernalillo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -79,7 +145,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Bernalillo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Bernalillo+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -92,7 +172,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Catron County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -105,7 +199,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Catron County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Catron+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -118,7 +226,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Chaves County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -131,7 +253,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Chaves County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Chaves+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -144,7 +280,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Cibola County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -157,7 +307,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Cibola County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Cibola+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -170,7 +334,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Colfax County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -183,7 +361,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Colfax County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Colfax+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -196,7 +388,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Curry County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -209,7 +415,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Curry County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Curry+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -222,7 +442,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico De Baca County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -235,7 +469,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico De Baca County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=De+Baca+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -248,7 +496,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Doña Ana County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -261,7 +523,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Doña Ana County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Do%C3%B1a+Ana+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -274,7 +550,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Eddy County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -287,7 +577,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Eddy County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Eddy+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -300,7 +604,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Grant County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -313,7 +631,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Grant County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Grant+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -326,7 +658,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Guadalupe County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -339,7 +685,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Guadalupe County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Guadalupe+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -352,7 +712,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Harding County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -365,7 +739,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Harding County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Harding+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -378,7 +766,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Hidalgo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -391,7 +793,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Hidalgo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Hidalgo+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -404,7 +820,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Lea County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -417,7 +847,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Lea County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lea+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -430,7 +874,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Lincoln County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -443,7 +901,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Lincoln County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Lincoln+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -456,7 +928,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Los Alamos County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -469,7 +955,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Los Alamos County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Los+Alamos+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -482,7 +982,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Luna County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -495,7 +1009,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Luna County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Luna+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -508,7 +1036,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico McKinley County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -521,7 +1063,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico McKinley County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=McKinley+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -534,7 +1090,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Mora County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -547,7 +1117,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Mora County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Mora+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -560,7 +1144,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Otero County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -573,7 +1171,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Otero County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Otero+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -586,7 +1198,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Quay County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -599,7 +1225,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Quay County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Quay+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -612,7 +1252,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Rio Arriba County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -625,7 +1279,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Rio Arriba County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Rio+Arriba+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -638,7 +1306,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Roosevelt County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -651,7 +1333,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Roosevelt County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Roosevelt+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -664,7 +1360,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico San Juan County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -677,7 +1387,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico San Juan County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Juan+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -690,7 +1414,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico San Miguel County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -703,7 +1441,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico San Miguel County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=San+Miguel+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -716,7 +1468,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Sandoval County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -729,7 +1495,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Sandoval County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sandoval+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -742,7 +1522,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Santa Fe County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -755,7 +1549,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Santa Fe County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Santa+Fe+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -768,7 +1576,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Sierra County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -781,7 +1603,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Sierra County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Sierra+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -794,7 +1630,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Socorro County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -807,7 +1657,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Socorro County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Socorro+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -820,7 +1684,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Taos County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -833,7 +1711,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Taos County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Taos+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -846,7 +1738,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Torrance County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -859,7 +1765,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Torrance County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Torrance+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -872,7 +1792,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Union County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -885,7 +1819,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Union County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Union+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -898,7 +1846,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Dispenser License – Private Listing New Mexico Valencia County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -911,7 +1873,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "New Mexico Inter-Local Dispenser License – Private Listing New Mexico Valencia County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Inter-Local+Dispenser+License"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Inter-Local+Dispenser+License",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Mexico&county_name=Valencia+County&type=Inter-Local+Dispenser+License",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "Liquor License Marketplace",
@@ -924,7 +1900,23 @@
       "listedDate": "January 24, 2025",
       "sourceId": null,
       "title": "Santa Fe New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "January 24, 2025",
+          "price": 650000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 650000,
+      "priceMax": 650000
     },
     {
       "source": "Liquor License Marketplace",
@@ -937,7 +1929,23 @@
       "listedDate": "December 16, 2025",
       "sourceId": null,
       "title": "Santa Fe New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 16, 2025",
+          "price": 700000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 700000,
+      "priceMax": 700000
     },
     {
       "source": "Liquor License Marketplace",
@@ -950,7 +1958,23 @@
       "listedDate": "December 16, 2025",
       "sourceId": null,
       "title": "Taos New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/taos-new-mexico-dispensers-license-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/taos-new-mexico-dispensers-license-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/taos-new-mexico-dispensers-license-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 16, 2025",
+          "price": 700000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 700000,
+      "priceMax": 700000
     }
   ]
 }

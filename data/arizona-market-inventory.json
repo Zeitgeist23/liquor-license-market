@@ -1,6 +1,6 @@
 {
   "state": "Arizona",
-  "updatedAt": "2026-08-14T21:28:00Z",
+  "updatedAt": "2026-08-14T21:35:01Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -15,6 +15,10 @@
       "note": null
     }
   ],
+  "rawRecordCount": 82,
+  "uniqueCount": 82,
+  "duplicatesMerged": 0,
+  "mergedCards": 0,
   "licenses": [
     {
       "source": "Liquor License Marketplace",
@@ -27,7 +31,23 @@
       "listedDate": "May 31, 2025",
       "sourceId": null,
       "title": "Apache Arizona – Series 9",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/apache-arizona-series-9-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/apache-arizona-series-9-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/apache-arizona-series-9-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 31, 2025",
+          "price": 10000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 10000,
+      "priceMax": 10000
     },
     {
       "source": "Liquor License Marketplace",
@@ -40,7 +60,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 155000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 155000,
+      "priceMax": 155000
     },
     {
       "source": "Liquor License Marketplace",
@@ -53,7 +89,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 165000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 165000,
+      "priceMax": 165000
     },
     {
       "source": "Liquor License Marketplace",
@@ -66,7 +118,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-3/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 167000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 167000,
+      "priceMax": 167000
     },
     {
       "source": "Liquor License Marketplace",
@@ -79,7 +147,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-4/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 167000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 167000,
+      "priceMax": 167000
     },
     {
       "source": "Liquor License Marketplace",
@@ -92,7 +176,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-5/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 168000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 168000,
+      "priceMax": 168000
     },
     {
       "source": "Liquor License Marketplace",
@@ -105,7 +205,23 @@
       "listedDate": "February 3, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-6/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "February 3, 2026",
+          "price": 175500,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 175500,
+      "priceMax": 175500
     },
     {
       "source": "Liquor License Marketplace",
@@ -118,7 +234,23 @@
       "listedDate": "January 31, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-8/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "January 31, 2025",
+          "price": 175550,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 175550,
+      "priceMax": 175550
     },
     {
       "source": "Liquor License Marketplace",
@@ -131,7 +263,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-7/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 175550,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 175550,
+      "priceMax": 175550
     },
     {
       "source": "Liquor License Marketplace",
@@ -144,7 +292,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-9/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 187000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 187000,
+      "priceMax": 187000
     },
     {
       "source": "Liquor License Marketplace",
@@ -157,7 +321,23 @@
       "listedDate": "January 31, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-10/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "January 31, 2025",
+          "price": 195000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 195000,
+      "priceMax": 195000
     },
     {
       "source": "Liquor License Marketplace",
@@ -170,7 +350,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-12/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-12/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-12/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
     },
     {
       "source": "Liquor License Marketplace",
@@ -183,7 +379,23 @@
       "listedDate": "January 31, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-11/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-11/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-11/",
+          "sourceId": null,
+          "listedDate": "January 31, 2026",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
     },
     {
       "source": "Liquor License Marketplace",
@@ -196,7 +408,23 @@
       "listedDate": "January 31, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-13/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-13/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-6-liquor-license-13/",
+          "sourceId": null,
+          "listedDate": "January 31, 2025",
+          "price": 220000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 220000,
+      "priceMax": 220000
     },
     {
       "source": "Liquor License Marketplace",
@@ -209,7 +437,23 @@
       "listedDate": "November 3, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 3, 2025",
+          "price": 42000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42000,
+      "priceMax": 42000
     },
     {
       "source": "Liquor License Marketplace",
@@ -222,7 +466,23 @@
       "listedDate": "November 3, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license/",
+          "sourceId": null,
+          "listedDate": "November 3, 2025",
+          "price": 42000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42000,
+      "priceMax": 42000
     },
     {
       "source": "Liquor License Marketplace",
@@ -235,7 +495,23 @@
       "listedDate": "February 28, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "February 28, 2026",
+          "price": 42250,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42250,
+      "priceMax": 42250
     },
     {
       "source": "Liquor License Marketplace",
@@ -248,7 +524,23 @@
       "listedDate": "February 28, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-5/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "February 28, 2025",
+          "price": 42500,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42500,
+      "priceMax": 42500
     },
     {
       "source": "Liquor License Marketplace",
@@ -261,7 +553,23 @@
       "listedDate": "February 28, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "February 28, 2025",
+          "price": 42500,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42500,
+      "priceMax": 42500
     },
     {
       "source": "Liquor License Marketplace",
@@ -274,7 +582,23 @@
       "listedDate": "February 28, 2026",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-6/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "February 28, 2026",
+          "price": 44000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 44000,
+      "priceMax": 44000
     },
     {
       "source": "Liquor License Marketplace",
@@ -287,7 +611,23 @@
       "listedDate": "October 13, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-7/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "October 13, 2025",
+          "price": 45000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 45000,
+      "priceMax": 45000
     },
     {
       "source": "Liquor License Marketplace",
@@ -300,7 +640,23 @@
       "listedDate": "December 31, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 9",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-9-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-9-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-9-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 31, 2025",
+          "price": 928000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 928000,
+      "priceMax": 928000
     },
     {
       "source": "Liquor License Marketplace",
@@ -313,7 +669,23 @@
       "listedDate": "July 31, 2025",
       "sourceId": null,
       "title": "Mohave Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mohave-arizona-series-7-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mohave-arizona-series-7-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mohave-arizona-series-7-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 31, 2025",
+          "price": 25000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 25000,
+      "priceMax": 25000
     },
     {
       "source": "Liquor License Marketplace",
@@ -326,7 +698,23 @@
       "listedDate": "November 18, 2025",
       "sourceId": null,
       "title": "Navajo Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/navajo-arizona-series-6-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/navajo-arizona-series-6-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/navajo-arizona-series-6-liquor-license/",
+          "sourceId": null,
+          "listedDate": "November 18, 2025",
+          "price": 35000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 35000,
+      "priceMax": 35000
     },
     {
       "source": "Liquor License Marketplace",
@@ -339,7 +727,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
     },
     {
       "source": "Liquor License Marketplace",
@@ -352,7 +756,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
     },
     {
       "source": "Liquor License Marketplace",
@@ -365,7 +785,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-3/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
     },
     {
       "source": "Liquor License Marketplace",
@@ -378,7 +814,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-4/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
     },
     {
       "source": "Liquor License Marketplace",
@@ -391,7 +843,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-5/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-6-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
     },
     {
       "source": "Liquor License Marketplace",
@@ -404,7 +872,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 12000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 12000,
+      "priceMax": 12000
     },
     {
       "source": "Liquor License Marketplace",
@@ -417,7 +901,23 @@
       "listedDate": "September 30, 2025",
       "sourceId": null,
       "title": "Pima Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pima-arizona-series-7-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 14000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 14000,
+      "priceMax": 14000
     },
     {
       "source": "Liquor License Marketplace",
@@ -430,7 +930,23 @@
       "listedDate": "November 9, 2025",
       "sourceId": null,
       "title": "Pinal Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pinal-arizona-series-6-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pinal-arizona-series-6-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pinal-arizona-series-6-liquor-license/",
+          "sourceId": null,
+          "listedDate": "November 9, 2025",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
     },
     {
       "source": "AlcoholPermit.com",
@@ -443,7 +959,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Apache County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -456,7 +986,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Apache County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -469,7 +1013,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Apache County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Apache+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -482,7 +1040,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Cochise County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -495,7 +1067,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Cochise County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -508,7 +1094,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Cochise County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Cochise+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -521,7 +1121,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Coconino County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -534,7 +1148,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Coconino County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -547,7 +1175,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Coconino County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Coconino+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -560,7 +1202,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Gila County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -573,7 +1229,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Gila County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -586,7 +1256,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Gila County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Gila+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -599,7 +1283,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Graham County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -612,7 +1310,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Graham County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -625,7 +1337,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Graham County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Graham+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -638,7 +1364,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Greenlee County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -651,7 +1391,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Greenlee County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -664,7 +1418,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Greenlee County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Greenlee+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -677,7 +1445,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona La Paz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -690,7 +1472,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona La Paz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -703,7 +1499,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona La Paz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=La+Paz+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -716,7 +1526,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Maricopa County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -729,7 +1553,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Maricopa County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -742,7 +1580,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Maricopa County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Maricopa+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -755,7 +1607,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Mohave County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -768,7 +1634,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Mohave County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -781,7 +1661,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Mohave County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Mohave+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -794,7 +1688,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Navajo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -807,7 +1715,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Navajo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -820,7 +1742,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Navajo County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Navajo+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -833,7 +1769,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Pima County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -846,7 +1796,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Pima County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -859,7 +1823,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Pima County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pima+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -872,7 +1850,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Pinal County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -885,7 +1877,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Pinal County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -898,7 +1904,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Pinal County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Pinal+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -911,7 +1931,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Santa Cruz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -924,7 +1958,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Santa Cruz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -937,7 +1985,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Santa Cruz County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Santa+Cruz+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -950,7 +2012,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Yavapai County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -963,7 +2039,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Yavapai County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -976,7 +2066,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Yavapai County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yavapai+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -989,7 +2093,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 6 – Private Listing Arizona Yuma County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+6"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+6",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+6",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -1002,7 +2120,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 7 – Private Listing Arizona Yuma County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+7"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+7",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+7",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -1015,7 +2147,21 @@
       "listedDate": null,
       "sourceId": null,
       "title": "Arizona Series 9 – Private Listing Arizona Yuma County",
-      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+9"
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+9",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=Arizona&county_name=Yuma+County&type=Series+9",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "Liquor License Marketplace",
@@ -1028,7 +2174,23 @@
       "listedDate": "June 30, 2025",
       "sourceId": null,
       "title": "Santa Cruz Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-cruz-arizona-series-7-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-cruz-arizona-series-7-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-cruz-arizona-series-7-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 30, 2025",
+          "price": 30000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 30000,
+      "priceMax": 30000
     },
     {
       "source": "Liquor License Marketplace",
@@ -1041,7 +2203,23 @@
       "listedDate": "August 31, 2025",
       "sourceId": null,
       "title": "Yavapai Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 31, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
     },
     {
       "source": "Liquor License Marketplace",
@@ -1054,7 +2232,23 @@
       "listedDate": "August 31, 2025",
       "sourceId": null,
       "title": "Yavapai Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-2/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "August 31, 2025",
+          "price": 105000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 105000,
+      "priceMax": 105000
     },
     {
       "source": "Liquor License Marketplace",
@@ -1067,7 +2261,23 @@
       "listedDate": "August 31, 2025",
       "sourceId": null,
       "title": "Yavapai Arizona – Series 6",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-3/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yavapai-arizona-series-6-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "August 31, 2025",
+          "price": 155000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 155000,
+      "priceMax": 155000
     },
     {
       "source": "Liquor License Marketplace",
@@ -1080,7 +2290,23 @@
       "listedDate": "July 31, 2025",
       "sourceId": null,
       "title": "Yuma Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yuma-arizona-series-7-liquor-license/"
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yuma-arizona-series-7-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/yuma-arizona-series-7-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 31, 2025",
+          "price": 16000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 16000,
+      "priceMax": 16000
     }
   ]
 }
