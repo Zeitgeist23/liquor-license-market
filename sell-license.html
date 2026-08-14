@@ -22,8 +22,9 @@ a{color:inherit}
 .nav-dropdown{position:relative}
 .nav-caret{color:var(--gold);font-size:12px;line-height:1}
 .simple-menu,.header-market-menu{position:absolute;z-index:120;top:100%;display:none;padding:8px;border:1px solid var(--gold);border-radius:10px;background:rgba(5,24,43,.99);box-shadow:0 18px 42px rgba(0,0,0,.45)}
-.nav-dropdown:hover>.simple-menu,.nav-dropdown:focus-within>.simple-menu{display:grid}
+.nav-dropdown:hover>.simple-menu,.nav-dropdown:focus-within>.simple-menu,.nav-dropdown.menu-open>.simple-menu{display:grid}
 .simple-menu{left:50%;width:250px;transform:translateX(-50%);gap:5px}
+.sell-dropdown>.sell-menu{top:calc(100% - 6px);padding-top:14px}
 .simple-menu a,.market-state-list a{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid rgba(237,169,26,.28);border-radius:7px;color:#eef3f8;background:#0d2947;font-size:13px;font-weight:700;text-decoration:none;transition:.15s ease}
 .simple-menu a:hover,.simple-menu a:focus-visible,.market-state-list a:hover,.market-state-list a:focus-visible,.market-state-list a.is-active{color:#071d33;background:var(--gold);border-color:var(--gold);outline:none;box-shadow:0 0 14px rgba(237,169,26,.24)}
 .header-market-menu{left:50%;width:min(790px,92vw);grid-template-columns:205px minmax(0,1fr);gap:10px;transform:translateX(-31%);padding:10px}
@@ -156,7 +157,7 @@ textarea{min-height:118px;resize:vertical}
 </div>
 </div>
 <div class="nav-dropdown sell-dropdown">
-<a class="nav-trigger active" href="/sell-license.html" aria-current="page">Sell a License <span class="nav-caret" aria-hidden="true">⌄</span></a>
+<a class="nav-trigger active" href="/sell-license.html" aria-current="page" aria-haspopup="menu" aria-expanded="false">Sell a License <span class="nav-caret" aria-hidden="true">⌄</span></a>
 <nav class="simple-menu sell-menu" aria-label="Sell a License pages">
 <a href="/sell-license.html">List Your License</a>
 <a href="/selling-a-license.html">Selling a License Guide</a>
@@ -338,6 +339,28 @@ textarea{min-height:118px;resize:vertical}
  var menuTooltip=document.getElementById('sell-type-tooltip');
  var menuCounties=document.getElementById('sell-market-counties');
  var menuCountySearch=document.getElementById('sell-county-search');
+ var sellDropdown=document.querySelector('.sell-dropdown');
+ var sellTrigger=sellDropdown&&sellDropdown.querySelector('.nav-trigger');
+ var sellCloseTimer;
+ function openSellMenu(){
+  clearTimeout(sellCloseTimer);
+  sellDropdown.classList.add('menu-open');
+  sellTrigger.setAttribute('aria-expanded','true');
+ }
+ function closeSellMenu(){
+  sellDropdown.classList.remove('menu-open');
+  sellTrigger.setAttribute('aria-expanded','false');
+ }
+ function queueSellMenuClose(){
+  clearTimeout(sellCloseTimer);
+  sellCloseTimer=setTimeout(closeSellMenu,240);
+ }
+ if(sellDropdown&&sellTrigger){
+  sellDropdown.addEventListener('mouseenter',openSellMenu);
+  sellDropdown.addEventListener('mouseleave',queueSellMenuClose);
+  sellDropdown.addEventListener('focusin',openSellMenu);
+  sellDropdown.addEventListener('focusout',function(event){if(!sellDropdown.contains(event.relatedTarget))queueSellMenuClose()});
+ }
  var activeMenuState='Florida';
  var floridaMenuTypes=['4COP','3PS','5COP','3APS','6COP','3BPS','7COP','3CPS','8COP','3DPS'];
  var typeDescriptions={
