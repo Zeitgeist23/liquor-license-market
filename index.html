@@ -69,6 +69,11 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .market-menu a::after{content:"›";color:var(--gold);font-size:1.2em;line-height:.8}
 .market-menu a:hover,.market-menu a:focus-visible,.market-menu a.is-active{color:#071d33;background:var(--gold);outline:none}
 .market-menu a:hover::after,.market-menu a:focus-visible::after,.market-menu a.is-active::after{color:#071d33}
+.resources-menu{position:absolute;z-index:42;left:63.2%;top:11.2%;width:19.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
+.resources-menu[hidden]{display:none}
+.resources-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
+.resources-menu a:hover,.resources-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
+@media(max-width:700px){.resources-menu{left:58%;top:10.8%;width:38%;padding:.55vw}}
 .market-detail{position:absolute;z-index:41;left:50.85%;top:11.2%;width:34%;height:39%;min-height:230px;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:.62vw;padding:1vw 1.05vw;background:rgba(5,24,43,.985);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2.2vw rgba(0,0,0,.5)}
 .market-detail-head{display:flex;align-items:baseline;justify-content:space-between;gap:1vw;padding-bottom:.55vw;border-bottom:1px solid rgba(237,169,26,.35)}
 .market-detail h2{margin:0;color:var(--gold);font-family:Georgia,"Times New Roman",serif;font-size:clamp(14px,1.55vw,24px);line-height:1}
@@ -274,7 +279,16 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <button class="hotspot header-menu-item markets" id="header-markets-toggle" type="button" aria-label="Browse Markets" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu"><span>Browse Markets <b class="markets-caret" aria-hidden="true">⌄</b></span></button>
 <a class="hotspot header-menu-item sell" href="/sell-license.html" aria-label="Sell a License"><span>Sell a License</span></a>
 <a class="hotspot header-menu-item financing" href="/financing.html" aria-label="Financing"><span>Financing</span></a>
-<a class="hotspot header-menu-item resources" href="/resources.html" aria-label="Resources"><span>Resources <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
+<a class="hotspot header-menu-item resources" id="header-resources-toggle" href="/resources.html" aria-label="Resources" aria-haspopup="menu" aria-expanded="false" aria-controls="resources-menu"><span>Resources <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
+<nav class="resources-menu" id="resources-menu" aria-label="Liquor license resources" hidden>
+<a href="/resources.html#liquor-license-101">Liquor License 101</a>
+<a href="/resources.html#license-types-by-state">License Types by State</a>
+<a href="/resources.html#quota-vs-non-quota">Quota vs. Non-Quota States</a>
+<a href="/resources.html#buying-a-license">Buying a License</a>
+<a href="/resources.html#selling-a-license">Selling a License</a>
+<a href="/resources.html#transfer-and-escrow">Transfer &amp; Escrow</a>
+<a href="/resources.html#faqs">FAQs</a>
+</nav>
 <a class="hotspot header-menu-item about" href="/about.html" aria-label="About Us"><span>About Us</span></a>
 <a class="hotspot header-menu-item contact" href="/contact.html" aria-label="Contact"><span>Contact</span></a>
 <a class="hotspot login" href="/client-login.html" aria-label="Client Login"></a>
@@ -412,6 +426,25 @@ document.addEventListener('keydown',event=>{
   marketToggle.focus();
  }
 });
+</script>
+
+<script>
+(()=>{
+ const toggle=document.getElementById('header-resources-toggle');
+ const menu=document.getElementById('resources-menu');
+ if(!toggle||!menu)return;
+ let timer;
+ const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
+ const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};
+ toggle.addEventListener('pointerenter',open);
+ toggle.addEventListener('pointerleave',close);
+ toggle.addEventListener('focus',open);
+ menu.addEventListener('pointerenter',open);
+ menu.addEventListener('pointerleave',close);
+ menu.addEventListener('focusin',open);
+ menu.addEventListener('focusout',close);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+})();
 </script>
 </body>
 </html>
