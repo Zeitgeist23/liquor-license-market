@@ -75,7 +75,12 @@ def patch_california(path: Path):
     text = replace_one(text, r"function card\(item\)\{.*?\}\nfunction render", CA_CARD + "\nfunction render", "California card")
     text = replace_one(text, r"function render\(\)\{.*?\n\}\nfunction populate", CA_RENDER + "\nfunction populate", "California render")
     text = text.replace("const sources=[...new Set(records.map(x=>x.source).filter(Boolean))].sort();", "const sources=[...new Set(records.flatMap(x=>sourceNames(x)).filter(Boolean))].sort();", 1)
-    text = text.replace("records=[...govRows,...marketRows];sourceMeta=market.sources||[];", "records=[...govRows,...marketRows];sourceMeta=market.sources||[];marketStats=market||{};", 1)
+    text = re.sub(
+        r"records=\[\.\.\.govRows,\.\.\.marketRows\];sourceMeta=market\.sources\|\|\[\];(?:marketStats=market\|\|\{\};)*",
+        "records=[...govRows,...marketRows];sourceMeta=market.sources||[];marketStats=market||{};",
+        text,
+        count=1,
+    )
     path.write_text(text, encoding="utf-8")
 
 
