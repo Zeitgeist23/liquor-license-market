@@ -116,15 +116,27 @@ def main():
             return "9999"
 
     rows.sort(key=sort_key)
+    previous = {}
+    if OUT.exists():
+        try:
+            previous = json.loads(OUT.read_text(encoding="utf-8"))
+        except Exception:
+            previous = {}
+
+    changed = previous.get("licenses") != rows or previous.get("sourceUrl") != SOURCE_URL
+    updated_at = previous.get("updatedAt") if not changed else None
+    if not updated_at:
+        updated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
     payload = {
         "source": "California Department of Tax and Fee Administration",
         "sourceUrl": SOURCE_URL,
-        "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "updatedAt": updated_at,
         "licenses": rows,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {len(rows)} California CDTFA auction licenses to {OUT}")
+    print(f"Checked {len(rows)} California CDTFA auction licenses; changed={changed}")
 
 
 if __name__ == "__main__":
