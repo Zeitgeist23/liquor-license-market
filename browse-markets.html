@@ -26,21 +26,21 @@ h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,seri
 .state-copy{min-width:0}
 .state-name{margin:0;color:var(--white);font:700 clamp(23px,2.7vw,33px)/1.1 Georgia,serif}
 .state-sub{margin:7px 0 0;color:#b6c4d2;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-.state-badge{position:relative;width:142px;height:96px;flex:0 0 142px;display:grid;place-items:center;overflow:hidden;border:1px solid rgba(237,169,26,.34);border-radius:14px;background:radial-gradient(circle at 38% 28%,rgba(237,169,26,.12),transparent 45%),linear-gradient(145deg,#102e4f,#071b30 78%);box-shadow:inset 0 1px 0 rgba(255,255,255,.055),inset 0 -14px 24px rgba(0,0,0,.13),0 8px 22px rgba(0,0,0,.2)}
-.state-badge::before{content:"";position:absolute;inset:7px;border:1px solid rgba(255,255,255,.04);border-radius:10px;pointer-events:none}
-.state-badge::after{content:"";position:absolute;left:18px;right:18px;bottom:10px;height:1px;background:linear-gradient(90deg,transparent,rgba(237,169,26,.36),transparent);pointer-events:none}
-.state-art{position:relative;z-index:1;width:108px;height:78px;overflow:visible;filter:drop-shadow(0 7px 6px rgba(0,0,0,.28)) drop-shadow(0 0 7px rgba(237,169,26,.08))}
-.state-art path{stroke:#ffd46f;stroke-width:1.65;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
-.state-art-ca{width:82px;height:82px}.state-art-fl{width:116px;height:80px}.state-art-mi{width:108px;height:82px}.state-art-nj{width:78px;height:82px}
+.market-meta{min-width:258px;display:flex;align-items:center;justify-content:flex-end;gap:16px;margin-left:auto}
+.state-slogan{max-width:154px;margin:0;color:#d6dee7;font:italic 600 15px/1.35 Georgia,serif;text-align:right}
+.state-seal{position:relative;width:78px;height:78px;flex:0 0 78px;display:grid;place-items:center;border:1px solid rgba(237,169,26,.58);border-radius:50%;background:radial-gradient(circle at 35% 28%,rgba(255,212,111,.18),transparent 38%),linear-gradient(145deg,#102e4f,#071b30 78%);box-shadow:inset 0 1px 0 rgba(255,255,255,.07),inset 0 -12px 20px rgba(0,0,0,.16),0 8px 22px rgba(0,0,0,.2)}
+.state-seal::before{content:"";position:absolute;inset:7px;border:1px solid rgba(237,169,26,.24);border-radius:50%;pointer-events:none}
+.state-code{position:relative;z-index:1;color:var(--gold);font:700 27px/1 Georgia,serif;letter-spacing:.08em;text-indent:.08em;text-shadow:0 2px 10px rgba(237,169,26,.14);transition:transform .16s ease,color .16s ease}
 .florida-card{text-decoration:none;border-color:rgba(237,169,26,.72)}
 .florida-card:hover .state-name{color:var(--gold)}
-.market-card:hover .state-badge{border-color:rgba(237,169,26,.68);box-shadow:inset 0 1px 0 rgba(255,255,255,.07),inset 0 -14px 24px rgba(0,0,0,.14),0 9px 24px rgba(0,0,0,.25),0 0 16px rgba(237,169,26,.08)}
+.market-card:hover .state-seal{border-color:var(--gold);box-shadow:inset 0 1px 0 rgba(255,255,255,.09),inset 0 -12px 20px rgba(0,0,0,.16),0 9px 24px rgba(0,0,0,.25),0 0 18px rgba(237,169,26,.12)}
+.market-card:hover .state-code{color:#ffc957;transform:scale(1.08)}
 .note{margin:28px 0 0;color:#91a5b8;font-size:13px;line-height:1.55}
 @media(max-width:760px){
- .site-header{height:76px;padding:0 18px}.home-link{padding:8px 12px;font-size:13px}.wrap{padding:40px 18px 60px}.intro{font-size:16px;margin-bottom:28px}.market-grid{grid-template-columns:1fr}.market-card{min-height:118px;padding:17px 18px}.state-badge{width:124px;height:86px;flex-basis:124px}.state-art{width:94px;height:68px}.state-art-ca{width:70px;height:72px}.state-art-fl{width:102px;height:70px}.state-art-mi{width:94px;height:72px}.state-art-nj{width:66px;height:72px}
+ .site-header{height:76px;padding:0 18px}.home-link{padding:8px 12px;font-size:13px}.wrap{padding:40px 18px 60px}.intro{font-size:16px;margin-bottom:28px}.market-grid{grid-template-columns:1fr}.market-card{min-height:118px;padding:17px 18px}.market-meta{min-width:226px;gap:12px}.state-slogan{max-width:132px;font-size:13px}.state-seal{width:70px;height:70px;flex-basis:70px}.state-code{font-size:24px}
 }
 @media(max-width:440px){
- .market-card{gap:14px}.state-badge{width:106px;height:78px;flex-basis:106px}.state-art{width:82px;height:60px}.state-art-ca{width:61px;height:64px}.state-art-fl{width:90px;height:62px}.state-art-mi{width:83px;height:64px}.state-art-nj{width:58px;height:64px}.state-sub{font-size:11px}
+ .market-card{gap:12px}.market-meta{min-width:0;gap:10px}.state-slogan{max-width:105px;font-size:11px}.state-seal{width:58px;height:58px;flex-basis:58px}.state-code{font-size:20px}.state-sub{font-size:11px}
 }
 </style>
 </head>
@@ -52,63 +52,47 @@ h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,seri
 <main class="wrap">
 <p class="eyebrow">National Liquor License Marketplace</p>
 <h1>Browse Listings by State</h1>
-<p class="intro">Select from our active liquor-license markets across the United States. Each market is represented by the gold states featured on the Liquor License Market map.</p>
+<p class="intro">Select from our active liquor-license markets across the United States. Each market is presented with its state identity and familiar nickname.</p>
 
 <section class="market-grid" aria-label="Active liquor license markets">
 <a class="market-card florida-card" href="https://www.floridaliquorlicensemarket.com/listings" aria-label="Browse Florida liquor license listings">
 <div class="state-copy"><h2 class="state-name">Florida</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art state-art-fl" viewBox="1105 450 150 125" role="img"><defs><linearGradient id="gold-fl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-fl)" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Sunshine State</p><div class="state-seal" aria-hidden="true"><span class="state-code">FL</span></div></div>
 </a>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">California</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art state-art-ca" viewBox="585 250 150 225" role="img"><defs><linearGradient id="gold-ca" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-ca)" d="M601 265L660 269L669 329L694 378L688 394L716 432L700 457L637 430L620 389L603 328Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Golden State</p><div class="state-seal" aria-hidden="true"><span class="state-code">CA</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">Arizona</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art" viewBox="675 360 135 115" role="img"><defs><linearGradient id="gold-az" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-az)" d="M718 373L797 376L796 463L724 462L686 439L700 418L688 406L718 386Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Grand Canyon State</p><div class="state-seal" aria-hidden="true"><span class="state-code">AZ</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">New Mexico</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art" viewBox="785 372 100 102" role="img"><defs><linearGradient id="gold-nm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-nm)" d="M798 384L873 389L870 460L797 462Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">Land of Enchantment</p><div class="state-seal" aria-hidden="true"><span class="state-code">NM</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">Michigan</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art state-art-mi" viewBox="1042 145 145 145" role="img"><defs><linearGradient id="gold-mi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-mi)" d="M1056 177L1077 167L1096 174L1117 159L1151 174L1145 192L1121 188L1104 198L1081 196L1064 190ZM1135 196C1158 191 1172 209 1171 228C1170 242 1161 255 1165 267C1153 277 1132 271 1122 259C1114 247 1120 232 1116 219C1120 208 1128 200 1135 196Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Great Lakes State</p><div class="state-seal" aria-hidden="true"><span class="state-code">MI</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">Ohio</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art" viewBox="1132 255 85 85" role="img"><defs><linearGradient id="gold-oh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-oh)" d="M1144 268L1200 267L1204 306L1192 318L1174 328L1153 319L1145 307Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Buckeye State</p><div class="state-seal" aria-hidden="true"><span class="state-code">OH</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">Pennsylvania</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art" viewBox="1188 232 105 88" role="img"><defs><linearGradient id="gold-pa" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-pa)" d="M1200 255L1268 245L1281 260L1272 296L1207 306L1201 286Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Keystone State</p><div class="state-seal" aria-hidden="true"><span class="state-code">PA</span></div></div>
 </article>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">New Jersey</h2><p class="state-sub">Liquor License Market</p></div>
-<div class="state-badge" aria-hidden="true">
-<svg class="state-art state-art-nj" viewBox="1268 248 40 70" role="img"><defs><linearGradient id="gold-nj" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7cb54"/><stop offset=".46" stop-color="#eda91a"/><stop offset="1" stop-color="#c8840b"/></linearGradient></defs><path fill="url(#gold-nj)" d="M1281 258L1296 267L1291 286L1296 295L1285 306L1278 294L1283 280L1278 271Z"/></svg>
-</div>
+<div class="market-meta"><p class="state-slogan">The Garden State</p><div class="state-seal" aria-hidden="true"><span class="state-code">NJ</span></div></div>
 </article>
 </section>
 <p class="note">Additional state markets can be added as Liquor License Market expands.</p>
