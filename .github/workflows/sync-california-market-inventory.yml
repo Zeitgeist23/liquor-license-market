@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - '.github/workflows/sync-california-market-inventory.yml'
+      - 'tools/update_california_market_inventory.py'
 
 permissions:
   contents: write
