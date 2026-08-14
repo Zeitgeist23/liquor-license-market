@@ -291,7 +291,8 @@ textarea{min-height:118px;resize:vertical}
    '<div class="review-block"><h3>Premise</h3><p>'+escapeHtml(value('premise-street'))+'</p><p>'+escapeHtml(value('premise-city'))+', '+escapeHtml(value('premise-region'))+' '+escapeHtml(value('premise-zip'))+'</p></div>';
  }
  function escapeHtml(str){return String(str).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]})}
- form.addEventListener('input',function(){try{var data={};new FormData(form).forEach(function(v,k){data[k]=v});localStorage.setItem('llmSellerDraft',JSON.stringify(data))}catch(e){}});
+ form.addEventListener('input',function(){try{var data={};new FormData(form).forEach(function(v,k){data[k]=v});localStorage.setItem('llmSellerDraft',JSON.stringify(data))}catch(e){}if(current===4)renderReview()});
+ form.addEventListener('change',function(){if(current===4)renderReview()});
  form.addEventListener('submit',function(event){
   event.preventDefault();
   if(!validateCurrent())return;
