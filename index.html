@@ -235,6 +235,10 @@ const floridaListingsBase='https://www.floridaliquorlicensemarket.com/listings';
 function floridaFilterUrl(filter,value){
  return floridaListingsBase+'?'+filter+'='+encodeURIComponent(value)+'&status=available';
 }
+function floridaCountyUrl(county){
+ const slug=county.replace(/\s+County$/,'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'').toLowerCase();
+ return 'https://www.floridaliquorlicensemarket.com/counties/'+slug;
+}
 function renderMarketDetail(state){
  const data=marketData[state];
  if(!data)return;
@@ -254,7 +258,7 @@ function renderMarketDetail(state){
   const item=document.createElement(state==='Florida'?'a':'span');
   item.textContent=county;
   if(state==='Florida'){
-   item.href=floridaFilterUrl('county',county);
+   item.href=floridaCountyUrl(county);
    item.setAttribute('aria-label','View available liquor licenses in '+county);
   }
   row.appendChild(item);
