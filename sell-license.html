@@ -24,7 +24,7 @@ a{color:inherit}
 .simple-menu,.header-market-menu{position:absolute;z-index:120;top:100%;display:none;padding:8px;border:1px solid var(--gold);border-radius:10px;background:rgba(5,24,43,.99);box-shadow:0 18px 42px rgba(0,0,0,.45)}
 .nav-dropdown:hover>.simple-menu,.nav-dropdown:focus-within>.simple-menu,.nav-dropdown.menu-open>.simple-menu{display:grid}
 .simple-menu{left:50%;width:250px;transform:translateX(-50%);gap:5px}
-.sell-dropdown>.sell-menu{top:calc(100% - 6px);padding-top:14px}
+.sell-dropdown>.sell-menu,.contact-dropdown>.contact-menu{top:calc(100% - 6px);padding-top:14px}
 .simple-menu a,.market-state-list a{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid rgba(237,169,26,.28);border-radius:7px;color:#eef3f8;background:#0d2947;font-size:13px;font-weight:700;text-decoration:none;transition:.15s ease}
 .simple-menu a:hover,.simple-menu a:focus-visible,.market-state-list a:hover,.market-state-list a:focus-visible,.market-state-list a.is-active{color:#071d33;background:var(--gold);border-color:var(--gold);outline:none;box-shadow:0 0 14px rgba(237,169,26,.24)}
 .header-market-menu{left:50%;width:min(790px,92vw);grid-template-columns:205px minmax(0,1fr);gap:10px;transform:translateX(-31%);padding:10px}
@@ -191,7 +191,14 @@ textarea{min-height:118px;resize:vertical}
 </nav>
 </div>
 <a href="/about.html">About Us</a>
-<a href="/contact.html">Contact</a>
+<div class="nav-dropdown contact-dropdown">
+<a class="nav-trigger" href="/contact.html" aria-haspopup="menu" aria-expanded="false">Contact <span class="nav-caret" aria-hidden="true">⌄</span></a>
+<nav class="simple-menu contact-menu" aria-label="Contact options">
+<a href="/contact.html#call">Call LLM</a>
+<a href="/contact.html#email">Email LLM</a>
+<a href="/contact.html#chat">Chat with LLM</a>
+</nav>
+</div>
 <a class="client-link" href="/client-login.html">Client Login</a>
 </nav>
 </header>
@@ -361,6 +368,29 @@ textarea{min-height:118px;resize:vertical}
   sellDropdown.addEventListener('focusin',openSellMenu);
   sellDropdown.addEventListener('focusout',function(event){if(!sellDropdown.contains(event.relatedTarget))queueSellMenuClose()});
  }
+ function bindSimpleHoverMenu(dropdown){
+  if(!dropdown)return;
+  var trigger=dropdown.querySelector('.nav-trigger');
+  var closeTimer;
+  function openMenu(){
+   clearTimeout(closeTimer);
+   dropdown.classList.add('menu-open');
+   trigger.setAttribute('aria-expanded','true');
+  }
+  function closeMenu(){
+   dropdown.classList.remove('menu-open');
+   trigger.setAttribute('aria-expanded','false');
+  }
+  function queueClose(){
+   clearTimeout(closeTimer);
+   closeTimer=setTimeout(closeMenu,240);
+  }
+  dropdown.addEventListener('mouseenter',openMenu);
+  dropdown.addEventListener('mouseleave',queueClose);
+  dropdown.addEventListener('focusin',openMenu);
+  dropdown.addEventListener('focusout',function(event){if(!dropdown.contains(event.relatedTarget))queueClose()});
+ }
+ bindSimpleHoverMenu(document.querySelector('.contact-dropdown'));
  var activeMenuState='Florida';
  var floridaMenuTypes=['4COP','3PS','5COP','3APS','6COP','3BPS','7COP','3CPS','8COP','3DPS'];
  var typeDescriptions={
