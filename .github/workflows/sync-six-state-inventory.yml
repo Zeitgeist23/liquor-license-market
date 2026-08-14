@@ -14,6 +14,10 @@ on:
       - 'tools/build_state_inventory_pages.py'
       - 'tools/apply_dedupe_ui.py'
 
+concurrency:
+  group: liquor-license-inventory-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
