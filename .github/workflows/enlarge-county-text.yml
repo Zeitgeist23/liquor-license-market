@@ -1,0 +1,34 @@
+name: Enlarge county menu text
+on:
+  push:
+    paths:
+      - '.github/workflows/enlarge-county-text.yml'
+permissions:
+  contents: write
+jobs:
+  adjust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enlarge county text only
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          old = '.county-list li{font-size:clamp(6px,.72vw,11px);line-height:1.25;border-bottom:1px solid rgba(255,255,255,.07)}'
+          new = '.county-list li{font-size:clamp(10px,1.08vw,16px);line-height:1.35;border-bottom:1px solid rgba(255,255,255,.07)}'
+          if old not in s:
+              raise SystemExit('Expected county text CSS not found; no changes made')
+          s = s.replace(old, new, 1)
+          p.write_text(s)
+          PY
+      - name: Remove temporary workflow
+        run: rm -f .github/workflows/enlarge-county-text.yml
+      - name: Commit and push
+        run: |
+          git config user.name "Zeitgeist23"
+          git config user.email "JWigg023@gmail.com"
+          git add index.html .github/workflows/enlarge-county-text.yml
+          git commit -m "Enlarge county names in state menus"
+          git push
