@@ -1,0 +1,50 @@
+name: Update Florida license menu
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-florida-license-menu.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-menu:
+    if: github.event.head_commit.message == 'Add temporary Florida menu updater'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Expand Florida license types
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('index.html')
+          text = path.read_text(encoding='utf-8')
+          old = '"types":["4COP Quota","3PS Quota / Package Store"]'
+          new = '"types":["4COP/3PS","5COP/3APS","6COP/3BPS","7COP/3CPS","8COP/3DPS"]'
+
+          if old not in text:
+              raise SystemExit('Expected Florida license-type block was not found; no changes made.')
+
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+      - name: Remove temporary updater workflow
+        run: rm .github/workflows/update-florida-license-menu.yml
+
+      - name: Commit and push menu update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html .github/workflows/update-florida-license-menu.yml
+          git commit -m "Expand Florida license types in Browse Markets"
+          git push origin HEAD:main
