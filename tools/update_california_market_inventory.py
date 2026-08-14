@@ -129,22 +129,14 @@ def scrape_marketplace(source):
     soup = get_soup(url)
     records = []
     seen = set()
-    pattern = re.compile(r"([A-Za-z .'-]+)\s+California\s*[–-]+\s*Type\s*(\d+).*?Liquor License", re.I)
+    pattern = re.compile(r"([A-Za-z .'-]+) California\s*[–-]\s*Type\s*(\d+).*?Liquor License", re.I)
     for link in soup.find_all("a", href=True):
-        href_raw = link.get("href", "")
-        href = urljoin(url, href_raw)
-        if "/liquor-license/" not in href or href in seen:
+        if clean(link.get_text(" ", strip=True)).lower() != "view listing":
             continue
-        node = link
-        card = None
-        for _ in range(9):
-            node = getattr(node, "parent", None)
-            if node is None:
-                break
-            text = clean(node.get_text(" ", strip=True))
-            if "Listed:" in text and "Price:" in text and pattern.search(text) and len(text) <= 900:
-                card = node
-                break
+        href = urljoin(url, link["href"])
+        if href in seen:
+            continue
+        card = best_container(link, pattern)
         if not card:
             continue
         text = clean(card.get_text(" ", strip=True))
@@ -153,8 +145,6 @@ def scrape_marketplace(source):
             continue
         county = clean(match.group(1))
         type_code = match.group(2)
-        if not county or len(county) > 40:
-            continue
         date_match = re.search(r"Listed:\s*([A-Z][a-z]+\s+\d{1,2},\s+\d{4})", text)
         price_match = re.search(r"Price:\s*\$\s*([0-9][0-9,]*(?:\.\d{1,2})?)", text)
         price = int(round(float(price_match.group(1).replace(",", "")))) if price_match else None
