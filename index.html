@@ -82,7 +82,11 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .resources-menu[hidden]{display:none}
 .resources-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
 .resources-menu a:hover,.resources-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
-@media(max-width:700px){.resources-menu{left:58%;top:10.8%;width:38%;padding:.55vw}}
+.contact-menu{position:absolute;z-index:41;left:73.6%;top:11.2%;width:18.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
+.contact-menu[hidden]{display:none}
+.contact-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
+.contact-menu a:hover,.contact-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
+@media(max-width:700px){.resources-menu{left:58%;top:10.8%;width:38%;padding:.55vw}.contact-menu{left:61%;top:10.8%;width:36%;padding:.55vw}}
 .financing-menu{position:absolute;z-index:43;left:55.3%;top:11.2%;width:20.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
 .financing-menu[hidden]{display:none}
 .financing-menu a{display:flex;align-items:center;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
@@ -333,7 +337,12 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <a href="/faqs.html">FAQs</a>
 </nav>
 <a class="hotspot header-menu-item about" href="/about.html" aria-label="About Us"><span>About Us</span></a>
-<a class="hotspot header-menu-item contact" href="/contact.html" aria-label="Contact"><span>Contact</span></a>
+<a class="hotspot header-menu-item contact" id="header-contact-toggle" href="/contact.html" aria-label="Contact" aria-haspopup="menu" aria-expanded="false" aria-controls="contact-menu"><span>Contact <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
+<nav class="contact-menu" id="contact-menu" aria-label="Contact options" hidden>
+<a href="/contact.html#call">Call LLM</a>
+<a href="/contact.html#email">Email LLM</a>
+<a href="/contact.html#chat">Chat with LLM</a>
+</nav>
 <a class="hotspot login" href="/client-login.html" aria-label="Client Login"></a>
 <a class="hotspot browse-cta" href="/browse-markets.html" aria-label="Browse Markets"></a>
 <a class="hotspot list-cta" href="/sell-license.html" aria-label="List a License"></a>
@@ -591,6 +600,25 @@ document.addEventListener('keydown',event=>{
  let timer;
  const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
  const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};
+ toggle.addEventListener('pointerenter',open);
+ toggle.addEventListener('pointerleave',close);
+ toggle.addEventListener('focus',open);
+ menu.addEventListener('pointerenter',open);
+ menu.addEventListener('pointerleave',close);
+ menu.addEventListener('focusin',open);
+ menu.addEventListener('focusout',close);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+})();
+</script>
+
+<script id="contact-menu-script">
+(()=>{
+ const toggle=document.getElementById('header-contact-toggle');
+ const menu=document.getElementById('contact-menu');
+ if(!toggle||!menu)return;
+ let timer;
+ const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
+ const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},180)};
  toggle.addEventListener('pointerenter',open);
  toggle.addEventListener('pointerleave',close);
  toggle.addEventListener('focus',open);
