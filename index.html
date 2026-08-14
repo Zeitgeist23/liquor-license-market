@@ -424,6 +424,18 @@ function californiaFilterUrl(filter,value){
  const cleaned=filter==='county'?value.replace(/\s+County$/,''):value;
  return californiaListingsBase+'?'+filter+'='+encodeURIComponent(cleaned);
 }
+const stateListingSlugs={
+ Arizona:'arizona',
+ 'New Mexico':'new-mexico',
+ Michigan:'michigan',
+ Ohio:'ohio',
+ Pennsylvania:'pennsylvania',
+ 'New Jersey':'new-jersey'
+};
+function stateMarketFilterUrl(state,filter,value){
+ const cleaned=filter==='county'?value.replace(/\s+County$/,''):value;
+ return '/'+stateListingSlugs[state]+'/licenses-for-sale/?'+filter+'='+encodeURIComponent(cleaned);
+}
 function renderMarketCounties(state,query=''){
  const data=marketData[state];
  if(!data)return;
@@ -439,8 +451,7 @@ function renderMarketCounties(state,query=''){
  }
  marketCounties.replaceChildren(...counties.map(county=>{
   const row=document.createElement('li');
-  const linked=state==='Florida'||state==='California';
-  const item=document.createElement(linked?'a':'span');
+  const item=document.createElement('a');
   item.textContent=county;
   if(state==='Florida'){
    item.href=floridaCountyUrl(county);
@@ -449,7 +460,8 @@ function renderMarketCounties(state,query=''){
    item.href=californiaFilterUrl('county',county);
    item.setAttribute('aria-label','View California liquor licenses in '+county);
   }else{
-   item.tabIndex=0;
+   item.href=stateMarketFilterUrl(state,'county',county);
+   item.setAttribute('aria-label','View '+state+' liquor licenses in '+county);
   }
   row.appendChild(item);
   return row;
@@ -463,8 +475,7 @@ function renderMarketDetail(state){
  marketDetailCount.textContent=data.counties.length+' COUNTIES';
  hideLicenseTypeTooltip();
  marketLicenseTypes.replaceChildren(...data.types.map(type=>{
-  const linked=state==='Florida'||state==='California';
-  const item=document.createElement(linked?'a':'span');
+  const item=document.createElement('a');
   item.textContent=type;
   item.setAttribute('aria-describedby','license-type-tooltip');
   if(state==='Florida'){
@@ -474,7 +485,8 @@ function renderMarketDetail(state){
    item.href=californiaFilterUrl('category',type);
    item.setAttribute('aria-label','View California '+type+' license listings');
   }else{
-   item.tabIndex=0;
+   item.href=stateMarketFilterUrl(state,'category',type);
+   item.setAttribute('aria-label','View '+state+' '+type+' license listings');
   }
   item.addEventListener('pointerenter',()=>showLicenseTypeTooltip(state,type));
   item.addEventListener('focus',()=>showLicenseTypeTooltip(state,type));
