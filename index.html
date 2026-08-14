@@ -45,7 +45,8 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .map-state:hover .state-underlay,.map-state:focus-visible .state-underlay{opacity:1}
 .map-state:hover .state-piece,.map-state:focus-visible .state-piece{opacity:1;transform:scale(1.2)}
 .map-state-fl .state-piece{filter:drop-shadow(0 0 0 rgba(0,0,0,0));transition:opacity .08s linear,transform .22s cubic-bezier(.2,.8,.2,1),filter .22s cubic-bezier(.2,.8,.2,1)}
-.map-state-fl:hover .state-piece,.map-state-fl:focus-visible .state-piece{opacity:1;transform:translateY(-16px);filter:drop-shadow(0 9px 7px rgba(0,0,0,.58))}
+.map-state-fl:hover .state-piece,.map-state-fl:focus-visible .state-piece,.map-state-fl.is-lifted .state-piece{opacity:1;transform:translateY(-16px);filter:drop-shadow(0 9px 7px rgba(0,0,0,.58))}
+.map-state-fl.is-lifted .state-underlay{opacity:1}
 @media(prefers-reduced-motion:reduce){.state-underlay,.state-piece{transition:none}}
 .cta-visual{position:absolute;inset:0;z-index:13;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
 @media(max-width:700px){.hotspot{border-radius:3px}.hero-tail{height:36px}}
@@ -193,6 +194,14 @@ document.addEventListener('keydown',event=>{
   marketToggle.focus();
  }
 });
+const floridaMarket=document.querySelector('.map-state-fl');
+if(floridaMarket){
+ const setFloridaLift=lifted=>floridaMarket.classList.toggle('is-lifted',lifted);
+ floridaMarket.addEventListener('pointerenter',()=>setFloridaLift(true));
+ floridaMarket.addEventListener('pointerleave',()=>setFloridaLift(false));
+ floridaMarket.addEventListener('focus',()=>setFloridaLift(true));
+ floridaMarket.addEventListener('blur',()=>setFloridaLift(false));
+}
 </script>
 </body>
 </html>
