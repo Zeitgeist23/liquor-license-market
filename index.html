@@ -59,8 +59,9 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .hero:has(.login:hover) img.login-scaled,.hero:has(.login:focus-visible) img.login-scaled{transform:scale(.968)}
 .browse-cta{left:3.523%;top:66.721%;width:14.255%;height:8.456%}
 .list-cta{left:18.937%;top:66.721%;width:12.726%;height:8.456%}
-.browse-cta:hover,.list-cta:hover{outline:0;background:rgba(255,255,255,.001)}
-.hero:has(.browse-cta:hover) .cta-browse-scaled,.hero:has(.list-cta:hover) .cta-list-scaled{filter:drop-shadow(0 0 .42vw rgba(237,169,26,.62)) drop-shadow(0 0 .9vw rgba(237,169,26,.28))}
+.browse-cta:hover,.list-cta:hover{outline:0!important;background:rgba(255,255,255,.001)!important;box-shadow:none!important}
+.hero:has(.browse-cta:hover) .cta-browse-scaled{transform:translateY(-4.15%) scale(.942);filter:none}
+.hero:has(.list-cta:hover) .cta-list-scaled{transform:translate(-3.3%,-4.15%) scale(.942);filter:none}
 .browse-cta:hover,.list-cta:hover{outline:none!important;background:transparent!important}
 .market-menu{position:absolute;z-index:40;left:35%;top:11.2%;width:15.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
 .market-menu[hidden],.market-detail[hidden]{display:none}
@@ -101,7 +102,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .map-state:hover .state-underlay,.map-state:focus-visible .state-underlay{opacity:1}
 .map-state:hover .state-piece,.map-state:focus-visible .state-piece{opacity:1;transform:scale(1.2)}
 @media(prefers-reduced-motion:reduce){.state-underlay,.state-piece{transition:none}}
-.cta-visual{position:absolute;inset:0;z-index:13;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none;transition:filter .18s ease}
+.cta-visual{position:absolute;inset:0;z-index:13;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none;transition:transform .16s cubic-bezier(.2,.8,.2,1),filter .18s ease}
 .hero img.cta-clean{position:absolute;z-index:12;inset:auto;left:.714%;top:66.53%;width:37.5%;height:16.87%;object-fit:fill;display:block;pointer-events:none;user-select:none}
 .cta-visual.cta-browse-scaled{clip-path:polygon(1.9% 68.8%,19.5% 68.8%,19.5% 80.1%,1.9% 80.1%);transform:translateY(-3.6%) scale(.915);transform-origin:10.65% 74.55%}
 .cta-visual.cta-list-scaled{clip-path:polygon(20.7% 68.8%,36.6% 68.8%,36.6% 80.1%,20.7% 80.1%);transform:translate(-3.3%,-3.6%) scale(.915);transform-origin:28.6% 74.55%}
