@@ -74,14 +74,14 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .license-type-list{display:flex;flex-wrap:wrap;gap:.38vw .42vw;max-height:6.4vw;overflow-y:auto;padding-right:.18vw}
 .license-type-list a,.license-type-list span{display:inline-flex;align-items:center;padding:.28vw .42vw;color:#f7e7bd;font-size:clamp(6px,.66vw,10px);line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.34);border-radius:99px;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease,transform .14s ease}
 .license-type-list a,.license-type-list span{padding:.44vw .72vw;font-size:clamp(8px,.82vw,13px);font-weight:700;min-width:3.6vw;justify-content:center}
-.license-type-list a:hover,.license-type-list a:focus-visible{color:#071d33;background:var(--gold);border-color:var(--gold);box-shadow:0 0 .7vw rgba(237,169,26,.55);transform:translateY(-1px);outline:none}
+.license-type-list a:hover,.license-type-list a:focus-visible,.license-type-list span:hover{color:#071d33;background:var(--gold);border-color:var(--gold);box-shadow:0 0 .7vw rgba(237,169,26,.55);transform:translateY(-1px);outline:none}
 .county-section{display:grid;grid-template-rows:auto minmax(0,1fr)}
 .county-list{min-height:0;overflow-y:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:.26vw .72vw;margin:0;padding:.12vw .4vw .18vw 0;list-style:none;scrollbar-color:var(--gold) rgba(255,255,255,.08);scrollbar-width:thin}
 .county-list li{font-size:clamp(10px,1.08vw,16px);line-height:1.35;border-bottom:1px solid rgba(255,255,255,.07)}
 .county-list li a,.county-list li span{display:flex;align-items:center;width:100%;padding:.2vw .25vw;color:#dbe6f1;text-decoration:none;border-radius:.22vw;transition:color .12s ease,background .12s ease,box-shadow .12s ease}
 .county-list li a::before,.county-list li span::before{content:"•";color:var(--gold);margin-right:.35em}
-.county-list li a:hover,.county-list li a:focus-visible{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}
-.county-list li a:hover::before,.county-list li a:focus-visible::before{color:#071d33}
+.county-list li a:hover,.county-list li a:focus-visible,.county-list li span:hover{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}
+.county-list li a:hover::before,.county-list li a:focus-visible::before,.county-list li span:hover::before{color:#071d33}
 @media(max-width:700px){
  .market-menu{left:27%;top:10.8%;width:29%;padding:.55vw}
  .market-detail{left:56.5%;top:10.8%;width:42%;height:48%;min-height:0;padding:1.1vw}
