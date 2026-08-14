@@ -1,0 +1,53 @@
+name: Wire California inventory page
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/wire-california-inventory.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Point California links to live inventory
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          target = '/california/licenses-for-sale/'
+          changed = []
+          for name in ('index.html','browse-markets.html'):
+              path = Path(name)
+              if not path.exists():
+                  continue
+              text = path.read_text(encoding='utf-8')
+              original = text
+              text = text.replace('/browse-markets.html?state=California', target)
+              text = text.replace('browse-markets.html?state=California', target)
+              text = text.replace('/browse-markets.html?state=California&amp;', target)
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(name)
+          print('Updated:', ', '.join(changed) if changed else 'no files needed changes')
+          PY
+      - name: Commit California link wiring
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "California links already wired"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html browse-markets.html
+          git commit -m "Link California market to live auction inventory"
+          git push origin HEAD:main
