@@ -80,9 +80,6 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .state-hit{fill:rgba(255,255,255,.001);stroke:transparent;pointer-events:all}
 .map-state:hover .state-underlay,.map-state:focus-visible .state-underlay{opacity:1}
 .map-state:hover .state-piece,.map-state:focus-visible .state-piece{opacity:1;transform:scale(1.2)}
-.map-state-fl .state-underlay-fl{fill:#0b2742;stroke:#0b2742;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}\n.map-state-fl .state-piece{filter:drop-shadow(0 0 0 rgba(0,0,0,0));transition:opacity .08s linear,transform .22s cubic-bezier(.2,.8,.2,1),filter .22s cubic-bezier(.2,.8,.2,1)}
-.map-state-fl:hover .state-piece,.map-state-fl:focus-visible .state-piece,.map-state-fl.is-lifted .state-piece{opacity:1;transform:translateY(-16px);filter:drop-shadow(0 9px 7px rgba(0,0,0,.58))}
-.map-state-fl.is-lifted .state-underlay{opacity:1}
 @media(prefers-reduced-motion:reduce){.state-underlay,.state-piece{transition:none}}
 .cta-visual{position:absolute;inset:0;z-index:13;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
 .feature-cards-rebuild{position:absolute;z-index:19;left:0;right:0;top:79.8%;bottom:0;padding:2.5vw 5.2vw 1.25vw;background:linear-gradient(180deg,#102843 0%,#0f243f 48%,#0f243f 100%);display:grid;grid-template-columns:1fr 1fr 1fr 1.24fr;gap:2.6vw;pointer-events:none}
@@ -145,9 +142,6 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 </section>
 <svg class="state-overlay" viewBox="0 0 1400 729" aria-label="Active liquor license markets">
 <defs>
-<mask id="state-mask-fl-cover" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="1111" y="446" width="145" height="117">
-<image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAB1CAAAAABrZlxrAAABeklEQVR42u2bUQ7DIAxD42j3v3J2BArE4G7md6r09hLSUCDC430Dg99r5SEKUe3+lU6ievokxx9mQYItD40sPUjZnwglRxRVakR7mjhEO0iEzN5McSbRGhadaJoq48AoOaLQIyo7apV0ylE5ao2Skt02TyOJRk1KkmpmK0mSnf1CktC3iGhqlMBZ4mwggbbuIhAxwMBYLxQZKY9/aSDUI3ALAE6vX3GgZgN6HRs6jf5qV9spKTU+PhKihjZJbXnUNuNwoUvEwbmGBu4/XtM+lmRHY0l2NJZkR2NJ1xyVo7Yu6aKjctRWJdnRWNJdR+WoLUmyo7GkvL3FX47avCQBR+WozUqCwkkfkB1tVgCNPCoyEbaQMtSQECoH2SBXj4pMtB44pZpdXCKsImm914pKBL037eIuwJ91I0uW3LFdJ4Keo/lUch6ZyERnZhtC6aAvnEcm+kUiaDr6yF2kTbmbvSl31fgjd/U5JW5b48bsx3srJOL2bjrC4/3jCyLrQMssfpkFAAAAAElFTkSuQmCC" x="1111" y="446" width="145" height="117" preserveAspectRatio="none"/>
-</mask>
 <mask id="state-mask-ca" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="594" y="274" width="130" height="181">
 <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAAC1CAAAAAC2F3g0AAAB8klEQVR42u2cyW7DMBBDxUH//5fZQ4Hk0rSWNZtk+pJL0D6QHK3jjKGnxYOfD175UiVCLJzVG7GIQD8E7KtCBwQ2UIFsYASPyQJVET5j/MNVEIIfAvdWAacYwXIEqiKEcAgCXBAgI4QghGYIaKDCfQYoC64IOmWpnSffCJARQhjlJz0yQgj9LgNkhBBazZTQxdDecaTv2SlLFpCWdz1+zQhUeGGjnMGnItigKFfubN3GhfsQminPQ7ibBlcV7kHAt8zhpQJ2jiMbVAQ1LtyrigAV2MAIKgvzMiBoaQ4ZMVebcSqwgRHcPgtIlOGTCkB2N3jl6GB1jeg5ceQJoyNTZHjAho5S4ZoM8SpQRlyRobsKSJHBRvk8ZSOBgbtXRIIMNlIYGhjBJQTo9DVDBhvlDLvMlOsyYFkFNDACDbKAuL2lZbYVPvtuCueogAZGYOMsQBWxuo/opgK33kdw+xX0EePCPzJYVhcX/f6sf2NBZi8V1E7zWbtUFdjACDbIAr0Q2CiOmL7IY8QbxlhlQH7HAtTp94tilrJO/5PBRjkDatpoEJUF7HS+wAZFyQbjAiNX5pxMjqXv5VPiiDm1bJQzlE5TDETAPkefDETABINeTohEUOPppFiPVwFNsvCV/2O/70EJta/U8vW/GxhRPVPr6fN8A18qV0XkST1iAAAAAElFTkSuQmCC" x="594" y="274" width="130" height="181" preserveAspectRatio="none"/>
 </mask>
@@ -198,7 +192,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <path class="state-hit" transform="rotate(-2 987.5 355)" d="M798 384L873 389L870 460L797 462Z"/>
 </a>
 <a class="map-state map-state-fl" href="https://www.floridaliquorlicensemarket.com/" aria-label="Florida market">
-<path class="state-underlay state-underlay-fl" transform="rotate(-2 987.5 355)" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/>
+<rect class="state-underlay" x="1117" y="452" width="133" height="105" mask="url(#state-mask-fl)"/>
 <g class="state-piece" style="transform-origin:1183.5px 504.5px">
 <g mask="url(#state-mask-fl)"><image href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none"/></g>
 <text class="state-abbr" x="1219" y="520">FL</text>
@@ -381,14 +375,6 @@ document.addEventListener('keydown',event=>{
   marketToggle.focus();
  }
 });
-const floridaMarket=document.querySelector('.map-state-fl');
-if(floridaMarket){
- const setFloridaLift=lifted=>floridaMarket.classList.toggle('is-lifted',lifted);
- floridaMarket.addEventListener('pointerenter',()=>setFloridaLift(true));
- floridaMarket.addEventListener('pointerleave',()=>setFloridaLift(false));
- floridaMarket.addEventListener('focus',()=>setFloridaLift(true));
- floridaMarket.addEventListener('blur',()=>setFloridaLift(false));
-}
 </script>
 </body>
 </html>
