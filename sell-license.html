@@ -138,12 +138,12 @@ textarea{min-height:118px;resize:vertical}
 <nav class="market-state-list" aria-label="States">
 <a href="https://www.floridaliquorlicensemarket.com/" data-market-state="Florida">Florida</a>
 <a href="/browse-markets.html?state=California" data-market-state="California">California</a>
-<a href="/browse-markets.html?state=Arizona" data-market-state="Arizona">Arizona</a>
-<a href="/browse-markets.html?state=New%20Mexico" data-market-state="New Mexico">New Mexico</a>
-<a href="/browse-markets.html?state=Michigan" data-market-state="Michigan">Michigan</a>
-<a href="/browse-markets.html?state=Ohio" data-market-state="Ohio">Ohio</a>
-<a href="/browse-markets.html?state=Pennsylvania" data-market-state="Pennsylvania">Pennsylvania</a>
-<a href="/browse-markets.html?state=New%20Jersey" data-market-state="New Jersey">New Jersey</a>
+<a href="/arizona/licenses-for-sale/" data-market-state="Arizona">Arizona</a>
+<a href="/new-mexico/licenses-for-sale/" data-market-state="New Mexico">New Mexico</a>
+<a href="/michigan/licenses-for-sale/" data-market-state="Michigan">Michigan</a>
+<a href="/ohio/licenses-for-sale/" data-market-state="Ohio">Ohio</a>
+<a href="/pennsylvania/licenses-for-sale/" data-market-state="Pennsylvania">Pennsylvania</a>
+<a href="/new-jersey/licenses-for-sale/" data-market-state="New Jersey">New Jersey</a>
 </nav>
 <section class="header-market-detail" aria-live="polite">
 <div class="header-market-head"><h2 id="sell-market-title">Florida</h2><span id="sell-market-count">67 counties</span></div>
@@ -412,18 +412,18 @@ textarea{min-height:118px;resize:vertical}
   'Other / not sure':'Use this option when the exact license category requires review.'
  };
  function marketSlug(name){return name.toLowerCase().replace(/\s+county$/,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+ var stateMarketSlugs={'California':'california','Arizona':'arizona','New Mexico':'new-mexico','Michigan':'michigan','Ohio':'ohio','Pennsylvania':'pennsylvania','New Jersey':'new-jersey'};
+ function stateListingsBase(state){return '/'+stateMarketSlugs[state]+'/licenses-for-sale/'}
  function marketTypeHref(state,type){
   if(state==='Florida'){
    var query=type==='4COP'?'4COP Quota':type==='3PS'?'3PS Quota / Package Store':type;
    return 'https://www.floridaliquorlicensemarket.com/listings?type='+encodeURIComponent(query)+'&status=available'
   }
-  if(state==='California')return '/california/licenses-for-sale/?category='+encodeURIComponent(type);
-  return '/browse-markets.html?state='+encodeURIComponent(state)+'&type='+encodeURIComponent(type)
+  return stateListingsBase(state)+'?category='+encodeURIComponent(type)
  }
  function marketCountyHref(state,county){
   if(state==='Florida')return 'https://www.floridaliquorlicensemarket.com/counties/'+marketSlug(county);
-  if(state==='California')return '/california/licenses-for-sale/?county='+encodeURIComponent(county.replace(/\s+County$/,''));
-  return '/browse-markets.html?state='+encodeURIComponent(state)+'&county='+encodeURIComponent(county)
+  return stateListingsBase(state)+'?county='+encodeURIComponent(county.replace(/\s+County$/,''))
  }
  function renderMenuCounties(filter){
   var counties=(countiesByState[activeMenuState]||[]).filter(function(county){return !filter||county.toLowerCase().includes(filter.toLowerCase())});
