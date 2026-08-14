@@ -16,72 +16,8 @@ jobs:
         with:
           ref: feature/sell-license-menu
           fetch-depth: 0
-      - name: Add Sell A License dropdown
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path('index.html')
-          html = path.read_text(encoding='utf-8')
-
-          if 'id="sell-license-menu"' not in html:
-              css = r'''
-.sell-menu{position:absolute;z-index:44;left:45.8%;top:11.2%;width:22.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
-.sell-menu[hidden]{display:none}
-.sell-menu a{display:flex;align-items:center;justify-content:space-between;gap:.7vw;padding:.5vw .8vw;color:var(--white);font-size:clamp(7px,.92vw,14px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95);transition:color .14s ease,background .14s ease,box-shadow .14s ease}
-.sell-menu a:hover,.sell-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none;box-shadow:0 0 .55vw rgba(237,169,26,.35)}
-.sell-menu-badge{flex:0 0 auto;padding:.14em .42em;border:1px solid rgba(237,169,26,.75);border-radius:99px;color:var(--gold);font-size:.72em;font-style:normal;font-weight:800;letter-spacing:.05em;white-space:nowrap}
-.sell-menu a:hover .sell-menu-badge,.sell-menu a:focus-visible .sell-menu-badge{color:#071d33;border-color:#071d33}
-@media(max-width:700px){.sell-menu{left:39%;top:10.8%;width:46%;padding:.55vw}}
-'''
-              html = html.replace('.resources-menu{', css + '\n.resources-menu{', 1)
-
-              old = '<a class="hotspot header-menu-item sell" href="/sell-license.html" aria-label="Sell a License"><span>Sell a License</span></a>'
-              new = '''<a class="hotspot header-menu-item sell" id="header-sell-toggle" href="/sell-license.html" aria-label="Sell a License" aria-haspopup="menu" aria-expanded="false" aria-controls="sell-license-menu"><span>Sell a License <b class="markets-caret" aria-hidden="true">⌄</b></span></a>
-<nav class="sell-menu" id="sell-license-menu" aria-label="Sell a liquor license" hidden>
-<a href="/sell-license.html"><span>List Your License</span><em class="sell-menu-badge">LIST NOW</em></a>
-<a href="/license-value.html"><span>What Is My License Worth?</span></a>
-<a href="/seller-options.html"><span>Seller Options</span></a>
-<a href="/how-selling-works.html"><span>How Selling Works</span></a>
-<a href="/brokers-professionals.html"><span>For Brokers &amp; Professionals</span></a>
-<a href="/seller-resources.html"><span>Seller Resources</span></a>
-</nav>'''
-              if old not in html:
-                  raise SystemExit('Sell A License header link pattern not found')
-              html = html.replace(old, new, 1)
-
-              script = r'''
-<script id="sell-license-menu-script">
-(()=>{
- const toggle=document.getElementById('header-sell-toggle');
- const menu=document.getElementById('sell-license-menu');
- if(!toggle||!menu)return;
- const close=()=>{menu.hidden=true;toggle.setAttribute('aria-expanded','false')};
- const open=()=>{
-  ['market-menu','market-detail','financing-menu','resources-menu'].forEach(id=>{const el=document.getElementById(id);if(el)el.hidden=true});
-  ['header-markets-toggle','header-financing-toggle','header-resources-toggle'].forEach(id=>{const el=document.getElementById(id);if(el)el.setAttribute('aria-expanded','false')});
-  menu.hidden=false;
-  toggle.setAttribute('aria-expanded','true');
- };
- toggle.addEventListener('click',event=>{
-  event.preventDefault();
-  event.stopPropagation();
-  menu.hidden?open():close();
- });
- menu.addEventListener('click',event=>event.stopPropagation());
- document.addEventListener('click',close);
- document.addEventListener('keydown',event=>{
-  if(event.key==='Escape'&&!menu.hidden){close();toggle.focus()}
- });
-})();
-</script>
-'''
-              if '</body>' not in html:
-                  raise SystemExit('Closing body tag not found')
-              html = html.replace('</body>', script + '\n</body>', 1)
-              path.write_text(html, encoding='utf-8')
-          PY
+      - name: Build dropdown into homepage
+        run: python tools/patch_sell_menu.py
       - name: Commit built menu
         shell: bash
         run: |
