@@ -419,6 +419,11 @@ function floridaCountyUrl(county){
  const slug=county.replace(/\s+County$/,'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'').toLowerCase();
  return 'https://www.floridaliquorlicensemarket.com/counties/'+slug;
 }
+const californiaListingsBase='/california/licenses-for-sale/';
+function californiaFilterUrl(filter,value){
+ const cleaned=filter==='county'?value.replace(/\s+County$/,''):value;
+ return californiaListingsBase+'?'+filter+'='+encodeURIComponent(cleaned);
+}
 function renderMarketCounties(state,query=''){
  const data=marketData[state];
  if(!data)return;
@@ -434,11 +439,15 @@ function renderMarketCounties(state,query=''){
  }
  marketCounties.replaceChildren(...counties.map(county=>{
   const row=document.createElement('li');
-  const item=document.createElement(state==='Florida'?'a':'span');
+  const linked=state==='Florida'||state==='California';
+  const item=document.createElement(linked?'a':'span');
   item.textContent=county;
   if(state==='Florida'){
    item.href=floridaCountyUrl(county);
    item.setAttribute('aria-label','View available liquor licenses in '+county);
+  }else if(state==='California'){
+   item.href=californiaFilterUrl('county',county);
+   item.setAttribute('aria-label','View California liquor licenses in '+county);
   }else{
    item.tabIndex=0;
   }
@@ -454,12 +463,16 @@ function renderMarketDetail(state){
  marketDetailCount.textContent=data.counties.length+' COUNTIES';
  hideLicenseTypeTooltip();
  marketLicenseTypes.replaceChildren(...data.types.map(type=>{
-  const item=document.createElement(state==='Florida'?'a':'span');
+  const linked=state==='Florida'||state==='California';
+  const item=document.createElement(linked?'a':'span');
   item.textContent=type;
   item.setAttribute('aria-describedby','license-type-tooltip');
   if(state==='Florida'){
    item.href=floridaFilterUrl('type',type);
    item.setAttribute('aria-label','View available '+type+' listings in Florida');
+  }else if(state==='California'){
+   item.href=californiaFilterUrl('category',type);
+   item.setAttribute('aria-label','View California '+type+' license listings');
   }else{
    item.tabIndex=0;
   }
