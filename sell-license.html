@@ -430,14 +430,14 @@ textarea{min-height:118px;resize:vertical}
   if(event.key==='Escape'){menuDropdown.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.focus()}
  });
  renderMenuState('Florida');
- function setStep(index){
+ function setStep(index,shouldScroll){
   current=Math.max(0,Math.min(index,steps.length-1));
   steps.forEach(function(step,i){step.classList.toggle('active',i===current)});
   indicators.forEach(function(item,i){item.classList.toggle('active',i===current);item.classList.toggle('complete',i<current)});
   bar.style.width=((current+1)/steps.length*100)+'%';
   counter.textContent='Step '+(current+1)+' of '+steps.length;
   if(current===4)renderReview();
-  document.querySelector('.form-shell').scrollIntoView({behavior:'smooth',block:'start'});
+  if(shouldScroll!==false)document.querySelector('.form-shell').scrollIntoView({behavior:'smooth',block:'start'});
  }
  function validateCurrent(){
   var fields=Array.from(steps[current].querySelectorAll('input,select,textarea'));
@@ -491,7 +491,7 @@ textarea{min-height:118px;resize:vertical}
  });
  document.getElementById('print-summary').addEventListener('click',function(){window.print()});
  try{localStorage.removeItem('llmSellerDraft')}catch(e){}
- setStep(0);
+ setStep(0,false);
 })();
 </script>
 </body>
