@@ -80,7 +80,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .state-hit{fill:rgba(255,255,255,.001);stroke:transparent;pointer-events:all}
 .map-state:hover .state-underlay,.map-state:focus-visible .state-underlay{opacity:1}
 .map-state:hover .state-piece,.map-state:focus-visible .state-piece{opacity:1;transform:scale(1.2)}
-.map-state-fl .state-piece{filter:drop-shadow(0 0 0 rgba(0,0,0,0));transition:opacity .08s linear,transform .22s cubic-bezier(.2,.8,.2,1),filter .22s cubic-bezier(.2,.8,.2,1)}
+.map-state-fl .state-underlay-fl{fill:#0b2742;stroke:#0b2742;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}\n.map-state-fl .state-piece{filter:drop-shadow(0 0 0 rgba(0,0,0,0));transition:opacity .08s linear,transform .22s cubic-bezier(.2,.8,.2,1),filter .22s cubic-bezier(.2,.8,.2,1)}
 .map-state-fl:hover .state-piece,.map-state-fl:focus-visible .state-piece,.map-state-fl.is-lifted .state-piece{opacity:1;transform:translateY(-16px);filter:drop-shadow(0 9px 7px rgba(0,0,0,.58))}
 .map-state-fl.is-lifted .state-underlay{opacity:1}
 @media(prefers-reduced-motion:reduce){.state-underlay,.state-piece{transition:none}}
@@ -198,7 +198,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <path class="state-hit" transform="rotate(-2 987.5 355)" d="M798 384L873 389L870 460L797 462Z"/>
 </a>
 <a class="map-state map-state-fl" href="https://www.floridaliquorlicensemarket.com/" aria-label="Florida market">
-<rect class="state-underlay" x="1111" y="446" width="145" height="117" mask="url(#state-mask-fl-cover)"/>
+<path class="state-underlay state-underlay-fl" transform="rotate(-2 987.5 355)" d="M1118 463L1175 463L1186 472L1198 476L1206 489L1214 511L1229 538L1240 549L1233 562L1218 560L1208 542L1194 520L1181 497L1163 478L1138 477L1122 472Z"/>
 <g class="state-piece" style="transform-origin:1183.5px 504.5px">
 <g mask="url(#state-mask-fl)"><image href="/hero-tilted.webp" x="0" y="0" width="1400" height="729" preserveAspectRatio="none"/></g>
 <text class="state-abbr" x="1219" y="520">FL</text>
