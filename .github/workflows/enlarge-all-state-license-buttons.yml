@@ -1,0 +1,37 @@
+name: Enlarge all state license buttons
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/enlarge-all-state-license-buttons.yml'
+permissions:
+  contents: write
+jobs:
+  update-buttons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply large license button styling to every state
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          old='.license-type-list a{padding:.44vw .72vw;font-size:clamp(8px,.82vw,13px);font-weight:700;min-width:3.6vw;justify-content:center}'
+          new='.license-type-list a,.license-type-list span{padding:.44vw .72vw;font-size:clamp(8px,.82vw,13px);font-weight:700;min-width:3.6vw;justify-content:center}'
+          if old not in s:
+              raise SystemExit('Expected Florida-only enlarged button rule not found')
+          p.write_text(s.replace(old,new,1))
+          PY
+      - name: Remove temporary workflow
+        run: rm .github/workflows/enlarge-all-state-license-buttons.yml
+      - name: Commit and push
+        run: |
+          git config user.name 'Zeitgeist23'
+          git config user.email 'JWigg023@gmail.com'
+          git add index.html .github/workflows/enlarge-all-state-license-buttons.yml
+          git commit -m 'Enlarge license type buttons in all state menus'
+          git pull --rebase origin main
+          git push origin main
