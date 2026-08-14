@@ -10,6 +10,7 @@ on:
     paths:
       - '.github/workflows/sync-six-state-inventory.yml'
       - 'tools/update_multi_state_inventory.py'
+      - 'tools/inventory_dedupe.py'
       - 'tools/build_state_inventory_pages.py'
 
 permissions:
@@ -59,8 +60,6 @@ jobs:
           browse = Path('browse-markets.html')
           html = browse.read_text(encoding='utf-8')
           for state, slug in states.items():
-              if state == 'Florida':
-                  continue
               pattern = re.compile(r'<article class="market-card">(?P<body>.*?<h2 class="state-name">' + re.escape(state) + r'</h2>.*?)</article>', re.S)
               repl = lambda m, s=state, sl=slug: f'<a class="market-card florida-card" href="/{sl}/licenses-for-sale/" aria-label="Browse {s} liquor license listings">' + m.group('body') + '</a>'
               html, _ = pattern.subn(repl, html, count=1)
