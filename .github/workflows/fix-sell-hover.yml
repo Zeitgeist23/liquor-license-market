@@ -1,0 +1,84 @@
+name: Fix Sell menu hover
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  fix-hover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Match Sell menu hover behavior
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('index.html')
+          html = path.read_text(encoding='utf-8')
+          old = '''<script id="sell-license-menu-script">
+(()=>{
+ const toggle=document.getElementById('header-sell-toggle');
+ const menu=document.getElementById('sell-license-menu');
+ if(!toggle||!menu)return;
+ const close=()=>{menu.hidden=true;toggle.setAttribute('aria-expanded','false')};
+ const open=()=>{
+  ['market-menu','market-detail','financing-menu','resources-menu'].forEach(id=>{const el=document.getElementById(id);if(el)el.hidden=true});
+  ['header-markets-toggle','header-financing-toggle','header-resources-toggle'].forEach(id=>{const el=document.getElementById(id);if(el)el.setAttribute('aria-expanded','false')});
+  menu.hidden=false;
+  toggle.setAttribute('aria-expanded','true');
+ };
+ toggle.addEventListener('click',event=>{
+  event.preventDefault();
+  event.stopPropagation();
+  menu.hidden?open():close();
+ });
+ menu.addEventListener('click',event=>event.stopPropagation());
+ document.addEventListener('click',close);
+ document.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&!menu.hidden){close();toggle.focus()}
+ });
+})();
+</script>'''
+          new = '''<script id="sell-license-menu-script">
+(()=>{
+ const toggle=document.getElementById('header-sell-toggle');
+ const menu=document.getElementById('sell-license-menu');
+ if(!toggle||!menu)return;
+ let timer;
+ const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
+ const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};
+ toggle.addEventListener('pointerenter',open);
+ toggle.addEventListener('pointerleave',close);
+ toggle.addEventListener('focus',open);
+ menu.addEventListener('pointerenter',open);
+ menu.addEventListener('pointerleave',close);
+ menu.addEventListener('focusin',open);
+ menu.addEventListener('focusout',close);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+})();
+</script>'''
+          if old not in html:
+              raise SystemExit('Current Sell menu script not found')
+          html = html.replace(old, new, 1)
+          path.write_text(html, encoding='utf-8')
+          PY
+      - name: Commit hover fix
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Sell menu hover already fixed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Make Sell A License menu open on hover"
+          git push origin HEAD:main
