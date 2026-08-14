@@ -1,0 +1,53 @@
+name: Apply approved LLM monogram
+
+on:
+  push:
+    paths:
+      - '.github/workflows/monogram-option2-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-homepage-monogram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Replace homepage crest with approved LLM monogram
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          old_css = '.hero img.hero-crest-zoom{z-index:13;transform:scale(1.1);transform-origin:17.3% 23.4%;clip-path:polygon(15.9% 20.2%,18.7% 20.2%,18.7% 26.6%,15.9% 26.6%)}'
+          new_css = '''.hero img.hero-crest-zoom{display:none}\n.hero-crest-erase{position:absolute;z-index:13;left:13.95%;top:18.85%;width:6.7%;height:8.9%;background:radial-gradient(ellipse at center,#0d243f 0 58%,rgba(13,36,63,.96) 72%,rgba(13,36,63,0) 100%);pointer-events:none}\n.hero-llm-monogram{position:absolute;z-index:15;left:14.35%;top:19.3%;width:5.9%;height:7.6%;display:flex;align-items:center;justify-content:center;color:#eda91a;font:400 clamp(20px,2.15vw,34px)/1 Georgia,"Times New Roman",serif;letter-spacing:-.075em;text-shadow:0 0 .24vw rgba(237,169,26,.2);pointer-events:none;user-select:none}'''
+          if old_css not in s:
+              raise SystemExit('Expected hero crest CSS was not found; refusing to make an unsafe edit.')
+          s = s.replace(old_css, new_css, 1)
+
+          old_lines = '.hero-crest-lines::before,.hero-crest-lines::after{content:"";flex:0 0 8.6vw;height:2px;background:linear-gradient(90deg,rgba(237,169,26,.2),#eda91a 24%,#eda91a 76%,rgba(237,169,26,.2));box-shadow:0 0 .22vw rgba(237,169,26,.3)}'
+          new_lines = '.hero-crest-lines::before,.hero-crest-lines::after{content:"";flex:0 0 7.85vw;height:2px;background:linear-gradient(90deg,rgba(237,169,26,.2),#eda91a 24%,#eda91a 76%,rgba(237,169,26,.2));box-shadow:0 0 .22vw rgba(237,169,26,.3)}'
+          if old_lines not in s:
+              raise SystemExit('Expected crest line CSS was not found; refusing to make an unsafe edit.')
+          s = s.replace(old_lines, new_lines, 1)
+
+          old_html = '<img class="hero-crest-zoom" src="/hero-tilted.webp" alt="" aria-hidden="true">\n<div class="hero-crest-lines" aria-hidden="true"></div>'
+          new_html = '<div class="hero-crest-erase" aria-hidden="true"></div>\n<div class="hero-crest-lines" aria-hidden="true"></div>\n<div class="hero-llm-monogram" aria-label="LLM">LLM</div>'
+          if old_html not in s:
+              raise SystemExit('Expected homepage crest markup was not found; refusing to make an unsafe edit.')
+          s = s.replace(old_html, new_html, 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit homepage monogram update
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Replace homepage crest with approved LLM monogram"
+          git push origin HEAD:main
