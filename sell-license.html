@@ -15,10 +15,39 @@ a{color:inherit}
 .brand{position:absolute;left:0;top:0;width:calc(18px + 22.23vw);height:100%;overflow:hidden;text-decoration:none}
 .brand-logo{position:absolute;left:18px;top:11px;width:100vw;height:calc(100vw * .520714);object-fit:fill;display:block;transform-origin:0 0;transform:scale(.78);clip-path:polygon(0 .35%,28.5% .35%,28.5% 10.7%,0 10.7%);pointer-events:none;user-select:none}
 .nav{display:flex;align-items:center;gap:8px}
-.nav a{padding:10px 11px;color:var(--white);font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;border-radius:7px;transition:.18s ease}
-.nav a:hover,.nav a:focus-visible{color:var(--gold);transform:scale(1.05);outline:none}
+.nav>a,.nav-trigger{display:inline-flex;align-items:center;gap:5px;padding:10px 11px;border:0;color:var(--white);background:transparent;font:700 13px Arial,Helvetica,sans-serif;text-decoration:none;white-space:nowrap;border-radius:7px;cursor:pointer;transition:.18s ease}
+.nav>a:hover,.nav>a:focus-visible,.nav-trigger:hover,.nav-trigger:focus-visible,.nav-dropdown:focus-within>.nav-trigger{color:var(--gold);transform:scale(1.1);outline:none}
 .nav .active{color:var(--gold)}
-.client-link{padding:10px 14px;border:1px solid rgba(237,169,26,.72)!important}
+.client-link{padding:10px 14px!important;border:1px solid rgba(237,169,26,.72)!important}
+.nav-dropdown{position:relative}
+.nav-caret{color:var(--gold);font-size:12px;line-height:1}
+.simple-menu,.header-market-menu{position:absolute;z-index:120;top:100%;display:none;padding:8px;border:1px solid var(--gold);border-radius:10px;background:rgba(5,24,43,.99);box-shadow:0 18px 42px rgba(0,0,0,.45)}
+.nav-dropdown:hover>.simple-menu,.nav-dropdown:focus-within>.simple-menu{display:grid}
+.simple-menu{left:50%;width:250px;transform:translateX(-50%);gap:5px}
+.simple-menu a,.market-state-list a{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid rgba(237,169,26,.28);border-radius:7px;color:#eef3f8;background:#0d2947;font-size:13px;font-weight:700;text-decoration:none;transition:.15s ease}
+.simple-menu a:hover,.simple-menu a:focus-visible,.market-state-list a:hover,.market-state-list a:focus-visible,.market-state-list a.is-active{color:#071d33;background:var(--gold);border-color:var(--gold);outline:none;box-shadow:0 0 14px rgba(237,169,26,.24)}
+.header-market-menu{left:50%;width:min(790px,92vw);grid-template-columns:205px minmax(0,1fr);gap:10px;transform:translateX(-31%);padding:10px}
+.nav-dropdown:hover>.header-market-menu,.nav-dropdown:focus-within>.header-market-menu,.nav-dropdown.is-open>.header-market-menu{display:grid}
+.market-state-list{display:grid;align-content:start;gap:5px;padding:6px;border:1px solid rgba(237,169,26,.28);border-radius:9px;background:#071d33}
+.market-state-list a::after{content:"›";color:var(--gold);font-size:18px}
+.market-state-list a:hover::after,.market-state-list a:focus-visible::after,.market-state-list a.is-active::after{color:#071d33}
+.header-market-detail{min-width:0;padding:14px 16px;border:1px solid rgba(237,169,26,.28);border-radius:9px;background:#071d33}
+.header-market-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:8px;border-bottom:1px solid rgba(237,169,26,.3)}
+.header-market-head h2{margin:0;color:var(--gold);font:700 27px Georgia,serif}
+.header-market-head span{color:#bdc9d5;font-size:12px}
+.header-market-label{display:block;margin:11px 0 7px;color:#fff;font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.header-type-list{display:flex;flex-wrap:wrap;gap:6px}
+.header-type-list a{padding:6px 10px;border:1px solid rgba(237,169,26,.42);border-radius:999px;color:#f3f6f8;background:#102e4f;font-size:12px;font-weight:800;text-decoration:none;transition:.14s ease}
+.header-type-list a:hover,.header-type-list a:focus-visible{color:#071d33;background:var(--gold);border-color:var(--gold);transform:translateY(-1px);outline:none;box-shadow:0 0 12px rgba(237,169,26,.3)}
+.header-type-tooltip{margin-top:8px;padding:9px 11px;border-left:3px solid var(--gold);border-radius:5px;color:#eff4f8;background:#102e4f;font-size:13px;line-height:1.4}
+.header-type-tooltip[hidden]{display:none}
+.header-county-search{width:100%;min-height:36px;margin-bottom:6px;padding:7px 10px;border:1px solid rgba(237,169,26,.4);border-radius:6px;background:#0c233b;color:#fff;font:600 13px Arial,Helvetica,sans-serif}
+.header-county-list{max-height:220px;overflow-y:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 12px;margin:0;padding:0 6px 0 0;list-style:none;scrollbar-color:var(--gold) rgba(255,255,255,.08)}
+.header-county-list li{border-bottom:1px solid rgba(255,255,255,.06)}
+.header-county-list a{display:block;padding:5px 7px;border-radius:4px;color:#dce7f1;font-size:13px;text-decoration:none}
+.header-county-list a::before{content:"•";margin-right:6px;color:var(--gold)}
+.header-county-list a:hover,.header-county-list a:focus-visible{color:#071d33;background:var(--gold);outline:none}
+.header-county-list a:hover::before,.header-county-list a:focus-visible::before{color:#071d33}
 .hero{border-bottom:1px solid rgba(237,169,26,.42)}
 .hero-inner{max-width:1180px;margin:0 auto;padding:64px 28px 54px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);gap:52px;align-items:end}
 .eyebrow{margin:0 0 13px;color:var(--gold);font-size:13px;font-weight:900;letter-spacing:.17em;text-transform:uppercase}
@@ -92,7 +121,7 @@ textarea{min-height:118px;resize:vertical}
 .confirm-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
 .footer{padding:26px 28px;border-top:1px solid rgba(237,169,26,.28);background:#03172a;color:#91a5b7;text-align:center;font-size:12px;line-height:1.6}
 .footer a{color:var(--gold);text-decoration:none}
-@media(max-width:1000px){.nav a:not(.active):not(.client-link){display:none}.hero-inner{grid-template-columns:1fr}.hero-proof{grid-template-columns:repeat(3,1fr)}.flow{grid-template-columns:220px minmax(0,1fr)}}
+@media(max-width:1000px){.nav>a:not(.active):not(.client-link),.nav-dropdown{display:none}.hero-inner{grid-template-columns:1fr}.hero-proof{grid-template-columns:repeat(3,1fr)}.flow{grid-template-columns:220px minmax(0,1fr)}}
 @media(max-width:760px){.site-header{height:76px;padding:0 16px}.client-link{padding:8px 10px!important;font-size:11px!important}.hero-inner{padding:45px 18px 38px}.hero-proof{grid-template-columns:1fr}.page{padding:28px 18px 60px}.flow{grid-template-columns:1fr}.flow-nav{position:relative;top:auto}.step-list{grid-template-columns:repeat(5,1fr);gap:4px}.step-list li{display:block;padding:7px 2px;text-align:center;font-size:0}.step-list .number{margin:auto}.help-card{display:none}.fields,.review-grid{grid-template-columns:1fr}.step{padding:26px 18px 22px}.form-top{padding:17px 18px}.review-block.full{grid-column:auto}}
 @media(max-width:480px){h1{font-size:42px}.brand{width:51vw}.brand-logo{width:180vw;height:calc(180vw * .520714)}.nav .active{display:none}.actions{align-items:stretch}.btn{flex:1;padding:11px 10px;font-size:12px}}
 </style>
@@ -102,10 +131,55 @@ textarea{min-height:118px;resize:vertical}
 <a class="brand" href="/" aria-label="Liquor License Market home"><img class="brand-logo" src="/hero-tilted.webp" alt="Liquor License Market"></a>
 <nav class="nav" aria-label="Primary navigation">
 <a href="/">Home</a>
-<a href="/browse-markets.html">Browse Markets</a>
+<div class="nav-dropdown market-dropdown" id="market-dropdown">
+<button class="nav-trigger" id="sell-markets-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="sell-market-menu">Browse Markets <span class="nav-caret" aria-hidden="true">⌄</span></button>
+<div class="header-market-menu" id="sell-market-menu" aria-label="Active liquor license markets">
+<nav class="market-state-list" aria-label="States">
+<a href="https://www.floridaliquorlicensemarket.com/" data-market-state="Florida">Florida</a>
+<a href="/browse-markets.html?state=California" data-market-state="California">California</a>
+<a href="/browse-markets.html?state=Arizona" data-market-state="Arizona">Arizona</a>
+<a href="/browse-markets.html?state=New%20Mexico" data-market-state="New Mexico">New Mexico</a>
+<a href="/browse-markets.html?state=Michigan" data-market-state="Michigan">Michigan</a>
+<a href="/browse-markets.html?state=Ohio" data-market-state="Ohio">Ohio</a>
+<a href="/browse-markets.html?state=Pennsylvania" data-market-state="Pennsylvania">Pennsylvania</a>
+<a href="/browse-markets.html?state=New%20Jersey" data-market-state="New Jersey">New Jersey</a>
+</nav>
+<section class="header-market-detail" aria-live="polite">
+<div class="header-market-head"><h2 id="sell-market-title">Florida</h2><span id="sell-market-count">67 counties</span></div>
+<span class="header-market-label">License types</span>
+<div class="header-type-list" id="sell-market-types"></div>
+<div class="header-type-tooltip" id="sell-type-tooltip" role="tooltip" hidden></div>
+<span class="header-market-label">Counties</span>
+<input class="header-county-search" id="sell-county-search" type="search" placeholder="Find a county" aria-label="Find a county">
+<ul class="header-county-list" id="sell-market-counties" aria-label="Counties"></ul>
+</section>
+</div>
+</div>
 <a class="active" href="/sell-license.html" aria-current="page">Sell a License</a>
-<a href="/financing.html">Financing</a>
-<a href="/resources.html">Resources</a>
+<div class="nav-dropdown">
+<a class="nav-trigger" href="/financing.html">Financing <span class="nav-caret" aria-hidden="true">⌄</span></a>
+<nav class="simple-menu" aria-label="Financing pages">
+<a href="/how-financing-works.html">How Financing Works</a>
+<a href="/borrow-to-buy-a-license.html">Borrow to Buy a License</a>
+<a href="/refinance-a-license.html">Refinance a License</a>
+<a href="/get-pre-qualified.html">Get Pre-Qualified</a>
+<a href="/lend-against-a-license.html">Lend Against a License</a>
+<a href="/lender-opportunities.html">Lender Opportunities</a>
+<a href="/become-a-lender.html">Become a Lender</a>
+</nav>
+</div>
+<div class="nav-dropdown">
+<a class="nav-trigger" href="/resources.html">Resources <span class="nav-caret" aria-hidden="true">⌄</span></a>
+<nav class="simple-menu" aria-label="Resource pages">
+<a href="/liquor-license-101.html">Liquor License 101</a>
+<a href="/license-types-by-state.html">License Types by State</a>
+<a href="/quota-vs-non-quota.html">Quota vs. Non-Quota States</a>
+<a href="/buying-a-license.html">Buying a License</a>
+<a href="/selling-a-license.html">Selling a License</a>
+<a href="/transfer-and-escrow.html">Transfer &amp; Escrow</a>
+<a href="/faqs.html">FAQs</a>
+</nav>
+</div>
 <a href="/about.html">About Us</a>
 <a href="/contact.html">Contact</a>
 <a class="client-link" href="/client-login.html">Client Login</a>
@@ -246,6 +320,84 @@ textarea{min-height:118px;resize:vertical}
  var countiesByState={"Florida":["Alachua County","Baker County","Bay County","Bradford County","Brevard County","Broward County","Calhoun County","Charlotte County","Citrus County","Clay County","Collier County","Columbia County","DeSoto County","Dixie County","Duval County","Escambia County","Flagler County","Franklin County","Gadsden County","Gilchrist County","Glades County","Gulf County","Hamilton County","Hardee County","Hendry County","Hernando County","Highlands County","Hillsborough County","Holmes County","Indian River County","Jackson County","Jefferson County","Lafayette County","Lake County","Lee County","Leon County","Levy County","Liberty County","Madison County","Manatee County","Marion County","Martin County","Miami-Dade County","Monroe County","Nassau County","Okaloosa County","Okeechobee County","Orange County","Osceola County","Palm Beach County","Pasco County","Pinellas County","Polk County","Putnam County","Santa Rosa County","Sarasota County","Seminole County","St. Johns County","St. Lucie County","Sumter County","Suwannee County","Taylor County","Union County","Volusia County","Wakulla County","Walton County","Washington County"],"California":["Alameda County","Alpine County","Amador County","Butte County","Calaveras County","Colusa County","Contra Costa County","Del Norte County","El Dorado County","Fresno County","Glenn County","Humboldt County","Imperial County","Inyo County","Kern County","Kings County","Lake County","Lassen County","Los Angeles County","Madera County","Marin County","Mariposa County","Mendocino County","Merced County","Modoc County","Mono County","Monterey County","Napa County","Nevada County","Orange County","Placer County","Plumas County","Riverside County","Sacramento County","San Benito County","San Bernardino County","San Diego County","San Francisco County","San Joaquin County","San Luis Obispo County","San Mateo County","Santa Barbara County","Santa Clara County","Santa Cruz County","Shasta County","Sierra County","Siskiyou County","Solano County","Sonoma County","Stanislaus County","Sutter County","Tehama County","Trinity County","Tulare County","Tuolumne County","Ventura County","Yolo County","Yuba County"],"Arizona":["Apache County","Cochise County","Coconino County","Gila County","Graham County","Greenlee County","La Paz County","Maricopa County","Mohave County","Navajo County","Pima County","Pinal County","Santa Cruz County","Yavapai County","Yuma County"],"New Mexico":["Bernalillo County","Catron County","Chaves County","Cibola County","Colfax County","Curry County","De Baca County","DoÐa Ana County","Eddy County","Grant County","Guadalupe County","Harding County","Hidalgo County","Lea County","Lincoln County","Los Alamos County","Luna County","McKinley County","Mora County","Otero County","Quay County","Rio Arriba County","Roosevelt County","San Juan County","San Miguel County","Sandoval County","Santa Fe County","Sierra County","Socorro County","Taos County","Torrance County","Union County","Valencia County"],"Michigan":["Alcona County","Alger County","Allegan County","Alpena County","Antrim County","Arenac County","Baraga County","Barry County","Bay County","Benzie County","Berrien County","Branch County","Calhoun County","Cass County","Charlevoix County","Cheboygan County","Chippewa County","Clare County","Clinton County","Crawford County","Delta County","Dickinson County","Eaton County","Emmet County","Genesee County","Gladwin County","Gogebic County","Grand Traverse County","Gratiot County","Hillsdale County","Houghton County","Huron County","Ingham County","Ionia County","Iosco County","Iron County","Isabella County","Jackson County","Kalamazoo County","Kalkaska County","Kent County","Keweenaw County","Lake County","Lapeer County","Leelanau County","Lenawee County","Livingston County","Luce County","Mackinac County","Macomb County","Manistee County","Marquette County","Mason County","Mecosta County","Menominee County","Midland County","Missaukee County","Monroe County","Montcalm County","Montmorency County","Muskegon County","Newaygo County","Oakland County","Oceana County","Ogemaw County","Ontonagon County","Osceola County","Oscoda County","Otsego County","Ottawa County","Presque Isle County","Roscommon County","Saginaw County","Sanilac County","Schoolcraft County","Shiawassee County","St. Clair County","St. Joseph County","Tuscola County","Van Buren County","Washtenaw County","Wayne County","Wexford County"],"Ohio":["Adams County","Allen County","Ashland County","Ashtabula County","Athens County","Auglaize County","Belmont County","Brown County","Butler County","Carroll County","Champaign County","Clark County","Clermont County","Clinton County","Columbiana County","Coshocton County","Crawford County","Cuyahoga County","Darke County","Defiance County","Delaware County","Erie County","Fairfield County","Fayette County","Franklin County","Fulton County","Gallia County","Geauga County","Greene County","Guernsey County","Hamilton County","Hancock County","Hardin County","Harrison County","Henry County","Highland County","Hocking County","Holmes County","Huron County","Jackson County","Jefferson County","Knox County","Lake County","Lawrence County","Licking County","Logan County","Lorain County","Lucas County","Madison County","Mahoning County","Marion County","Medina County","Meigs County","Mercer County","Miami County","Monroe County","Montgomery County","Morgan County","Morrow County","Muskingum County","Noble County","Ottawa County","Paulding County","Perry County","Pickaway County","Pike County","Portage County","Preble County","Putnam County","Richland County","Ross County","Sandusky County","Scioto County","Seneca County","Shelby County","Stark County","Summit County","Trumbull County","Tuscarawas County","Union County","Van Wert County","Vinton County","Warren County","Washington County","Wayne County","Williams County","Wood County","Wyandot County"],"Pennsylvania":["Adams County","Allegheny County","Armstrong County","Beaver County","Bedford County","Berks County","Blair County","Bradford County","Bucks County","Butler County","Cambria County","Cameron County","Carbon County","Centre County","Chester County","Clarion County","Clearfield County","Clinton County","Columbia County","Crawford County","Cumberland County","Dauphin County","Delaware County","Elk County","Erie County","Fayette County","Forest County","Franklin County","Fulton County","Greene County","Huntingdon County","Indiana County","Jefferson County","Juniata County","Lackawanna County","Lancaster County","Lawrence County","Lebanon County","Lehigh County","Luzerne County","Lycoming County","McKean County","Mercer County","Mifflin County","Monroe County","Montgomery County","Montour County","Northampton County","Northumberland County","Perry County","Philadelphia County","Pike County","Potter County","Schuylkill County","Snyder County","Somerset County","Sullivan County","Susquehanna County","Tioga County","Union County","Venango County","Warren County","Washington County","Wayne County","Westmoreland County","Wyoming County","York County"],"New Jersey":["Atlantic County","Bergen County","Burlington County","Camden County","Cape May County","Cumberland County","Essex County","Gloucester County","Hudson County","Hunterdon County","Mercer County","Middlesex County","Monmouth County","Morris County","Ocean County","Passaic County","Salem County","Somerset County","Sussex County","Union County","Warren County"]};
  var genericTypes=['Quota / full liquor','On-premise restaurant or bar','Package store / off-premise','Beer and wine','Club or special-use','Other / not sure'];
  var floridaTypes=['4COP / 3PS Quota','5COP / 3APS','6COP / 3BPS','7COP / 3CPS','8COP / 3DPS','Other / not sure'];
+ var menuDropdown=document.getElementById('market-dropdown');
+ var menuToggle=document.getElementById('sell-markets-toggle');
+ var menuStateLinks=Array.from(document.querySelectorAll('[data-market-state]'));
+ var menuTitle=document.getElementById('sell-market-title');
+ var menuCount=document.getElementById('sell-market-count');
+ var menuTypes=document.getElementById('sell-market-types');
+ var menuTooltip=document.getElementById('sell-type-tooltip');
+ var menuCounties=document.getElementById('sell-market-counties');
+ var menuCountySearch=document.getElementById('sell-county-search');
+ var activeMenuState='Florida';
+ var floridaMenuTypes=['4COP','3PS','5COP','3APS','6COP','3BPS','7COP','3CPS','8COP','3DPS'];
+ var typeDescriptions={
+  '4COP':'Florida quota license generally used for beer, wine, and distilled-spirit sales for on-premise consumption.',
+  '3PS':'Florida quota package-store license generally used for sealed beer, wine, and distilled-spirit sales for off-premise consumption.',
+  '5COP':'Florida hotel or motel liquor-license category; privileges and eligibility depend on the applicable record and rules.',
+  '3APS':'Florida package-sales category associated with qualifying hotel or motel operations.',
+  '6COP':'Florida special-category license with privileges determined by the applicable statutory qualification.',
+  '3BPS':'Florida package-sales counterpart to the 6COP category.',
+  '7COP':'Florida special-category liquor license with eligibility and privileges subject to agency review.',
+  '3CPS':'Florida package-sales counterpart to the 7COP category.',
+  '8COP':'Florida special-category liquor license with privileges tied to qualifying operations.',
+  '3DPS':'Florida package-sales counterpart to the 8COP category.',
+  'Quota / full liquor':'Full-liquor privileges subject to the selected state’s license classes and local requirements.',
+  'On-premise restaurant or bar':'Alcohol sales for consumption at a qualifying restaurant, bar, or similar premises.',
+  'Package store / off-premise':'Sealed alcoholic-beverage sales for consumption away from the licensed premises.',
+  'Beer and wine':'Beer-and-wine privileges without full distilled-spirit authority.',
+  'Club or special-use':'Club, event, institutional, or other special-purpose license categories.',
+  'Other / not sure':'Use this option when the exact license category requires review.'
+ };
+ function marketSlug(name){return name.toLowerCase().replace(/\s+county$/,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+ function marketTypeHref(state,type){
+  if(state==='Florida'){
+   var query=type==='4COP'?'4COP Quota':type==='3PS'?'3PS Quota / Package Store':type;
+   return 'https://www.floridaliquorlicensemarket.com/listings?type='+encodeURIComponent(query)+'&status=available'
+  }
+  return '/browse-markets.html?state='+encodeURIComponent(state)+'&type='+encodeURIComponent(type)
+ }
+ function marketCountyHref(state,county){
+  if(state==='Florida')return 'https://www.floridaliquorlicensemarket.com/counties/'+marketSlug(county);
+  return '/browse-markets.html?state='+encodeURIComponent(state)+'&county='+encodeURIComponent(county)
+ }
+ function renderMenuCounties(filter){
+  var counties=(countiesByState[activeMenuState]||[]).filter(function(county){return !filter||county.toLowerCase().includes(filter.toLowerCase())});
+  menuCounties.innerHTML=counties.map(function(county){return '<li><a href="'+marketCountyHref(activeMenuState,county)+'">'+escapeHtml(county)+'</a></li>'}).join('');
+ }
+ function renderMenuState(state){
+  activeMenuState=state;
+  var counties=countiesByState[state]||[];
+  var types=state==='Florida'?floridaMenuTypes:genericTypes;
+  menuTitle.textContent=state;
+  menuCount.textContent=counties.length+' counties';
+  menuStateLinks.forEach(function(link){link.classList.toggle('is-active',link.dataset.marketState===state)});
+  menuTypes.innerHTML=types.map(function(type){return '<a href="'+marketTypeHref(state,type)+'" data-menu-type="'+escapeHtml(type)+'">'+escapeHtml(type)+'</a>'}).join('');
+  menuTooltip.hidden=true;
+  menuCountySearch.value='';
+  renderMenuCounties('');
+  menuTypes.querySelectorAll('[data-menu-type]').forEach(function(link){
+   function showTip(){var type=link.dataset.menuType;menuTooltip.textContent=typeDescriptions[type]||'Select to view matching '+state+' license opportunities.';menuTooltip.hidden=false}
+   link.addEventListener('mouseenter',showTip);
+   link.addEventListener('focus',showTip);
+  });
+ }
+ menuStateLinks.forEach(function(link){
+  link.addEventListener('mouseenter',function(){renderMenuState(link.dataset.marketState)});
+  link.addEventListener('focus',function(){renderMenuState(link.dataset.marketState)});
+ });
+ menuCountySearch.addEventListener('input',function(){renderMenuCounties(menuCountySearch.value.trim())});
+ menuToggle.addEventListener('click',function(){
+  var open=menuDropdown.classList.toggle('is-open');
+  menuToggle.setAttribute('aria-expanded',String(open));
+ });
+ document.addEventListener('click',function(event){
+  if(!menuDropdown.contains(event.target)){menuDropdown.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false')}
+ });
+ document.addEventListener('keydown',function(event){
+  if(event.key==='Escape'){menuDropdown.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.focus()}
+ });
+ renderMenuState('Florida');
  function setStep(index){
   current=Math.max(0,Math.min(index,steps.length-1));
   steps.forEach(function(step,i){step.classList.toggle('active',i===current)});
