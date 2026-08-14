@@ -43,9 +43,29 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .browse-cta{left:2.862%;top:69.93%;width:15.576%;height:9.24%}
 .list-cta{left:21.648%;top:69.93%;width:13.904%;height:9.24%}
 .market-menu{position:absolute;z-index:40;left:35%;top:11.2%;width:15.5%;display:flex;flex-direction:column;gap:.22vw;padding:.45vw;background:rgba(5,24,43,.98);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2vw rgba(0,0,0,.45)}
-.market-menu[hidden]{display:none}
-.market-menu a{display:block;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
-.market-menu a:hover,.market-menu a:focus-visible{color:#071d33;background:var(--gold);outline:none}
+.market-menu[hidden],.market-detail[hidden]{display:none}
+.market-menu a{display:flex;align-items:center;justify-content:space-between;gap:.55vw;padding:.45vw .8vw;color:var(--white);font-size:clamp(7px,1vw,15px);font-weight:600;line-height:1.15;text-decoration:none;border:1px solid rgba(237,169,26,.3);border-radius:.35vw;background:rgba(15,36,63,.95)}
+.market-menu a::after{content:"›";color:var(--gold);font-size:1.2em;line-height:.8}
+.market-menu a:hover,.market-menu a:focus-visible,.market-menu a.is-active{color:#071d33;background:var(--gold);outline:none}
+.market-menu a:hover::after,.market-menu a:focus-visible::after,.market-menu a.is-active::after{color:#071d33}
+.market-detail{position:absolute;z-index:41;left:50.85%;top:11.2%;width:34%;height:39%;min-height:230px;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:.62vw;padding:1vw 1.05vw;background:rgba(5,24,43,.985);border:1px solid var(--gold);border-radius:.65vw;box-shadow:0 .8vw 2.2vw rgba(0,0,0,.5)}
+.market-detail-head{display:flex;align-items:baseline;justify-content:space-between;gap:1vw;padding-bottom:.55vw;border-bottom:1px solid rgba(237,169,26,.35)}
+.market-detail h2{margin:0;color:var(--gold);font-family:Georgia,"Times New Roman",serif;font-size:clamp(14px,1.55vw,24px);line-height:1}
+.market-detail-count{color:#bfcfe0;font-size:clamp(7px,.72vw,11px);white-space:nowrap}
+.market-detail-section{min-height:0}
+.market-detail-label{display:block;margin:0 0 .38vw;color:#fff;font-size:clamp(7px,.74vw,11px);font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.license-type-list{display:flex;flex-wrap:wrap;gap:.28vw;max-height:5.1vw;overflow-y:auto;padding-right:.18vw}
+.license-type-list span{padding:.28vw .42vw;color:#f7e7bd;font-size:clamp(6px,.66vw,10px);line-height:1.15;border:1px solid rgba(237,169,26,.34);border-radius:99px;background:rgba(15,36,63,.95)}
+.county-section{display:grid;grid-template-rows:auto minmax(0,1fr)}
+.county-list{min-height:0;overflow-y:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:.26vw .72vw;margin:0;padding:.12vw .4vw .18vw 0;list-style:none;scrollbar-color:var(--gold) rgba(255,255,255,.08);scrollbar-width:thin}
+.county-list li{color:#dbe6f1;font-size:clamp(6px,.72vw,11px);line-height:1.25;padding:.16vw 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.county-list li::before{content:"•";color:var(--gold);margin-right:.35em}
+@media(max-width:700px){
+ .market-menu{left:27%;top:10.8%;width:29%;padding:.55vw}
+ .market-detail{left:56.5%;top:10.8%;width:42%;height:48%;min-height:0;padding:1.1vw}
+ .county-list{grid-template-columns:1fr}
+ .license-type-list{max-height:9vw}
+}
 .state-overlay{position:absolute;inset:0;z-index:15;width:100%;height:100%;overflow:visible;pointer-events:none}
 .map-state{cursor:pointer;outline:none}
 .state-underlay{opacity:0;fill:#0b2742;pointer-events:none;transition:opacity .06s linear}
@@ -180,32 +200,73 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <a class="hotspot browse-cta" href="/browse-markets.html" aria-label="Browse Markets"></a>
 <a class="hotspot list-cta" href="/sell-license.html" aria-label="List a License"></a>
 <nav class="market-menu" id="market-menu" aria-label="Active liquor license markets" hidden>
-<a href="https://www.floridaliquorlicensemarket.com/">Florida</a>
-<a href="/browse-markets.html?state=California">California</a>
-<a href="/browse-markets.html?state=Arizona">Arizona</a>
-<a href="/browse-markets.html?state=New%20Mexico">New Mexico</a>
-<a href="/browse-markets.html?state=Michigan">Michigan</a>
-<a href="/browse-markets.html?state=Ohio">Ohio</a>
-<a href="/browse-markets.html?state=Pennsylvania">Pennsylvania</a>
-<a href="/browse-markets.html?state=New%20Jersey">New Jersey</a>
+<a href="https://www.floridaliquorlicensemarket.com/" data-state="Florida" aria-controls="market-detail" aria-expanded="false">Florida</a>
+<a href="/browse-markets.html?state=California" data-state="California" aria-controls="market-detail" aria-expanded="false">California</a>
+<a href="/browse-markets.html?state=Arizona" data-state="Arizona" aria-controls="market-detail" aria-expanded="false">Arizona</a>
+<a href="/browse-markets.html?state=New%20Mexico" data-state="New Mexico" aria-controls="market-detail" aria-expanded="false">New Mexico</a>
+<a href="/browse-markets.html?state=Michigan" data-state="Michigan" aria-controls="market-detail" aria-expanded="false">Michigan</a>
+<a href="/browse-markets.html?state=Ohio" data-state="Ohio" aria-controls="market-detail" aria-expanded="false">Ohio</a>
+<a href="/browse-markets.html?state=Pennsylvania" data-state="Pennsylvania" aria-controls="market-detail" aria-expanded="false">Pennsylvania</a>
+<a href="/browse-markets.html?state=New%20Jersey" data-state="New Jersey" aria-controls="market-detail" aria-expanded="false">New Jersey</a>
 </nav>
+<aside class="market-detail" id="market-detail" aria-live="polite" aria-label="Market counties and license types" hidden>
+ <div class="market-detail-head"><h2 id="market-detail-title"></h2><span class="market-detail-count" id="market-detail-count"></span></div>
+ <div class="market-detail-section"><span class="market-detail-label">License types</span><div class="license-type-list" id="market-license-types"></div></div>
+ <div class="market-detail-section county-section"><span class="market-detail-label">Counties</span><ul class="county-list" id="market-counties"></ul></div>
+</aside>
 </section>
 <div class="hero-tail" aria-hidden="true"></div>
 </main>
 <script>
 const marketToggle=document.getElementById('header-markets-toggle');
 const marketMenu=document.getElementById('market-menu');
+const marketDetail=document.getElementById('market-detail');
+const marketDetailTitle=document.getElementById('market-detail-title');
+const marketDetailCount=document.getElementById('market-detail-count');
+const marketLicenseTypes=document.getElementById('market-license-types');
+const marketCounties=document.getElementById('market-counties');
+const marketItems=Array.from(marketMenu.querySelectorAll('[data-state]'));
+const marketData={"Florida":{"counties":["Alachua County","Baker County","Bay County","Bradford County","Brevard County","Broward County","Calhoun County","Charlotte County","Citrus County","Clay County","Collier County","Columbia County","DeSoto County","Dixie County","Duval County","Escambia County","Flagler County","Franklin County","Gadsden County","Gilchrist County","Glades County","Gulf County","Hamilton County","Hardee County","Hendry County","Hernando County","Highlands County","Hillsborough County","Holmes County","Indian River County","Jackson County","Jefferson County","Lafayette County","Lake County","Lee County","Leon County","Levy County","Liberty County","Madison County","Manatee County","Marion County","Martin County","Miami-Dade County","Monroe County","Nassau County","Okaloosa County","Okeechobee County","Orange County","Osceola County","Palm Beach County","Pasco County","Pinellas County","Polk County","Putnam County","Santa Rosa County","Sarasota County","Seminole County","St. Johns County","St. Lucie County","Sumter County","Suwannee County","Taylor County","Union County","Volusia County","Wakulla County","Walton County","Washington County"],"types":["4COP / 3PS Quota","5COP / 3APS","6COP / 3BPS","7COP / 3CPS","8COP / 3DPS","Other / not sure"]},"California":{"counties":["Alameda County","Alpine County","Amador County","Butte County","Calaveras County","Colusa County","Contra Costa County","Del Norte County","El Dorado County","Fresno County","Glenn County","Humboldt County","Imperial County","Inyo County","Kern County","Kings County","Lake County","Lassen County","Los Angeles County","Madera County","Marin County","Mariposa County","Mendocino County","Merced County","Modoc County","Mono County","Monterey County","Napa County","Nevada County","Orange County","Placer County","Plumas County","Riverside County","Sacramento County","San Benito County","San Bernardino County","San Diego County","San Francisco County","San Joaquin County","San Luis Obispo County","San Mateo County","Santa Barbara County","Santa Clara County","Santa Cruz County","Shasta County","Sierra County","Siskiyou County","Solano County","Sonoma County","Stanislaus County","Sutter County","Tehama County","Trinity County","Tulare County","Tuolumne County","Ventura County","Yolo County","Yuba County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"Arizona":{"counties":["Apache County","Cochise County","Coconino County","Gila County","Graham County","Greenlee County","La Paz County","Maricopa County","Mohave County","Navajo County","Pima County","Pinal County","Santa Cruz County","Yavapai County","Yuma County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"New Mexico":{"counties":["Bernalillo County","Catron County","Chaves County","Cibola County","Colfax County","Curry County","De Baca County","Doña Ana County","Eddy County","Grant County","Guadalupe County","Harding County","Hidalgo County","Lea County","Lincoln County","Los Alamos County","Luna County","McKinley County","Mora County","Otero County","Quay County","Rio Arriba County","Roosevelt County","San Juan County","San Miguel County","Sandoval County","Santa Fe County","Sierra County","Socorro County","Taos County","Torrance County","Union County","Valencia County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"Michigan":{"counties":["Alcona County","Alger County","Allegan County","Alpena County","Antrim County","Arenac County","Baraga County","Barry County","Bay County","Benzie County","Berrien County","Branch County","Calhoun County","Cass County","Charlevoix County","Cheboygan County","Chippewa County","Clare County","Clinton County","Crawford County","Delta County","Dickinson County","Eaton County","Emmet County","Genesee County","Gladwin County","Gogebic County","Grand Traverse County","Gratiot County","Hillsdale County","Houghton County","Huron County","Ingham County","Ionia County","Iosco County","Iron County","Isabella County","Jackson County","Kalamazoo County","Kalkaska County","Kent County","Keweenaw County","Lake County","Lapeer County","Leelanau County","Lenawee County","Livingston County","Luce County","Mackinac County","Macomb County","Manistee County","Marquette County","Mason County","Mecosta County","Menominee County","Midland County","Missaukee County","Monroe County","Montcalm County","Montmorency County","Muskegon County","Newaygo County","Oakland County","Oceana County","Ogemaw County","Ontonagon County","Osceola County","Oscoda County","Otsego County","Ottawa County","Presque Isle County","Roscommon County","Saginaw County","Sanilac County","Schoolcraft County","Shiawassee County","St. Clair County","St. Joseph County","Tuscola County","Van Buren County","Washtenaw County","Wayne County","Wexford County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"Ohio":{"counties":["Adams County","Allen County","Ashland County","Ashtabula County","Athens County","Auglaize County","Belmont County","Brown County","Butler County","Carroll County","Champaign County","Clark County","Clermont County","Clinton County","Columbiana County","Coshocton County","Crawford County","Cuyahoga County","Darke County","Defiance County","Delaware County","Erie County","Fairfield County","Fayette County","Franklin County","Fulton County","Gallia County","Geauga County","Greene County","Guernsey County","Hamilton County","Hancock County","Hardin County","Harrison County","Henry County","Highland County","Hocking County","Holmes County","Huron County","Jackson County","Jefferson County","Knox County","Lake County","Lawrence County","Licking County","Logan County","Lorain County","Lucas County","Madison County","Mahoning County","Marion County","Medina County","Meigs County","Mercer County","Miami County","Monroe County","Montgomery County","Morgan County","Morrow County","Muskingum County","Noble County","Ottawa County","Paulding County","Perry County","Pickaway County","Pike County","Portage County","Preble County","Putnam County","Richland County","Ross County","Sandusky County","Scioto County","Seneca County","Shelby County","Stark County","Summit County","Trumbull County","Tuscarawas County","Union County","Van Wert County","Vinton County","Warren County","Washington County","Wayne County","Williams County","Wood County","Wyandot County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"Pennsylvania":{"counties":["Adams County","Allegheny County","Armstrong County","Beaver County","Bedford County","Berks County","Blair County","Bradford County","Bucks County","Butler County","Cambria County","Cameron County","Carbon County","Centre County","Chester County","Clarion County","Clearfield County","Clinton County","Columbia County","Crawford County","Cumberland County","Dauphin County","Delaware County","Elk County","Erie County","Fayette County","Forest County","Franklin County","Fulton County","Greene County","Huntingdon County","Indiana County","Jefferson County","Juniata County","Lackawanna County","Lancaster County","Lawrence County","Lebanon County","Lehigh County","Luzerne County","Lycoming County","McKean County","Mercer County","Mifflin County","Monroe County","Montgomery County","Montour County","Northampton County","Northumberland County","Perry County","Philadelphia County","Pike County","Potter County","Schuylkill County","Snyder County","Somerset County","Sullivan County","Susquehanna County","Tioga County","Union County","Venango County","Warren County","Washington County","Wayne County","Westmoreland County","Wyoming County","York County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]},"New Jersey":{"counties":["Atlantic County","Bergen County","Burlington County","Camden County","Cape May County","Cumberland County","Essex County","Gloucester County","Hudson County","Hunterdon County","Mercer County","Middlesex County","Monmouth County","Morris County","Ocean County","Passaic County","Salem County","Somerset County","Sussex County","Union County","Warren County"],"types":["Quota / full liquor","On-premise restaurant or bar","Package store / off-premise","Beer and wine","Club or special-use","Other / not sure"]}};
+function renderMarketDetail(state){
+ const data=marketData[state];
+ if(!data)return;
+ marketDetailTitle.textContent=state;
+ marketDetailCount.textContent=data.counties.length+' counties';
+ marketLicenseTypes.replaceChildren(...data.types.map(type=>{
+  const item=document.createElement('span');
+  item.textContent=type;
+  return item;
+ }));
+ marketCounties.replaceChildren(...data.counties.map(county=>{
+  const item=document.createElement('li');
+  item.textContent=county;
+  return item;
+ }));
+ marketItems.forEach(item=>{
+  const active=item.dataset.state===state;
+  item.classList.toggle('is-active',active);
+  item.setAttribute('aria-expanded',String(active));
+ });
+ marketDetail.hidden=false;
+}
 function setMarketMenu(open){
  marketMenu.hidden=!open;
  marketToggle.setAttribute('aria-expanded',String(open));
+ if(!open){
+  marketDetail.hidden=true;
+  marketItems.forEach(item=>{
+   item.classList.remove('is-active');
+   item.setAttribute('aria-expanded','false');
+  });
+ }
 }
 let marketCloseTimer;
 const cancelMarketClose=()=>clearTimeout(marketCloseTimer);
 const scheduleMarketClose=()=>{
  cancelMarketClose();
  marketCloseTimer=setTimeout(()=>{
-  if(!marketMenu.matches(':hover')&&!marketToggle.matches(':hover'))setMarketMenu(false);
- },140);
+  if(!marketMenu.matches(':hover')&&!marketDetail.matches(':hover')&&!marketToggle.matches(':hover'))setMarketMenu(false);
+ },180);
 };
 marketToggle.addEventListener('pointerenter',()=>{
  cancelMarketClose();
@@ -214,11 +275,37 @@ marketToggle.addEventListener('pointerenter',()=>{
 marketToggle.addEventListener('pointerleave',scheduleMarketClose);
 marketMenu.addEventListener('pointerenter',cancelMarketClose);
 marketMenu.addEventListener('pointerleave',scheduleMarketClose);
+marketDetail.addEventListener('pointerenter',cancelMarketClose);
+marketDetail.addEventListener('pointerleave',scheduleMarketClose);
+marketItems.forEach(item=>{
+ item.addEventListener('pointerenter',()=>renderMarketDetail(item.dataset.state));
+ item.addEventListener('focus',()=>renderMarketDetail(item.dataset.state));
+});
 marketToggle.addEventListener('click',event=>{
  event.stopPropagation();
  setMarketMenu(marketMenu.hidden);
 });
+marketToggle.addEventListener('keydown',event=>{
+ if(event.key==='ArrowDown'){
+  event.preventDefault();
+  setMarketMenu(true);
+  renderMarketDetail(marketItems[0].dataset.state);
+  marketItems[0].focus();
+ }
+});
+marketMenu.addEventListener('keydown',event=>{
+ const index=marketItems.indexOf(document.activeElement);
+ if(index<0)return;
+ if(event.key==='ArrowDown'||event.key==='ArrowUp'){
+  event.preventDefault();
+  const direction=event.key==='ArrowDown'?1:-1;
+  const next=(index+direction+marketItems.length)%marketItems.length;
+  renderMarketDetail(marketItems[next].dataset.state);
+  marketItems[next].focus();
+ }
+});
 marketMenu.addEventListener('click',event=>event.stopPropagation());
+marketDetail.addEventListener('click',event=>event.stopPropagation());
 document.addEventListener('click',()=>setMarketMenu(false));
 document.addEventListener('keydown',event=>{
  if(event.key==='Escape'){
