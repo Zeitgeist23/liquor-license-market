@@ -88,7 +88,7 @@ def main():
         )
 
     text = re.sub(
-        r"let records=\[\];let sourceMeta=\[\];let visible=60;(?:let marketStats=\{\};)?(?:let govRowsCache=.*?;)?(?:let fullMarketReady=.*?;)?(?:let fullLoadPromise=.*?;)?(?:let filtersPopulated=.*?;)?",
+        r"let records=\[\];let sourceMeta=\[\];let visible=60;[^\n]*",
         "let records=[];let sourceMeta=[];let visible=60;let marketStats={};let govRowsCache=[];let fullMarketReady=false;let fullLoadPromise=null;let filtersPopulated=false;",
         text,
         count=1,

@@ -34,7 +34,7 @@ const MARKET_URL='/data/california-market-inventory.json';
 const BOOTSTRAP_URL='/data/california-market-bootstrap.json';
 const money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
 const $=id=>document.getElementById(id);
-let records=[];let sourceMeta=[];let visible=60;let marketStats={};let govRowsCache=[];let fullMarketReady=false;let fullLoadPromise=null;let filtersPopulated=false;let marketStats={};let marketStats={};let marketStats={};
+let records=[];let sourceMeta=[];let visible=60;let marketStats={};let govRowsCache=[];let fullMarketReady=false;let fullLoadPromise=null;let filtersPopulated=false;
 const initialParams=new URLSearchParams(location.search);
 let activeCategory=initialParams.get('category')||'';
 const categoryCodes={

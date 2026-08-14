@@ -68,7 +68,12 @@ def patch_state(path: Path, state: str):
 
 def patch_california(path: Path):
     text = path.read_text(encoding="utf-8")
-    text = text.replace("let records=[];let sourceMeta=[];let visible=60;", "let records=[];let sourceMeta=[];let visible=60;let marketStats={};", 1)
+    text = re.sub(
+        r"let records=\[\];let sourceMeta=\[\];let visible=60;(?:let marketStats=\{\};)*",
+        "let records=[];let sourceMeta=[];let visible=60;let marketStats={};",
+        text,
+        count=1,
+    )
     if COMMON_HELPERS not in text:
         text = text.replace("function sortRecords(items,mode)", COMMON_HELPERS + "function sortRecords(items,mode)", 1)
     text = replace_one(text, r"function currentFiltered\(\)\{.*?\n\}\nfunction card", CA_FILTER + "\nfunction card", "California filter")
