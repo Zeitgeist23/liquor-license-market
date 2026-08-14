@@ -68,7 +68,6 @@ def best_container(link, pattern: re.Pattern):
         text = clean(node.get_text(" ", strip=True))
         if 40 <= len(text) <= 1200 and pattern.search(text):
             fallback = node
-            # Prefer the smallest useful card-like ancestor.
             if len(text) <= 500:
                 return node
     return fallback
@@ -130,14 +129,22 @@ def scrape_marketplace(source):
     soup = get_soup(url)
     records = []
     seen = set()
-    pattern = re.compile(r"([A-Za-z .'-]+) California\s*[–-]\s*Type\s*(\d+).*?Liquor License", re.I)
+    pattern = re.compile(r"([A-Za-z .'-]+)\s+California\s*[–-]+\s*Type\s*(\d+).*?Liquor License", re.I)
     for link in soup.find_all("a", href=True):
-        if clean(link.get_text(" ", strip=True)).lower() != "view listing":
+        href_raw = link.get("href", "")
+        href = urljoin(url, href_raw)
+        if "/liquor-license/" not in href or href in seen:
             continue
-        href = urljoin(url, link["href"])
-        if href in seen:
-            continue
-        card = best_container(link, pattern)
+        node = link
+        card = None
+        for _ in range(9):
+            node = getattr(node, "parent", None)
+            if node is None:
+                break
+            text = clean(node.get_text(" ", strip=True))
+            if "Listed:" in text and "Price:" in text and pattern.search(text) and len(text) <= 900:
+                card = node
+                break
         if not card:
             continue
         text = clean(card.get_text(" ", strip=True))
@@ -146,10 +153,12 @@ def scrape_marketplace(source):
             continue
         county = clean(match.group(1))
         type_code = match.group(2)
+        if not county or len(county) > 40:
+            continue
         date_match = re.search(r"Listed:\s*([A-Z][a-z]+\s+\d{1,2},\s+\d{4})", text)
         price_match = re.search(r"Price:\s*\$\s*([0-9][0-9,]*(?:\.\d{1,2})?)", text)
         price = int(round(float(price_match.group(1).replace(",", "")))) if price_match else None
-        title = pattern.search(text).group(0) if pattern.search(text) else f"{county} California – Type {type_code} Liquor License"
+        title = clean(match.group(0))
         records.append({
             "source": source["name"],
             "sourceKind": "third-party",
@@ -160,7 +169,7 @@ def scrape_marketplace(source):
             "privatePrice": False,
             "listedDate": date_match.group(1) if date_match else None,
             "sourceId": None,
-            "title": clean(title),
+            "title": title,
             "sourceUrl": href,
         })
         seen.add(href)
