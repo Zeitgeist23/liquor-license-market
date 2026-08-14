@@ -14,6 +14,8 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .hero{position:relative;width:100vw;max-width:none;margin:0;aspect-ratio:1400/729;overflow:hidden;background:var(--hero)}
 .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block;pointer-events:none;user-select:none}
 .hero-bg{z-index:1}
+.hero::before{content:"";position:absolute;z-index:10;left:0;top:26.886%;width:41.25%;height:52.914%;background:#0d243f;pointer-events:none}
+.hero img.hero-copy-clean,.hero img.cta-clean{display:none}
 .logo-erase{position:absolute;z-index:16;left:0;top:0;width:28.5%;height:10.9%;background:#021528;pointer-events:none}
 .hero img.logo-shifted{z-index:17;left:18px;top:12px;right:auto;bottom:auto;transform-origin:0 0;transform:scale(.78);clip-path:polygon(0 .35%,28.5% .35%,28.5% 10.7%,0 10.7%);transition:transform .16s cubic-bezier(.2,.8,.2,1)}
 .header-nav-erase{position:absolute;z-index:16;left:28.7%;top:0;width:57.6%;height:11.6%;background:#021528;pointer-events:none}
@@ -99,7 +101,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .cta-visual.cta-browse-scaled{clip-path:polygon(1.9% 68.8%,19.5% 68.8%,19.5% 80.1%,1.9% 80.1%);transform:translateY(-3.6%) scale(.88);transform-origin:10.65% 74.55%}
 .cta-visual.cta-list-scaled{clip-path:polygon(20.7% 68.8%,36.6% 68.8%,36.6% 80.1%,20.7% 80.1%);transform:translate(-3.3%,-3.6%) scale(.88);transform-origin:28.6% 74.55%}
 
-.feature-cards-rebuild{position:absolute;z-index:19;left:0;right:0;top:79.8%;bottom:0;padding:2.5vw 3.797vw 1.25vw;background:linear-gradient(180deg,#102843 0%,#0f243f 48%,#0f243f 100%);display:grid;grid-template-columns:1fr 1fr 1fr 1.24fr;gap:2vw;pointer-events:none}
+.feature-cards-rebuild{position:absolute;z-index:19;left:0;right:0;top:79.8%;bottom:0;padding:2.5vw 3.797vw 1.25vw;background:#0d243f;display:grid;grid-template-columns:1fr 1fr 1fr 1.24fr;gap:2vw;pointer-events:none}
 .feature-card-new{position:relative;min-width:0;padding:1.28vw .85vw .9vw 5.9vw;border-radius:.55vw;background:linear-gradient(180deg,#081c31 0%,#071a2e 100%);box-shadow:0 .45vw 1.35vw rgba(0,0,0,.18);color:#f6f3ed;font-family:Arial,Helvetica,sans-serif}
 .feature-card-new::before{content:"";position:absolute;left:4.65vw;top:1.02vw;bottom:1.02vw;width:1px;background:linear-gradient(180deg,rgba(237,169,26,.2),#eda91a 18%,#eda91a 82%,rgba(237,169,26,.2));box-shadow:0 0 .28vw rgba(237,169,26,.18)}
 .feature-card-new h3{margin:0 0 .28vw;font:500 clamp(8px,.86vw,16px)/1.15 Arial,Helvetica,sans-serif;letter-spacing:-.012em;color:#f6f3ed;white-space:nowrap}
