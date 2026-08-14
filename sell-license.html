@@ -417,10 +417,12 @@ textarea{min-height:118px;resize:vertical}
    var query=type==='4COP'?'4COP Quota':type==='3PS'?'3PS Quota / Package Store':type;
    return 'https://www.floridaliquorlicensemarket.com/listings?type='+encodeURIComponent(query)+'&status=available'
   }
+  if(state==='California')return '/california/licenses-for-sale/?category='+encodeURIComponent(type);
   return '/browse-markets.html?state='+encodeURIComponent(state)+'&type='+encodeURIComponent(type)
  }
  function marketCountyHref(state,county){
   if(state==='Florida')return 'https://www.floridaliquorlicensemarket.com/counties/'+marketSlug(county);
+  if(state==='California')return '/california/licenses-for-sale/?county='+encodeURIComponent(county.replace(/\s+County$/,''));
   return '/browse-markets.html?state='+encodeURIComponent(state)+'&county='+encodeURIComponent(county)
  }
  function renderMenuCounties(filter){
