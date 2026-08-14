@@ -19,6 +19,16 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .header-nav-erase{position:absolute;z-index:16;left:28.7%;top:0;width:57.6%;height:11.6%;background:#021528;pointer-events:none}
 .login-erase{position:absolute;z-index:16;left:86.3%;top:1.6%;width:12%;height:9.5%;background:#021528;pointer-events:none}
 .hero img.login-scaled{z-index:18;transform-origin:92.3% 6.35%;transform:scale(.88);clip-path:polygon(86.3% 1.6%,98.3% 1.6%,98.3% 11.1%,86.3% 11.1%)}
+
+.hero img.hero-copy-clean{position:absolute;z-index:11;inset:auto;left:.857%;top:26.886%;width:40.214%;height:40.055%;object-fit:fill;display:block;pointer-events:none;user-select:none}
+.hero-copy-html{position:absolute;z-index:14;left:2.02%;top:29.9%;width:39%;pointer-events:none;color:var(--white)}
+.hero-copy-html h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.025em}
+.hero-copy-kicker,.hero-copy-title{display:block;white-space:nowrap}
+.hero-copy-kicker{font-size:3.42vw;line-height:1.03;color:var(--white)}
+.hero-copy-title{margin-top:.72vw;font-size:5.52vw;line-height:1;color:var(--gold);letter-spacing:-.035em}
+.hero-copy-html p{margin:1.48vw 0 0;font:400 1.47vw/1.82 Arial,Helvetica,sans-serif;color:#eef2f6;letter-spacing:-.012em;white-space:nowrap}
+@media(max-width:700px){.hero-copy-html{top:29.9%}}
+
 .hero-tail{height:64px;width:100%;background:var(--light)}
 .hotspot{position:absolute;z-index:20;display:block;cursor:pointer;background:rgba(255,255,255,.001);border-radius:7px;text-decoration:none;touch-action:manipulation}
 .hotspot:hover{outline:2px solid rgba(237,169,26,.4);background:rgba(237,169,26,.04)}
@@ -110,6 +120,11 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <main class="hero-wrap">
 <section class="hero">
 <img class="hero-bg" src="/hero-tilted.webp" alt="Liquor License Market — The Nation's Marketplace for Liquor Licenses">
+<img class="hero-copy-clean" src="data:image/webp;base64,UklGRjIDAABXRUJQVlA4ICYDAACQNQCdASozAiQBPhUKhEGhBAEABABRLS3cLr3AAk+OA3vAPZ2tZ8H0/S9va/YAnox5jKVDwjUR9aYQsmYLD0Mp9ch7wKSlax26yfENuCpv+i33a23qHHa1KQvGnbJg5LT6ISsv7jhs5S+Dos3F6C3aWSPeU4ocyFeHJGwh21o3rmzlp7kq3ai2LvdBXw3pNPhy2Lloj95O0MoahACYG68Loo1tINVra0b1zZy09YjUK0YmR970ZD6l7ZkPRvPcFhm/Uet5T6V8yGG8jYkuhJV0OAJTfvb7Jh12Va+mJ67NGcnRvbLc21ECP3k7U6vWbs6DqCkKd9IP5mIFnPhvVryWPnm7w9+B1cwaZHWPGgWT3NnLT3JVu0qGktom5Vtnhku1BaI/eTtTq99YhMKeVgVGse+l3vi53nlRu309xUSBGMb8COqNEvpgZtxwi6RjwPfn+NoJSc+yMtzbUQI/eOhwSyHwyyzKsC2tZqlgJzxcYsKVShFympU2/ME/gT2vGF256ry0X97ZOuxq/DZHOxgl9MDNt9SZo6YrxcpqVNvzBEQ25sv+yc7wT0kSIvsUsz5RAslIAAD+/u9YzPz//5xL9tv3L4h///KV+lnpZzoiHWD4yzvuNi+aMzPo3+lHwpXB8SopFvtGIZPhk7pZsFtQcXFIt3C2xAziaiT7xNTdwq0bBSWCU7d0Rj+mWdG/1lvh8aSGOS1qVaqzvQvpuVJ2twNgnQDAO0kAU4ACn2wnmSgAKBrjkQjk0ZbcCtOb4ZQCQOXUp0AqWTupt5IxxanJsHAFzAJyiYhW8hBhYWYAzhzQthiS3RB+DtEUxFo8fwP0R8bOaZy9wWKBNQcn9xJm6XjTEfoq9fxiwO9kjG4HlqgACkviuZBLlZ8BjkLC/AR7wMIx6USZuiYdpBXeVd+NXOgbsC/3g0QVf0KYhGLcpVZGFJuFGSEcxS1MIRblJ0zBswddFCsWVySj6drdyKVkjCkyYbE4va2s17j5SI610UCo15nVgWQGPfuS4Vhe9LZrHD6oRiQiQ8m9xCERPlW3mNOPYGZYgu5bXiP7FWusZ/2RDogAAA==" alt="" aria-hidden="true">
+<div class="hero-copy-html">
+ <h1><span class="hero-copy-kicker">The Nation’s Marketplace for</span><span class="hero-copy-title">Liquor Licenses</span></h1>
+ <p>Buy, sell and finance liquor licenses across<br>the United States. Connecting buyers, sellers<br>and lenders in one trusted marketplace.</p>
+</div>
 <div class="logo-erase" aria-hidden="true"></div>
 <img class="logo-shifted" src="/hero-tilted.webp" alt="" aria-hidden="true">
 <div class="header-nav-erase" aria-hidden="true"></div>
