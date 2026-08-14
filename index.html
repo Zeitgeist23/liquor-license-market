@@ -106,8 +106,8 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 .county-list li{font-size:clamp(10px,1.08vw,16px);line-height:1.35;border-bottom:1px solid rgba(255,255,255,.07)}
 .county-list li a,.county-list li span{display:flex;align-items:center;width:100%;padding:.2vw .25vw;color:#dbe6f1;text-decoration:none;border-radius:.22vw;transition:color .12s ease,background .12s ease,box-shadow .12s ease}
 .county-list li a::before,.county-list li span::before{content:"•";color:var(--gold);margin-right:.35em}
-.county-list li a:hover,.county-list li a:focus-visible{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}
-.county-list li a:hover::before,.county-list li a:focus-visible::before{color:#071d33}
+.county-list li a:hover,.county-list li a:focus-visible,.county-list li span:hover,.county-list li span:focus-visible{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}
+.county-list li a:hover::before,.county-list li a:focus-visible::before,.county-list li span:hover::before,.county-list li span:focus-visible::before{color:#071d33}
 @media(max-width:700px){
  .market-menu{left:27%;top:10.8%;width:29%;padding:.55vw}
  .market-detail{left:56.5%;top:10.8%;width:42%;height:48%;min-height:0;padding:1.1vw}
@@ -413,6 +413,8 @@ function renderMarketCounties(state,query=''){
   if(state==='Florida'){
    item.href=floridaCountyUrl(county);
    item.setAttribute('aria-label','View available liquor licenses in '+county);
+  }else{
+   item.tabIndex=0;
   }
   row.appendChild(item);
   return row;
