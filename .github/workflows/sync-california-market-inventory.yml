@@ -31,7 +31,7 @@ jobs:
       - name: Commit inventory changes
         shell: bash
         run: |
-          if git diff --quiet -- data/california-market-inventory.json; then
+          if [ -z "$(git status --porcelain -- data/california-market-inventory.json)" ]; then
             echo "No marketplace inventory changes"
             exit 0
           fi
