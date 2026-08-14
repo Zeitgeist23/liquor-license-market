@@ -1,0 +1,141 @@
+name: Harden California inventory refresh
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/harden-california-inventory-refresh.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  harden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Restore last complete feed and harden updater
+        shell: bash
+        run: |
+          git show cba108fdf99e5b11db01ad22d3af185da1e7c372:data/california-market-inventory.json > data/california-market-inventory.json
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path('tools/update_california_market_inventory.py')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('requests.get(robots_url, timeout=20,', 'requests.get(robots_url, timeout=10,')
+          text = text.replace('requests.get(url, timeout=45,', 'requests.get(url, timeout=20,')
+
+          start = text.index('\ndef main():')
+          end = text.index('\nif __name__ == "__main__": main()', start)
+          replacement = r'''
+def load_previous_by_source():
+    previous = {source["name"]: [] for source in SOURCES}
+    if not OUT.exists():
+        return previous
+    try:
+        data = json.loads(OUT.read_text(encoding="utf-8"))
+    except Exception:
+        return previous
+    for item in data.get("licenses") or []:
+        source_rows = item.get("sourceListings") or [{
+            "source": item.get("source"),
+            "sourceUrl": item.get("sourceUrl"),
+            "sourceId": item.get("sourceId"),
+            "listedDate": item.get("listedDate"),
+            "price": item.get("price"),
+            "privatePrice": item.get("privatePrice", False),
+        }]
+        for source_row in source_rows:
+            name = source_row.get("source")
+            if name not in previous:
+                continue
+            previous[name].append({
+                "source": name,
+                "sourceKind": "third-party",
+                "county": item.get("county"),
+                "typeCode": item.get("typeCode"),
+                "typeName": item.get("typeName"),
+                "price": source_row.get("price"),
+                "privatePrice": source_row.get("privatePrice", False),
+                "listedDate": source_row.get("listedDate"),
+                "sourceId": source_row.get("sourceId"),
+                "title": item.get("title"),
+                "sourceUrl": source_row.get("sourceUrl"),
+            })
+    return previous
+
+
+def main():
+    combined = []
+    source_status = []
+    previous = load_previous_by_source()
+
+    for source in SOURCES:
+        try:
+            records, note = scrape_alcoholpermit(source) if source["kind"] == "alcoholpermit" else scrape_marketplace(source)
+        except Exception as exc:
+            records, note = [], f"sync error: {exc}"
+
+        prior = previous.get(source["name"], [])
+        retained_previous = False
+        # A huge six-hour inventory collapse is overwhelmingly more likely to be
+        # a timeout/parser failure than hundreds of licenses disappearing at once.
+        if prior:
+            floor = max(10, int(len(prior) * 0.60))
+            if len(records) < floor:
+                parsed_count = len(records)
+                records = prior
+                retained_previous = True
+                reason = f"retrieval returned {parsed_count}; retained {len(prior)} last-good records"
+                note = f"{note}; {reason}" if note else reason
+
+        combined.extend(records)
+        status = {
+            "source": source["name"],
+            "url": source["url"],
+            "count": len(records),
+            "note": note,
+        }
+        if retained_previous:
+            status["retainedPrevious"] = True
+        source_status.append(status)
+        print(f"{source['name']}: {len(records)} listings" + (f" ({note})" if note else ""))
+
+    if not combined:
+        raise SystemExit("No third-party California inventory was retrieved; refusing to overwrite data.")
+
+    unique, stats = dedupe_cross_source(combined)
+    payload = {
+        "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "sources": source_status,
+        "rawRecordCount": stats["rawRecordCount"],
+        "uniqueCount": stats["uniqueCount"],
+        "duplicatesMerged": stats["duplicatesMerged"],
+        "mergedCards": stats["mergedCards"],
+        "licenses": unique,
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"California dedupe: {stats['rawRecordCount']} raw -> {stats['uniqueCount']} unique; merged {stats['duplicatesMerged']} duplicate records")
+'''
+          p.write_text(text[:start] + replacement + text[end:], encoding='utf-8')
+          PY
+      - name: Regenerate fast bootstrap from restored complete feed
+        run: python tools/build_california_bootstrap.py
+      - name: Reapply safe California page loaders
+        run: |
+          python tools/apply_dedupe_ui.py california
+          python tools/apply_california_fastload.py
+      - name: Commit hardened California inventory process
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/update_california_market_inventory.py data/california-market-inventory.json data/california-market-bootstrap.json california/licenses-for-sale/index.html
+          git commit -m "Harden California inventory refresh and restore full feed"
+          git push origin HEAD:main
