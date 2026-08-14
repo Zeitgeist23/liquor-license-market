@@ -28,12 +28,16 @@ h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,seri
 .state-sub{margin:7px 0 0;color:#aebdcb;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .state-map{width:112px;height:76px;flex:0 0 112px;overflow:visible;filter:drop-shadow(0 4px 5px rgba(0,0,0,.22))}
 .state-map rect{fill:var(--gold)}
-.florida-card{position:relative;text-decoration:none;border-color:rgba(237,169,26,.72)}
-.florida-card:after{content:'OPEN MARKET  →';position:absolute;right:22px;bottom:13px;color:var(--gold);font-size:10px;font-weight:900;letter-spacing:.12em}
+.florida-card{position:relative;text-decoration:none;border-color:rgba(237,169,26,.72);display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:18px}
+.florida-action{display:inline-flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap}
+.fllm-card-logo{display:block;width:72px;height:auto}
+.florida-action-label{color:var(--gold);font-size:10px;font-weight:900;letter-spacing:.12em}
+.florida-card .state-map{justify-self:end}
 .florida-card:hover .state-name{color:var(--gold)}
 .note{margin:28px 0 0;color:#91a5b8;font-size:13px;line-height:1.55}
 @media(max-width:760px){
- .site-header{height:76px;padding:0 18px}.home-link{padding:8px 12px;font-size:13px}.wrap{padding:40px 18px 60px}.intro{font-size:16px;margin-bottom:28px}.market-grid{grid-template-columns:1fr}.market-card{min-height:104px;padding:17px 18px}.state-map{width:96px;height:66px;flex-basis:96px}.florida-card:after{right:18px;bottom:9px;font-size:9px}
+ .site-header{height:76px;padding:0 18px}.home-link{padding:8px 12px;font-size:13px}.wrap{padding:40px 18px 60px}.intro{font-size:16px;margin-bottom:28px}.market-grid{grid-template-columns:1fr}.market-card{min-height:104px;padding:17px 18px}.state-map{width:96px;height:66px;flex-basis:96px}.florida-action{gap:8px}.fllm-card-logo{width:64px}.florida-action-label{font-size:9px}
+ @media(max-width:520px){.florida-card{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;min-height:145px}.florida-card .state-copy{grid-column:1;grid-row:1}.florida-action{grid-column:1;grid-row:2;justify-self:start}.florida-card .state-map{grid-column:2;grid-row:1/3}}
 }
 </style>
 </head>
@@ -48,6 +52,12 @@ h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,seri
 <p class="intro">Select from our active liquor-license markets across the United States. Each market is represented by the gold states featured on the Liquor License Market map.</p>
 
 <section class="market-grid" aria-label="Active liquor license markets">
+<a class="market-card florida-card" href="https://www.floridaliquorlicensemarket.com/listings" aria-label="Browse Florida liquor license listings">
+<div class="state-copy"><h2 class="state-name">Florida</h2><p class="state-sub">Liquor License Market</p></div>
+<span class="florida-action" aria-hidden="true"><img class="fllm-card-logo" src="https://www.floridaliquorlicensemarket.com/assets/brand-sharp.svg" alt=""><span class="florida-action-label">OPEN MARKET →</span></span>
+<svg class="state-map state-map-fl" viewBox="0 0 133 105" aria-label="Map of Florida" role="img"><defs><mask id="card-mask-fl" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="133" height="105"><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAABpCAAAAAAxN78ZAAABhElEQVR42u2aSxLDIAxDkSf3v7K67bQd/tgqwDINE/VZNg4kpTu0Bgq/s/bGJSrYI3mmCtbePY8Tah4+HNea+Vxvr8KwOYGlhIpEKqgYw2HzEpCDtqJfFczNmiijS8oSFc1KbFVpZkyOzADHj4u+9fT5ruTQ6S/oalDk/YXxYtQSEc+eZsaj2FBnsK7i8m3WJBnWgw/xEWlLJ3jVToz/E1sMlH+0jlhSgGESJrfluUZPXwxlCtY3WPDOEXSGZKdMHYWxJYtOt7uw4JkR6YNxEosSjD1ZUDkiBXVbRoR9MI7K1AKM01jkYBzHIgPDlQUj+061Hpwa7uTNkRIM+4sT7vmNDnxYoF3kvu5sh2ESZkNEtwsJX9BLBZL+GSK9VKBFxu6rWQuMhSwadoPDIkLH40rWhSzQndTIEXqpgMBHgtXrWnDVokbtpEYFp8Y6woPezWqWE4TvoMAxIrgnE5Uwzty/+M1Ig8UjsX1ioVtJUPAFBGpnQPeL7JVbtUI+4mTIU+/oGi8QUUS1atXnCgAAAABJRU5ErkJggg==" x="0" y="0" width="133" height="105" preserveAspectRatio="none"/></mask></defs><rect x="0" y="0" width="133" height="105" mask="url(#card-mask-fl)"/></svg>
+</a>
+
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">California</h2><p class="state-sub">Liquor License Market</p></div>
 <svg class="state-map state-map-ca" viewBox="0 0 130 181" aria-label="Map of California" role="img"><defs><mask id="card-mask-ca" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="130" height="181"><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAAC1CAAAAAC2F3g0AAAB8klEQVR42u2cyW7DMBBDxUH//5fZQ4Hk0rSWNZtk+pJL0D6QHK3jjKGnxYOfD175UiVCLJzVG7GIQD8E7KtCBwQ2UIFsYASPyQJVET5j/MNVEIIfAvdWAacYwXIEqiKEcAgCXBAgI4QghGYIaKDCfQYoC64IOmWpnSffCJARQhjlJz0yQgj9LgNkhBBazZTQxdDecaTv2SlLFpCWdz1+zQhUeGGjnMGnItigKFfubN3GhfsQminPQ7ibBlcV7kHAt8zhpQJ2jiMbVAQ1LtyrigAV2MAIKgvzMiBoaQ4ZMVebcSqwgRHcPgtIlOGTCkB2N3jl6GB1jeg5ceQJoyNTZHjAho5S4ZoM8SpQRlyRobsKSJHBRvk8ZSOBgbtXRIIMNlIYGhjBJQTo9DVDBhvlDLvMlOsyYFkFNDACDbKAuL2lZbYVPvtuCueogAZGYOMsQBWxuo/opgK33kdw+xX0EePCPzJYVhcX/f6sf2NBZi8V1E7zWbtUFdjACDbIAr0Q2CiOmL7IY8QbxlhlQH7HAtTp94tilrJO/5PBRjkDatpoEJUF7HS+wAZFyQbjAiNX5pxMjqXv5VPiiDm1bJQzlE5TDETAPkefDETABINeTohEUOPppFiPVwFNsvCV/2O/70EJta/U8vW/GxhRPVPr6fN8A18qV0XkST1iAAAAAElFTkSuQmCC" x="0" y="0" width="130" height="181" preserveAspectRatio="none"/></mask></defs><rect x="0" y="0" width="130" height="181" mask="url(#card-mask-ca)"/></svg>
@@ -62,11 +72,6 @@ h1{margin:0;color:var(--white);font:700 clamp(38px,5.4vw,66px)/1.04 Georgia,seri
 <div class="state-copy"><h2 class="state-name">New Mexico</h2><p class="state-sub">Liquor License Market</p></div>
 <svg class="state-map state-map-nm" viewBox="0 0 86 89" aria-label="Map of New Mexico" role="img"><defs><mask id="card-mask-nm" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="86" height="89"><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABZCAAAAACBa4z+AAAAb0lEQVR42u3ZMQrAIBBE0RnJ/a+sjSEgKZbgRpS/lYV5yAdBiMTIkuq9SGDDuxPYsFly2sLCwsLuyZoIsLCwsLCwsGtYEwEWFhYWFhYW9i/WROjPz70iXFP/ubyy49f1sxqJ4OMvr5+ITjmtxcydBjnpBa97h89dAAAAAElFTkSuQmCC" x="0" y="0" width="86" height="89" preserveAspectRatio="none"/></mask></defs><rect x="0" y="0" width="86" height="89" mask="url(#card-mask-nm)"/></svg>
 </article>
-
-<a class="market-card florida-card" href="https://www.floridaliquorlicensemarket.com/listings" aria-label="Browse Florida liquor license listings">
-<div class="state-copy"><h2 class="state-name">Florida</h2><p class="state-sub">Liquor License Market</p></div>
-<svg class="state-map state-map-fl" viewBox="0 0 133 105" aria-label="Map of Florida" role="img"><defs><mask id="card-mask-fl" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="133" height="105"><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAABpCAAAAAAxN78ZAAABhElEQVR42u2aSxLDIAxDkSf3v7K67bQd/tgqwDINE/VZNg4kpTu0Bgq/s/bGJSrYI3mmCtbePY8Tah4+HNea+Vxvr8KwOYGlhIpEKqgYw2HzEpCDtqJfFczNmiijS8oSFc1KbFVpZkyOzADHj4u+9fT5ruTQ6S/oalDk/YXxYtQSEc+eZsaj2FBnsK7i8m3WJBnWgw/xEWlLJ3jVToz/E1sMlH+0jlhSgGESJrfluUZPXwxlCtY3WPDOEXSGZKdMHYWxJYtOt7uw4JkR6YNxEosSjD1ZUDkiBXVbRoR9MI7K1AKM01jkYBzHIgPDlQUj+061Hpwa7uTNkRIM+4sT7vmNDnxYoF3kvu5sh2ESZkNEtwsJX9BLBZL+GSK9VKBFxu6rWQuMhSwadoPDIkLH40rWhSzQndTIEXqpgMBHgtXrWnDVokbtpEYFp8Y6woPezWqWE4TvoMAxIrgnE5Uwzty/+M1Ig8UjsX1ioVtJUPAFBGpnQPeL7JVbtUI+4mTIU+/oGi8QUUS1atXnCgAAAABJRU5ErkJggg==" x="0" y="0" width="133" height="105" preserveAspectRatio="none"/></mask></defs><rect x="0" y="0" width="133" height="105" mask="url(#card-mask-fl)"/></svg>
-</a>
 
 <article class="market-card">
 <div class="state-copy"><h2 class="state-name">Michigan</h2><p class="state-sub">Liquor License Market</p></div>
