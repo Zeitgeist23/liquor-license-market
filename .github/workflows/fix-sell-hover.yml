@@ -23,51 +23,39 @@ jobs:
           from pathlib import Path
           path = Path('index.html')
           html = path.read_text(encoding='utf-8')
-          old = '''<script id="sell-license-menu-script">
-(()=>{
- const toggle=document.getElementById('header-sell-toggle');
- const menu=document.getElementById('sell-license-menu');
- if(!toggle||!menu)return;
- const close=()=>{menu.hidden=true;toggle.setAttribute('aria-expanded','false')};
- const open=()=>{
-  ['market-menu','market-detail','financing-menu','resources-menu'].forEach(id=>{const el=document.getElementById(id);if(el)el.hidden=true});
-  ['header-markets-toggle','header-financing-toggle','header-resources-toggle'].forEach(id=>{const el=document.getElementById(id);if(el)el.setAttribute('aria-expanded','false')});
-  menu.hidden=false;
-  toggle.setAttribute('aria-expanded','true');
- };
- toggle.addEventListener('click',event=>{
-  event.preventDefault();
-  event.stopPropagation();
-  menu.hidden?open():close();
- });
- menu.addEventListener('click',event=>event.stopPropagation());
- document.addEventListener('click',close);
- document.addEventListener('keydown',event=>{
-  if(event.key==='Escape'&&!menu.hidden){close();toggle.focus()}
- });
-})();
-</script>'''
-          new = '''<script id="sell-license-menu-script">
-(()=>{
- const toggle=document.getElementById('header-sell-toggle');
- const menu=document.getElementById('sell-license-menu');
- if(!toggle||!menu)return;
- let timer;
- const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};
- const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};
- toggle.addEventListener('pointerenter',open);
- toggle.addEventListener('pointerleave',close);
- toggle.addEventListener('focus',open);
- menu.addEventListener('pointerenter',open);
- menu.addEventListener('pointerleave',close);
- menu.addEventListener('focusin',open);
- menu.addEventListener('focusout',close);
- document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
-})();
-</script>'''
-          if old not in html:
-              raise SystemExit('Current Sell menu script not found')
-          html = html.replace(old, new, 1)
+          start_marker = '<script id="sell-license-menu-script">'
+          start = html.find(start_marker)
+          if start < 0:
+              raise SystemExit('Sell menu script not found')
+          end = html.find('</script>', start)
+          if end < 0:
+              raise SystemExit('Sell menu script closing tag not found')
+          end += len('</script>')
+          new_lines = [
+              '<script id="sell-license-menu-script">',
+              '(()=>{',
+              " const toggle=document.getElementById('header-sell-toggle');",
+              " const menu=document.getElementById('sell-license-menu');",
+              ' if(!toggle||!menu)return;',
+              ' let timer;',
+              " const open=()=>{clearTimeout(timer);menu.hidden=false;toggle.setAttribute('aria-expanded','true')};",
+              " const close=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!toggle.matches(':hover')&&!menu.matches(':hover')&&!toggle.matches(':focus')&&!menu.matches(':focus-within')){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}},160)};",
+              " toggle.addEventListener('pointerenter',open);",
+              " toggle.addEventListener('pointerleave',close);",
+              " toggle.addEventListener('focus',open);",
+              " menu.addEventListener('pointerenter',open);",
+              " menu.addEventListener('pointerleave',close);",
+              " menu.addEventListener('focusin',open);",
+              " menu.addEventListener('focusout',close);",
+              " document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});",
+              '})();',
+              '</script>'
+          ]
+          new_script = '\n'.join(new_lines)
+          current = html[start:end]
+          if current == new_script:
+              raise SystemExit(0)
+          html = html[:start] + new_script + html[end:]
           path.write_text(html, encoding='utf-8')
           PY
       - name: Commit hover fix
