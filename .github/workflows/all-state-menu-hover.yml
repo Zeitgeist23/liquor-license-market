@@ -1,0 +1,39 @@
+name: All-state menu hover fix
+on:
+  push:
+    paths:
+      - '.github/workflows/all-state-menu-hover.yml'
+permissions:
+  contents: write
+jobs:
+  adjust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply hover styling to non-Florida state items
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          old1='.license-type-list a:hover,.license-type-list a:focus-visible{color:#071d33;background:var(--gold);border-color:var(--gold);box-shadow:0 0 .7vw rgba(237,169,26,.55);transform:translateY(-1px);outline:none}'
+          new1='.license-type-list a:hover,.license-type-list a:focus-visible,.license-type-list span:hover{color:#071d33;background:var(--gold);border-color:var(--gold);box-shadow:0 0 .7vw rgba(237,169,26,.55);transform:translateY(-1px);outline:none}'
+          old2='.county-list li a:hover,.county-list li a:focus-visible{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}'
+          new2='.county-list li a:hover,.county-list li a:focus-visible,.county-list li span:hover{color:#071d33;background:var(--gold);box-shadow:0 0 .55vw rgba(237,169,26,.42);outline:none}'
+          old3='.county-list li a:hover::before,.county-list li a:focus-visible::before{color:#071d33}'
+          new3='.county-list li a:hover::before,.county-list li a:focus-visible::before,.county-list li span:hover::before{color:#071d33}'
+          for old,new in [(old1,new1),(old2,new2),(old3,new3)]:
+              if old not in s:
+                  raise SystemExit('Expected CSS selector not found; refusing broad edit')
+              s=s.replace(old,new,1)
+          p.write_text(s)
+          PY
+      - name: Remove temporary workflow
+        run: rm .github/workflows/all-state-menu-hover.yml
+      - name: Commit and push
+        run: |
+          git config user.name 'Zeitgeist23'
+          git config user.email 'JWigg023@gmail.com'
+          git add index.html .github/workflows/all-state-menu-hover.yml
+          git commit -m 'Match hover highlighting across all state menus'
+          git push
