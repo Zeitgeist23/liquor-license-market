@@ -68,7 +68,22 @@
           <a class="primary" href="/browse-markets.html">BROWSE MARKETS</a>
           <a class="secondary" href="/sell-license.html">SELL A LICENSE</a>
         </div>
-        <a class="llm-mobile-map-preview" href="/browse-markets.html" aria-label="Browse liquor license markets by state"><img src="/hero-tilted.webp" loading="lazy" decoding="async" alt="Liquor License Market state map"></a>`;
+        <section class="llm-mobile-market-panel" aria-label="Active liquor license markets">
+          <div class="llm-mobile-market-heading">
+            <span>ACTIVE MARKETS</span>
+            <a href="/browse-markets.html">View all</a>
+          </div>
+          <div class="llm-mobile-state-grid">
+            <a href="/florida/"><b>FL</b><span>Florida</span></a>
+            <a href="/california/licenses-for-sale/"><b>CA</b><span>California</span></a>
+            <a href="/arizona/licenses-for-sale/"><b>AZ</b><span>Arizona</span></a>
+            <a href="/new-mexico/licenses-for-sale/"><b>NM</b><span>New Mexico</span></a>
+            <a href="/michigan/licenses-for-sale/"><b>MI</b><span>Michigan</span></a>
+            <a href="/ohio/licenses-for-sale/"><b>OH</b><span>Ohio</span></a>
+            <a href="/pennsylvania/licenses-for-sale/"><b>PA</b><span>Pennsylvania</span></a>
+            <a href="/new-jersey/licenses-for-sale/"><b>NJ</b><span>New Jersey</span></a>
+          </div>
+        </section>`;
       const heroWrap = document.querySelector('.hero-wrap');
       if (heroWrap) heroWrap.before(mobileHero); else header.after(mobileHero);
     }
