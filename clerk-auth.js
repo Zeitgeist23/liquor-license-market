@@ -28,15 +28,6 @@
     }
   };
 
-  var profileAppearance = {
-    variables: appearance.variables,
-    elements: Object.assign({}, appearance.elements, {
-      rootBox: "llm-profile-root-box",
-      cardBox: "llm-profile-card-box",
-      card: "llm-profile-card"
-    })
-  };
-
   function addAuthStyles() {
     if (document.getElementById("llm-clerk-styles")) return;
     var style = document.createElement("style");
@@ -54,12 +45,11 @@
       ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
       "*:has(>a[aria-label='Clerk logo'])>p,a[aria-label='Clerk logo'],a[aria-label='Clerk logo'] svg{color:#dbe5ef!important;opacity:1!important;filter:none!important}" +
       "a[aria-label='Clerk logo']:hover,a[aria-label='Clerk logo']:focus{color:#eda91a!important}" +
-      ".llm-profile-root-box{width:min(900px,calc(100vw - 40px))!important;max-width:900px!important}" +
-      ".llm-profile-card-box{width:100%!important;max-width:900px!important;height:min(620px,calc(100vh - 40px))!important;max-height:620px!important;min-height:0!important}" +
-      ".llm-profile-card{width:100%!important;height:100%!important;max-height:620px!important;min-height:0!important}" +
-      ".llm-profile-card .cl-pageScrollBox,.llm-profile-card .cl-scrollBox{max-height:620px!important;overflow-y:auto!important}" +
-      ".llm-profile-card .cl-navbar{width:220px!important;min-width:220px!important}" +
-      "@media(max-width:760px){.llm-profile-root-box{width:calc(100vw - 20px)!important;max-width:none!important}.llm-profile-card-box{height:calc(100vh - 20px)!important;max-height:none!important}.llm-profile-card{max-height:none!important}.llm-profile-card .cl-navbar{width:auto!important;min-width:0!important}}" +
+      "html.llm-profile-open [role='dialog']{width:min(900px,calc(100vw - 40px))!important;max-width:900px!important;height:min(620px,calc(100vh - 40px))!important;max-height:620px!important;min-height:0!important;margin:auto!important;box-sizing:border-box!important;overflow:hidden!important}" +
+      "html.llm-profile-open [role='dialog']>.cl-cardBox,html.llm-profile-open [role='dialog']>.cl-card,html.llm-profile-open [role='dialog']>div{width:100%!important;max-width:900px!important;height:100%!important;max-height:620px!important;min-height:0!important;box-sizing:border-box!important}" +
+      "html.llm-profile-open [role='dialog'] .cl-pageScrollBox,html.llm-profile-open [role='dialog'] .cl-scrollBox{max-height:620px!important;overflow-y:auto!important}" +
+      "html.llm-profile-open [role='dialog'] .cl-navbar{width:220px!important;min-width:220px!important}" +
+      "@media(max-width:760px){html.llm-profile-open [role='dialog']{width:calc(100vw - 20px)!important;height:calc(100vh - 20px)!important;max-width:none!important;max-height:none!important}html.llm-profile-open [role='dialog'] .cl-navbar{width:auto!important;min-width:0!important}}" +
       ".cl-userProfile-root,.cl-userProfile-root *{color:#f7f3ea!important}" +
       ".cl-userProfile-root .cl-card,.cl-userProfile-root .cl-navbar,.cl-userProfile-root .cl-pageScrollBox{background:#102d4a!important}" +
       ".cl-userProfile-root .cl-navbar{border-right:1px solid rgba(237,169,26,.28)!important}" +
@@ -129,10 +119,24 @@
     return readyPromise;
   }
 
+  function showUserProfile(clerk) {
+    document.documentElement.classList.add("llm-profile-open");
+    clerk.openUserProfile({ appearance: appearance });
+    window.setTimeout(function () {
+      var observer = new MutationObserver(function () {
+        if (!document.querySelector("[role='dialog']")) {
+          document.documentElement.classList.remove("llm-profile-open");
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    }, 500);
+  }
+
   function openAccount() {
     return initializeClerk().then(function (clerk) {
       if (clerk.user && typeof clerk.openUserProfile === "function") {
-        clerk.openUserProfile({ appearance: profileAppearance });
+        showUserProfile(clerk);
         return;
       }
       clerk.openSignIn({
@@ -164,7 +168,7 @@
           '<h1>Welcome back</h1><p>You are securely signed in.</p>' +
           '<button type="button" class="llm-account-button" data-open-profile>Manage account</button></section>';
         mount.querySelector("[data-open-profile]").addEventListener("click", function () {
-          clerk.openUserProfile({ appearance: profileAppearance });
+          showUserProfile(clerk);
         });
       } else {
         clerk.mountSignIn(mount, {
