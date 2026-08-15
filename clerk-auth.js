@@ -43,6 +43,8 @@
       ".cl-socialButtonsBlockButton{background:#173a5d!important;border-color:rgba(237,169,26,.55)!important;color:#f7f3ea!important}" +
       ".cl-footer{border-top-color:rgba(237,169,26,.38)!important}" +
       ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
+      "a[aria-label='Clerk logo'],a[aria-label='Clerk logo'] svg{color:#dbe5ef!important;opacity:1!important;filter:none!important}" +
+      "a[aria-label='Clerk logo']:hover,a[aria-label='Clerk logo']:focus{color:#eda91a!important}" +
       ".llm-auth-title{font-family:Georgia,'Times New Roman',serif!important}" +
       ".llm-auth-primary{font-weight:800!important;color:#071d33!important;box-shadow:0 7px 22px rgba(237,169,26,.24)!important}" +
       ".llm-auth-link{font-weight:700!important}" +
