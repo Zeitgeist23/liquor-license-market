@@ -7,7 +7,6 @@
   body.llm-mobile-ready{padding-top:64px!important}
   body.llm-mobile-menu-open{overflow:hidden!important}
 
-  /* Consistent phone header */
   .llm-mobile-header{position:fixed;z-index:10000;left:0;right:0;top:0;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 14px 0 16px;background:#021528;border-bottom:1px solid rgba(237,169,26,.34);box-shadow:0 7px 22px rgba(0,0,0,.22)}
   .llm-mobile-brand{display:flex;align-items:center;gap:10px;min-width:0;color:var(--llm-mobile-white);text-decoration:none}
   .llm-mobile-mark{display:flex;align-items:center;gap:5px;flex:0 0 auto;color:var(--llm-mobile-gold)}
@@ -32,11 +31,9 @@
   .llm-mobile-drawer a:active{background:#eda91a;color:#071d33}.llm-mobile-drawer a:active::after{color:#071d33}
   .llm-mobile-drawer .llm-mobile-login{margin-top:7px;border-color:#eda91a;color:#eda91a}
 
-  /* Hide desktop headers only after the mobile header has successfully initialized. */
   body.llm-mobile-ready:not(.llm-homepage) .topbar,
   body.llm-mobile-ready:not(.llm-homepage) .site-header{display:none!important}
 
-  /* Homepage: replace the desktop image-based hero with a readable touch-first hero. */
   body.llm-homepage{padding-top:64px!important;background:#071d33!important}
   body.llm-homepage .hero-wrap{display:none!important}
   body.llm-homepage .llm-mobile-home-hero{display:block;position:relative;overflow:hidden;min-height:calc(100svh - 64px);padding:34px 18px 32px;background:radial-gradient(circle at 76% 20%,#123b62 0,rgba(18,59,98,.16) 32%,transparent 50%),linear-gradient(180deg,#071d33 0%,#0b2744 100%)}
@@ -47,17 +44,22 @@
   .llm-mobile-home-actions{display:grid;grid-template-columns:1fr;gap:10px;max-width:500px;margin:24px 0 0}
   .llm-mobile-home-actions a{display:flex;align-items:center;justify-content:center;min-height:50px;padding:12px 16px;border:1px solid #eda91a;border-radius:9px;text-decoration:none;font-size:13px;font-weight:900;letter-spacing:.02em}
   .llm-mobile-home-actions .primary{background:#eda91a;color:#071d33}.llm-mobile-home-actions .secondary{background:#071d33;color:#ffd16b}
-  .llm-mobile-map-preview{position:relative;display:block;max-width:520px;height:190px;margin:28px auto 0;overflow:hidden;border:1px solid rgba(237,169,26,.35);border-radius:16px;background:#0c2947;box-shadow:0 18px 35px rgba(0,0,0,.28)}
-  .llm-mobile-map-preview::after{content:"Tap Browse Markets to choose a state";position:absolute;left:12px;right:12px;bottom:10px;padding:8px 10px;border:1px solid rgba(237,169,26,.28);border-radius:8px;background:rgba(2,21,40,.88);color:#e6edf3;font-size:11px;font-weight:800;text-align:center}
-  .llm-mobile-map-preview img{position:absolute;left:-49%;top:-28%;width:190%;height:auto;max-width:none;pointer-events:none;user-select:none}
 
-  /* Universal phone typography and touch targets */
+  .llm-mobile-market-panel{max-width:520px;margin:28px 0 0;padding:17px;border:1px solid rgba(237,169,26,.32);border-radius:14px;background:linear-gradient(145deg,#0b2a48,#071d33);box-shadow:0 14px 30px rgba(0,0,0,.2)}
+  .llm-mobile-market-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
+  .llm-mobile-market-heading span{color:#eda91a;font-size:11px;font-weight:900;letter-spacing:.14em}
+  .llm-mobile-market-heading a{color:#d6e0e9;font-size:12px;font-weight:800;text-decoration:none}
+  .llm-mobile-state-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .llm-mobile-state-grid a{display:grid;grid-template-columns:36px minmax(0,1fr);align-items:center;gap:9px;min-height:48px;padding:9px 10px;border:1px solid rgba(237,169,26,.22);border-radius:9px;background:#081f37;color:#f6f3ed;text-decoration:none}
+  .llm-mobile-state-grid b{display:grid;place-items:center;width:34px;height:34px;border:1px solid rgba(237,169,26,.48);border-radius:50%;color:#eda91a;font:700 13px Georgia,serif}
+  .llm-mobile-state-grid span{min-width:0;font-size:12px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .llm-mobile-state-grid a:active{border-color:#eda91a;background:#102f50}
+
   h1{overflow-wrap:anywhere}
   button,a,input,select,textarea{touch-action:manipulation}
   input,select,textarea{font-size:16px!important}
   button,.btn,.button,[class*="btn"],input[type="submit"]{min-height:46px}
 
-  /* Standard content pages */
   .hero{padding-left:18px!important;padding-right:18px!important}
   .wrap,.content,.container,.page,.shell,.main{max-width:100%!important;padding-left:18px!important;padding-right:18px!important}
   .hero-inner{grid-template-columns:1fr!important;gap:24px!important;padding-left:18px!important;padding-right:18px!important}
@@ -66,7 +68,6 @@
   .section{padding:22px 18px!important;border-radius:12px!important}
   .section h2{font-size:clamp(27px,8vw,36px)!important}
 
-  /* Inventory / listings */
   .sources,.broker-cta,.facts{grid-template-columns:1fr!important;padding-left:14px!important;padding-right:14px!important}
   .toolbar{display:grid!important;grid-template-columns:1fr!important;gap:9px!important;padding:0 14px 14px!important}
   .toolbar input,.toolbar select{min-height:48px!important;padding:12px 13px!important;border-radius:9px!important}
@@ -78,13 +79,11 @@
   .actions{gap:9px!important}.actions .btn,.card .btn{min-height:48px!important;font-size:12px!important}
   .load-wrap,.notice,.updated{padding-left:14px!important;padding-right:14px!important}
 
-  /* Browse markets */
   .market-grid{grid-template-columns:1fr!important;gap:12px!important}
   .market-card{min-height:112px!important;padding:16px!important;gap:12px!important}
   .market-meta{min-width:0!important;gap:9px!important}
   .state-slogan{max-width:98px!important;font-size:11px!important}.state-seal{width:58px!important;height:58px!important;flex-basis:58px!important}.state-code{font-size:20px!important}
 
-  /* Seller, broker, financing and resource cards/forms */
   .seller-paths,.seller-path-grid,.license-grid,.service-grid,.option-grid,.options-grid,.feature-grid,.features,.cards,.steps,.broker-grid,.lender-grid{grid-template-columns:1fr!important}
   .flow{grid-template-columns:1fr!important}.flow-nav{position:relative!important;top:auto!important}
   form{max-width:100%!important}
@@ -92,11 +91,9 @@
   form textarea{min-height:120px!important}
   .form-grid,.form-row,.fields,.two-col,.two-column,.review-grid{grid-template-columns:1fr!important}
 
-  /* Keep wide tables usable when their page already provides a scroll wrapper. */
   .table-wrap,.table-container,[class*="table-wrap"]{overflow-x:auto!important;-webkit-overflow-scrolling:touch}
   .table-wrap table,.table-container table,[class*="table-wrap"] table{min-width:620px}
 
-  /* Prevent accidental horizontal overflow from fixed desktop widths. */
   img,svg,video,iframe{max-width:100%}
   .footer,.site-footer{padding-left:18px!important;padding-right:18px!important}
 }
@@ -106,5 +103,5 @@
   .llm-mobile-brand-copy strong{font-size:12px}
   .llm-mobile-mark::before,.llm-mobile-mark::after{width:13px}
   .llm-mobile-home-hero{padding-left:15px!important;padding-right:15px!important}
-  .llm-mobile-map-preview{height:172px}
+  .llm-mobile-state-grid{grid-template-columns:1fr}
 }
