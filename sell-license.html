@@ -61,6 +61,24 @@ h1 span{color:var(--gold)}
 .proof strong{display:block;font-size:14px}
 .proof small{display:block;margin-top:3px;color:#aebdcb;font-size:12px;line-height:1.35}
 .page{max-width:1180px;margin:0 auto;padding:42px 28px 84px}
+.seller-paths{margin:0 0 34px;padding:30px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,rgba(15,36,63,.98),rgba(6,24,42,.98));box-shadow:0 22px 55px rgba(0,0,0,.22)}
+.seller-paths-head{max-width:820px;margin-bottom:22px}
+.seller-paths .path-eyebrow{margin:0 0 7px;color:var(--gold);font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+.seller-paths h2{margin:0;color:var(--white);font:700 clamp(30px,4vw,44px)/1.05 Georgia,serif}
+.seller-paths .path-intro{margin:12px 0 0;color:var(--muted);font-size:15px;line-height:1.6}
+.seller-path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.seller-path-card{position:relative;display:flex;flex-direction:column;min-height:285px;padding:26px;border:1px solid rgba(237,169,26,.34);border-radius:14px;background:rgba(3,20,35,.58);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.seller-path-card:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 16px 34px rgba(0,0,0,.24)}
+.seller-path-card.featured{border-color:rgba(237,169,26,.72);background:linear-gradient(145deg,rgba(18,49,80,.98),rgba(5,24,42,.98))}
+.path-badge{align-self:flex-start;margin-bottom:18px;padding:6px 10px;border:1px solid var(--gold);border-radius:999px;color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.seller-path-card.featured .path-badge{background:var(--gold);color:#071d33}
+.seller-path-card h3{margin:0 0 10px;color:var(--white);font:700 28px/1.1 Georgia,serif}
+.seller-path-card p{margin:0;color:#c4d0dc;font-size:14px;line-height:1.6}
+.path-note{display:block;margin-top:10px;color:#91a5b7;font-size:12px;line-height:1.45}
+.path-btn{margin-top:auto;min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border:1px solid var(--gold);border-radius:8px;color:var(--white);font-size:13px;font-weight:900;text-decoration:none;transition:.16s ease}
+.path-btn:hover,.path-btn:focus-visible{transform:translateY(-1px);outline:none;box-shadow:0 10px 22px rgba(0,0,0,.2)}
+.path-btn.primary{background:var(--gold);color:#071d33}
+@media(max-width:760px){.seller-paths{padding:22px}.seller-path-grid{grid-template-columns:1fr}.seller-path-card{min-height:255px}}
 .flow{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start}
 .flow-nav{position:sticky;top:24px;padding:22px;border:1px solid var(--line);border-radius:14px;background:rgba(5,23,40,.92);box-shadow:0 18px 44px rgba(0,0,0,.22)}
 .flow-nav h2{margin:0 0 6px;font:700 25px/1.1 Georgia,serif}
@@ -210,7 +228,7 @@ textarea{min-height:118px;resize:vertical}
 <div>
 <p class="eyebrow">National seller intake</p>
 <h1>Sell Your <span>Liquor License</span></h1>
-<p class="lede">Tell us about your license, your ownership information, and your preferred asking price. You remain in control while we prepare the opportunity for marketplace review.</p>
+<p class="lede">Choose the way you want to sell: list your liquor license yourself for free, or request help from an independent liquor-license broker.</p>
 </div>
 <div class="hero-proof" aria-label="Seller benefits">
 <div class="proof"><span class="proof-mark">1</span><div><strong>Set your asking price</strong><small>Start with the number that works for you.</small></div></div>
@@ -221,6 +239,29 @@ textarea{min-height:118px;resize:vertical}
 </section>
 
 <main class="page">
+<section class="seller-paths" aria-labelledby="seller-paths-title">
+<div class="seller-paths-head">
+<p class="path-eyebrow">Choose how you want to sell</p>
+<h2 id="seller-paths-title">List It Yourself for Free or Work With a Broker</h2>
+<p class="path-intro">Both paths start with you in control. Choose a self-directed marketplace listing or request professional assistance.</p>
+</div>
+<div class="seller-path-grid">
+<article class="seller-path-card featured">
+<span class="path-badge">Free Listing</span>
+<h3>List It Yourself</h3>
+<p>Create your own marketplace listing, set your asking price, and provide the license details buyers need to evaluate the opportunity.</p>
+<span class="path-note">No listing fee. You manage your listing and buyer inquiries directly.</span>
+<a class="path-btn primary" href="#seller-form">Start My Free Listing <span aria-hidden="true">→</span></a>
+</article>
+<article class="seller-path-card">
+<span class="path-badge">Professional Assistance</span>
+<h3>Work With a Liquor License Broker</h3>
+<p>Request a match with an independent liquor-license broker who can assist with valuation, marketing, buyer qualification, negotiation, transfer coordination, and closing.</p>
+<span class="path-note">Broker services and fees are arranged directly with the independent broker.</span>
+<a class="path-btn" href="/brokers/?intent=sell">Request a Broker Match <span aria-hidden="true">→</span></a>
+</article>
+</div>
+</section>
 <div class="flow">
 <aside class="flow-nav" aria-label="Listing request progress">
 <h2>Your seller packet</h2>
