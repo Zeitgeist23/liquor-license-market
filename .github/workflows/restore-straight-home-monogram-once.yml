@@ -1,0 +1,51 @@
+name: Restore straight homepage LLM monogram
+
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-straight-home-monogram-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restore-straight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Restore straight LLM letters
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          old_markup = '<span class="monogram-mark monogram-stagger"><span class="l1">L</span><span class="l2">L</span><span class="m">M</span></span>'
+          new_markup = '<span class="monogram-mark">LLM</span>'
+          if old_markup not in s:
+              raise SystemExit('Staggered monogram markup not found; no change made')
+          s = s.replace(old_markup, new_markup, 1)
+
+          css_lines = [
+              '.hero-monogram-live .monogram-stagger{display:inline-flex;align-items:flex-start;letter-spacing:-.09em}\n',
+              '.hero-monogram-live .monogram-stagger .l1,.hero-monogram-live .monogram-stagger .l2,.hero-monogram-live .monogram-stagger .m{position:relative;display:inline-block}\n',
+              '.hero-monogram-live .monogram-stagger .l1{top:-.18em}\n',
+              '.hero-monogram-live .monogram-stagger .l2{top:-.03em}\n',
+              '.hero-monogram-live .monogram-stagger .m{top:.14em}\n',
+          ]
+          for line in css_lines:
+              s = s.replace(line, '', 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit homepage monogram change
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Restore straight LLM monogram letters"
+          git push origin HEAD:main
