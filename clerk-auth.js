@@ -45,6 +45,16 @@
       ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
       "*:has(>a[aria-label='Clerk logo'])>p,a[aria-label='Clerk logo'],a[aria-label='Clerk logo'] svg{color:#dbe5ef!important;opacity:1!important;filter:none!important}" +
       "a[aria-label='Clerk logo']:hover,a[aria-label='Clerk logo']:focus{color:#eda91a!important}" +
+      ".cl-userProfile-root,.cl-userProfile-root *{color:#f7f3ea!important}" +
+      ".cl-userProfile-root .cl-card,.cl-userProfile-root .cl-navbar,.cl-userProfile-root .cl-pageScrollBox{background:#102d4a!important}" +
+      ".cl-userProfile-root .cl-navbar{border-right:1px solid rgba(237,169,26,.28)!important}" +
+      ".cl-userProfile-root .cl-headerTitle,.cl-userProfile-root .cl-profileSectionTitleText{color:#eda91a!important}" +
+      ".cl-userProfile-root .cl-headerSubtitle,.cl-userProfile-root .cl-profileSectionSubtitle{color:#c8d0da!important}" +
+      ".cl-userProfile-root .cl-navbarButton,.cl-userProfile-root .cl-profileSectionContent,.cl-userProfile-root .cl-profileSectionContent p,.cl-userProfile-root .cl-profileSectionContent span{color:#f7f3ea!important}" +
+      ".cl-userProfile-root .cl-navbarButton[aria-current='page'],.cl-userProfile-root .cl-profileSectionPrimaryButton,.cl-userProfile-root a{color:#eda91a!important}" +
+      ".cl-userProfile-root .cl-badge{color:#f7f3ea!important;background:#173a5d!important}" +
+      ".cl-userProfile-root .cl-menuButton,.cl-userProfile-root .cl-modalCloseButton{color:#eda91a!important}" +
+      ".cl-userProfile-root .cl-footer *{color:#dbe5ef!important}" +
       ".llm-auth-title{font-family:Georgia,'Times New Roman',serif!important}" +
       ".llm-auth-primary{font-weight:800!important;color:#071d33!important;box-shadow:0 7px 22px rgba(237,169,26,.24)!important}" +
       ".llm-auth-link{font-weight:700!important}" +
