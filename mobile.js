@@ -34,6 +34,7 @@
 
     body.prepend(drawer);
     body.prepend(header);
+    body.classList.add('llm-mobile-ready');
 
     const button = header.querySelector('.llm-mobile-menu-button');
     const closeMenu = () => {
@@ -67,7 +68,7 @@
           <a class="primary" href="/browse-markets.html">BROWSE MARKETS</a>
           <a class="secondary" href="/sell-license.html">SELL A LICENSE</a>
         </div>
-        <a class="llm-mobile-map-preview" href="/browse-markets.html" aria-label="Browse liquor license markets by state"><img src="/hero-tilted.webp" alt="Liquor License Market state map"></a>`;
+        <a class="llm-mobile-map-preview" href="/browse-markets.html" aria-label="Browse liquor license markets by state"><img src="/hero-tilted.webp" loading="lazy" decoding="async" alt="Liquor License Market state map"></a>`;
       const heroWrap = document.querySelector('.hero-wrap');
       if (heroWrap) heroWrap.before(mobileHero); else header.after(mobileHero);
     }
