@@ -34,6 +34,7 @@
 @media(max-width:760px){.guide-intro{grid-template-columns:1fr;align-items:start}.license-card-grid{grid-template-columns:1fr}.state-switcher{gap:7px}.state-switcher a{padding:8px 11px}}
 </style>
 <link rel="canonical" href="https://liquorlicensemarket.com/state-license-guide.html">
+  <link rel="stylesheet" href="/mobile.css?v=20260814">
 </head>
 <body>
 <header class="site-header">
@@ -214,5 +215,6 @@ document.getElementById("inventory-link").href=data.inventory;
 document.getElementById("license-table-body").innerHTML=data.rows.map(row=>"<tr>"+row.map((cell,index)=>"<td>"+(index===0?'<span class="type-pill">'+esc(cell)+"</span>":esc(cell))+"</td>").join("")+"</tr>").join("");
 document.getElementById("license-card-grid").innerHTML=data.rows.map(row=>'<article class="license-detail"><span class="type-code">'+esc(row[0])+'</span><h3>'+esc(row[1])+'</h3><p>'+esc(row[4])+" "+esc(row[2])+"; "+esc(row[3]).toLowerCase()+'.</p></article>').join("");
 </script>
+  <script src="/mobile.js?v=20260814" defer></script>
 </body>
 </html>

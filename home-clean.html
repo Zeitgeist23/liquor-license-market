@@ -45,6 +45,7 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 </style>
 <link rel="canonical" href="https://liquorlicensemarket.com/">
 <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="/mobile.css?v=20260814">
 </head>
 <body>
 <main class="hero-wrap">
@@ -57,4 +58,5 @@ body{margin:0;width:100%;min-height:100vh;background:var(--navy);color:var(--whi
 <nav class="market-menu" id="market-menu" aria-label="Active liquor license markets" hidden><a href="/browse-markets.html?state=California">California</a><a href="/browse-markets.html?state=Michigan">Michigan</a><a href="/browse-markets.html?state=Arizona">Arizona</a><a href="/browse-markets.html?state=Ohio">Ohio</a><a href="/browse-markets.html?state=New%20Mexico">New Mexico</a><a href="/browse-markets.html?state=Pennsylvania">Pennsylvania</a><a href="/florida/">Florida</a><a href="/browse-markets.html?state=New%20Jersey">New Jersey</a></nav>
 </section><div class="hero-tail" aria-hidden="true"></div></main>
 <script>const marketToggle=document.getElementById('header-markets-toggle');const marketMenu=document.getElementById('market-menu');function setMarketMenu(open){marketMenu.hidden=!open;marketToggle.setAttribute('aria-expanded',String(open));}marketToggle.addEventListener('click',event=>{event.stopPropagation();setMarketMenu(marketMenu.hidden);});marketMenu.addEventListener('click',event=>event.stopPropagation());document.addEventListener('click',()=>setMarketMenu(false));document.addEventListener('keydown',event=>{if(event.key==='Escape'){setMarketMenu(false);marketToggle.focus();}});</script>
+  <script src="/mobile.js?v=20260814" defer></script>
 </body></html>
