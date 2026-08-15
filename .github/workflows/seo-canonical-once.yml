@@ -1,0 +1,68 @@
+name: Add canonical URLs once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/seo-canonical-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  canonicalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Add canonical URLs to HTML pages
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          base = 'https://liquorlicensemarket.com'
+          home_variants = {
+              'home.html','home-clean.html','home-final.html','home-logo10.html',
+              'home-nologo.html','home-separated.html'
+          }
+
+          changed = []
+          for p in Path('.').rglob('*.html'):
+              if any(part.startswith('.') for part in p.parts):
+                  continue
+              rel = p.as_posix()
+              if p.name in home_variants:
+                  canonical = base + '/'
+              elif p.name == 'index.html':
+                  parent = p.parent.as_posix()
+                  canonical = base + ('/' if parent == '.' else '/' + parent.strip('/') + '/')
+              else:
+                  canonical = base + '/' + rel
+
+              s = p.read_text(encoding='utf-8')
+              tag = f'<link rel="canonical" href="{canonical}">'
+              if re.search(r'<link\s+[^>]*rel=["\']canonical["\'][^>]*>', s, flags=re.I):
+                  ns = re.sub(r'<link\s+[^>]*rel=["\']canonical["\'][^>]*>', tag, s, count=1, flags=re.I)
+              else:
+                  if '</head>' not in s:
+                      continue
+                  ns = s.replace('</head>', tag + '\n</head>', 1)
+              if ns != s:
+                  p.write_text(ns, encoding='utf-8')
+                  changed.append(rel)
+
+          if not changed:
+              raise SystemExit('No HTML files changed')
+          print('Canonicalized', len(changed), 'HTML files')
+          PY
+      - name: Commit canonical URLs
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add '*.html' '*/**/*.html' || true
+          git add -u
+          git commit -m "Add canonical URLs across LLM site"
+          git push origin HEAD:main
