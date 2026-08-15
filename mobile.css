@@ -3,7 +3,8 @@
 @media (max-width:820px){
   :root{--llm-mobile-navy:#021528;--llm-mobile-panel:#071d33;--llm-mobile-gold:#eda91a;--llm-mobile-white:#f6f3ed;--llm-mobile-muted:#b8c7d5}
   html{scroll-padding-top:68px;-webkit-text-size-adjust:100%}
-  body{overflow-x:hidden!important;padding-top:64px!important}
+  body{overflow-x:hidden!important}
+  body.llm-mobile-ready{padding-top:64px!important}
   body.llm-mobile-menu-open{overflow:hidden!important}
 
   /* Consistent phone header */
@@ -31,9 +32,9 @@
   .llm-mobile-drawer a:active{background:#eda91a;color:#071d33}.llm-mobile-drawer a:active::after{color:#071d33}
   .llm-mobile-drawer .llm-mobile-login{margin-top:7px;border-color:#eda91a;color:#eda91a}
 
-  /* Hide desktop headers/navs only on phones; drawer replaces them. */
-  body:not(.llm-homepage) .topbar,
-  body:not(.llm-homepage) .site-header{display:none!important}
+  /* Hide desktop headers only after the mobile header has successfully initialized. */
+  body.llm-mobile-ready:not(.llm-homepage) .topbar,
+  body.llm-mobile-ready:not(.llm-homepage) .site-header{display:none!important}
 
   /* Homepage: replace the desktop image-based hero with a readable touch-first hero. */
   body.llm-homepage{padding-top:64px!important;background:#071d33!important}
@@ -46,7 +47,7 @@
   .llm-mobile-home-actions{display:grid;grid-template-columns:1fr;gap:10px;max-width:500px;margin:24px 0 0}
   .llm-mobile-home-actions a{display:flex;align-items:center;justify-content:center;min-height:50px;padding:12px 16px;border:1px solid #eda91a;border-radius:9px;text-decoration:none;font-size:13px;font-weight:900;letter-spacing:.02em}
   .llm-mobile-home-actions .primary{background:#eda91a;color:#071d33}.llm-mobile-home-actions .secondary{background:#071d33;color:#ffd16b}
-  .llm-mobile-map-preview{position:relative;max-width:520px;height:190px;margin:28px auto 0;overflow:hidden;border:1px solid rgba(237,169,26,.35);border-radius:16px;background:#0c2947;box-shadow:0 18px 35px rgba(0,0,0,.28)}
+  .llm-mobile-map-preview{position:relative;display:block;max-width:520px;height:190px;margin:28px auto 0;overflow:hidden;border:1px solid rgba(237,169,26,.35);border-radius:16px;background:#0c2947;box-shadow:0 18px 35px rgba(0,0,0,.28)}
   .llm-mobile-map-preview::after{content:"Tap Browse Markets to choose a state";position:absolute;left:12px;right:12px;bottom:10px;padding:8px 10px;border:1px solid rgba(237,169,26,.28);border-radius:8px;background:rgba(2,21,40,.88);color:#e6edf3;font-size:11px;font-weight:800;text-align:center}
   .llm-mobile-map-preview img{position:absolute;left:-49%;top:-28%;width:190%;height:auto;max-width:none;pointer-events:none;user-select:none}
 
@@ -59,6 +60,7 @@
   /* Standard content pages */
   .hero{padding-left:18px!important;padding-right:18px!important}
   .wrap,.content,.container,.page,.shell,.main{max-width:100%!important;padding-left:18px!important;padding-right:18px!important}
+  .hero-inner{grid-template-columns:1fr!important;gap:24px!important;padding-left:18px!important;padding-right:18px!important}
   .hero h1{font-size:clamp(36px,10vw,50px)!important;line-height:1.02!important}
   .hero .intro,.intro,.lede{font-size:16px!important;line-height:1.58!important}
   .section{padding:22px 18px!important;border-radius:12px!important}
@@ -83,15 +85,16 @@
   .state-slogan{max-width:98px!important;font-size:11px!important}.state-seal{width:58px!important;height:58px!important;flex-basis:58px!important}.state-code{font-size:20px!important}
 
   /* Seller, broker, financing and resource cards/forms */
-  .seller-paths,.license-grid,.service-grid,.option-grid,.options-grid,.feature-grid,.features,.cards,.steps,.broker-grid,.lender-grid{grid-template-columns:1fr!important}
+  .seller-paths,.seller-path-grid,.license-grid,.service-grid,.option-grid,.options-grid,.feature-grid,.features,.cards,.steps,.broker-grid,.lender-grid{grid-template-columns:1fr!important}
+  .flow{grid-template-columns:1fr!important}.flow-nav{position:relative!important;top:auto!important}
   form{max-width:100%!important}
   form input,form select,form textarea{width:100%!important;min-height:48px!important}
   form textarea{min-height:120px!important}
-  .form-grid,.form-row,.fields,.two-col,.two-column{grid-template-columns:1fr!important}
+  .form-grid,.form-row,.fields,.two-col,.two-column,.review-grid{grid-template-columns:1fr!important}
 
-  /* Keep tables usable rather than crushing columns. */
-  table{min-width:640px}
+  /* Keep wide tables usable when their page already provides a scroll wrapper. */
   .table-wrap,.table-container,[class*="table-wrap"]{overflow-x:auto!important;-webkit-overflow-scrolling:touch}
+  .table-wrap table,.table-container table,[class*="table-wrap"] table{min-width:620px}
 
   /* Prevent accidental horizontal overflow from fixed desktop widths. */
   img,svg,video,iframe{max-width:100%}
