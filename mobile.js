@@ -74,7 +74,8 @@
             <a href="/browse-markets.html">View all</a>
           </div>
           <div class="llm-mobile-state-grid">
-            <a href="/florida/"><b>FL</b><span>Florida</span></a>
+            <a href="/florida/"><b>FL</b><span>Florida Overview</span></a>
+            <a href="https://www.floridaliquorlicensemarket.com/listings"><b>FL</b><span>Florida Listings</span></a>
             <a href="/california/licenses-for-sale/"><b>CA</b><span>California</span></a>
             <a href="/arizona/licenses-for-sale/"><b>AZ</b><span>Arizona</span></a>
             <a href="/new-mexico/licenses-for-sale/"><b>NM</b><span>New Mexico</span></a>
@@ -91,3 +92,4 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready, {once:true});
   else ready();
 })();
+
