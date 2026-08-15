@@ -1,0 +1,39 @@
+name: Refine homepage LLM monogram letters
+
+on:
+  push:
+    paths:
+      - '.github/workflows/refine-home-monogram-letters-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refine-monogram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Refine LLM letter proportions
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          old = '.hero-monogram-live .monogram-mark{flex:0 0 auto;color:#eda91a;font-family:"Times New Roman",Times,serif;font-size:2.75vw;font-weight:400;line-height:.92;letter-spacing:-.075em;text-shadow:0 0 .16vw rgba(237,169,26,.12);transform:scaleX(.96);transform-origin:center}'
+          new = '.hero-monogram-live .monogram-mark{flex:0 0 auto;color:#eda91a;font-family:"Times New Roman",Times,serif;font-size:2.75vw;font-weight:400;line-height:.92;letter-spacing:-.035em;text-shadow:none;transform:scaleX(.90);transform-origin:center}'
+          if old not in s:
+              raise SystemExit('Current monogram CSS not found; refusing unsafe edit')
+          s = s.replace(old, new, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit refined homepage monogram
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Refine homepage LLM monogram letter proportions"
+          git push origin HEAD:main
