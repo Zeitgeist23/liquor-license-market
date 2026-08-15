@@ -45,6 +45,11 @@
       ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
       "*:has(>a[aria-label='Clerk logo'])>p,a[aria-label='Clerk logo'],a[aria-label='Clerk logo'] svg{color:#dbe5ef!important;opacity:1!important;filter:none!important}" +
       "a[aria-label='Clerk logo']:hover,a[aria-label='Clerk logo']:focus{color:#eda91a!important}" +
+      ".cl-userProfile-root{width:min(920px,calc(100vw - 32px))!important;max-width:920px!important;height:min(640px,calc(100vh - 32px))!important;max-height:640px!important;min-height:0!important}" +
+      ".cl-userProfile-root .cl-cardBox,.cl-userProfile-root .cl-card{width:100%!important;max-width:920px!important;height:100%!important;max-height:640px!important;min-height:0!important}" +
+      ".cl-userProfile-root .cl-pageScrollBox,.cl-userProfile-root .cl-scrollBox{max-height:640px!important;overflow-y:auto!important}" +
+      ".cl-userProfile-root .cl-navbar{width:230px!important;min-width:230px!important}" +
+      "@media(max-width:760px){.cl-userProfile-root{width:calc(100vw - 20px)!important;height:calc(100vh - 20px)!important;max-height:none!important}.cl-userProfile-root .cl-cardBox,.cl-userProfile-root .cl-card{max-height:none!important}.cl-userProfile-root .cl-navbar{width:auto!important;min-width:0!important}}" +
       ".cl-userProfile-root,.cl-userProfile-root *{color:#f7f3ea!important}" +
       ".cl-userProfile-root .cl-card,.cl-userProfile-root .cl-navbar,.cl-userProfile-root .cl-pageScrollBox{background:#102d4a!important}" +
       ".cl-userProfile-root .cl-navbar{border-right:1px solid rgba(237,169,26,.28)!important}" +
