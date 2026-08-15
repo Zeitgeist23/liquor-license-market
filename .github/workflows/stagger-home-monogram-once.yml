@@ -1,0 +1,48 @@
+name: Stagger homepage LLM monogram
+
+on:
+  push:
+    paths:
+      - '.github/workflows/stagger-home-monogram-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  stagger-monogram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Stagger LLM letters
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          old = '<span class="monogram-mark">LLM</span>'
+          new = '<span class="monogram-mark monogram-stagger"><span class="l1">L</span><span class="l2">L</span><span class="m">M</span></span>'
+          if old not in s:
+              raise SystemExit('Current straight LLM markup not found; refusing unsafe edit')
+          s = s.replace(old, new, 1)
+
+          css_anchor = '.hero-monogram-live .monogram-mark{flex:0 0 auto;color:#eda91a;font-family:"Times New Roman",Times,serif;font-size:2.75vw;font-weight:400;line-height:.92;letter-spacing:-.075em;text-shadow:0 0 .16vw rgba(237,169,26,.12);transform:scaleX(.96);transform-origin:center}'
+          stagger_css = '\n.hero-monogram-live .monogram-stagger{display:inline-flex;align-items:flex-start;letter-spacing:-.09em}\n.hero-monogram-live .monogram-stagger .l1,.hero-monogram-live .monogram-stagger .l2,.hero-monogram-live .monogram-stagger .m{position:relative;display:inline-block}\n.hero-monogram-live .monogram-stagger .l1{top:-.18em}\n.hero-monogram-live .monogram-stagger .l2{top:-.03em}\n.hero-monogram-live .monogram-stagger .m{top:.14em}'
+          if '.hero-monogram-live .monogram-stagger{' not in s:
+              if css_anchor not in s:
+                  raise SystemExit('Current monogram CSS not found; refusing unsafe edit')
+              s = s.replace(css_anchor, css_anchor + stagger_css, 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit homepage monogram stagger
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Stagger homepage LLM monogram letters"
+          git push origin HEAD:main
