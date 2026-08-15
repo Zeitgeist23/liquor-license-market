@@ -21,38 +21,31 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-
           p = Path('index.html')
           s = p.read_text(encoding='utf-8')
-
-          # Remove the raster monogram rule and markup from the failed attempt.
           s = re.sub(r'\n?\.hero img\.hero-llm-approved\{[^}]*\}', '', s, count=1)
           s = re.sub(r'\n?<img class="hero-llm-approved"[^>]*>\n?', '\n', s, count=1)
-
-          css = r'''
-.hero-monogram-live{position:absolute;z-index:32;left:3.8%;top:17.85%;width:27%;height:8.2%;display:flex;align-items:center;justify-content:center;gap:1.15vw;pointer-events:none;user-select:none}
-.hero-monogram-live .monogram-line{position:relative;display:block;flex:1 1 auto;height:.9vw;min-height:7px}
-.hero-monogram-live .monogram-line::before,.hero-monogram-live .monogram-line::after{content:"";position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,rgba(237,169,26,0),rgba(184,139,35,.9) 18%,#eda91a 58%,rgba(237,169,26,.26) 100%);box-shadow:0 0 .18vw rgba(237,169,26,.18)}
-.hero-monogram-live .monogram-line::before{top:22%}
-.hero-monogram-live .monogram-line::after{top:64%}
-.hero-monogram-live .monogram-line.right::before,.hero-monogram-live .monogram-line.right::after{transform:scaleX(-1)}
-.hero-monogram-live .monogram-mark{flex:0 0 auto;color:#eda91a;font-family:"Times New Roman",Times,serif;font-size:2.75vw;font-weight:400;line-height:.92;letter-spacing:-.075em;text-shadow:0 0 .16vw rgba(237,169,26,.12);transform:scaleX(.96);transform-origin:center}
-@media(max-width:700px){.hero-monogram-live{gap:1vw}.hero-monogram-live .monogram-mark{font-size:2.85vw}.hero-monogram-live .monogram-line{min-height:4px}}
-'''.strip()
-
+          css = (
+              '.hero-monogram-live{position:absolute;z-index:32;left:3.8%;top:17.85%;width:27%;height:8.2%;display:flex;align-items:center;justify-content:center;gap:1.15vw;pointer-events:none;user-select:none}\n'
+              '.hero-monogram-live .monogram-line{position:relative;display:block;flex:1 1 auto;height:.9vw;min-height:7px}\n'
+              '.hero-monogram-live .monogram-line::before,.hero-monogram-live .monogram-line::after{content:"";position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,rgba(237,169,26,0),rgba(184,139,35,.9) 18%,#eda91a 58%,rgba(237,169,26,.26) 100%);box-shadow:0 0 .18vw rgba(237,169,26,.18)}\n'
+              '.hero-monogram-live .monogram-line::before{top:22%}\n'
+              '.hero-monogram-live .monogram-line::after{top:64%}\n'
+              '.hero-monogram-live .monogram-line.right::before,.hero-monogram-live .monogram-line.right::after{transform:scaleX(-1)}\n'
+              '.hero-monogram-live .monogram-mark{flex:0 0 auto;color:#eda91a;font-family:"Times New Roman",Times,serif;font-size:2.75vw;font-weight:400;line-height:.92;letter-spacing:-.075em;text-shadow:0 0 .16vw rgba(237,169,26,.12);transform:scaleX(.96);transform-origin:center}\n'
+              '@media(max-width:700px){.hero-monogram-live{gap:1vw}.hero-monogram-live .monogram-mark{font-size:2.85vw}.hero-monogram-live .monogram-line{min-height:4px}}'
+          )
           if '.hero-monogram-live{' not in s:
               anchor = '.hero img.hero-crest-zoom{display:none}'
               if anchor not in s:
                   raise SystemExit('CSS anchor not found')
               s = s.replace(anchor, anchor + '\n' + css, 1)
-
           markup = '<div class="hero-monogram-live" role="img" aria-label="LLM"><span class="monogram-line left" aria-hidden="true"></span><span class="monogram-mark">LLM</span><span class="monogram-line right" aria-hidden="true"></span></div>'
           if markup not in s:
               anchor = '<div class="hero-crest-erase" aria-hidden="true"></div>'
               if anchor not in s:
                   raise SystemExit('hero erase anchor not found')
               s = s.replace(anchor, anchor + '\n' + markup, 1)
-
           p.write_text(s, encoding='utf-8')
           PY
       - name: Commit homepage monogram
