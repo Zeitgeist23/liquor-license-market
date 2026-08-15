@@ -1,0 +1,43 @@
+name: Route Florida navigation through LLM hub
+
+on:
+  push:
+    paths:
+      - '.github/workflows/route-florida-hub-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  route-florida:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Point Florida navigation at LLM Florida hub
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          changed=[]
+          old='href="https://www.floridaliquorlicensemarket.com/"'
+          new='href="/florida/"'
+          for p in Path('.').rglob('*.html'):
+              s=p.read_text(encoding='utf-8')
+              if old in s:
+                  s=s.replace(old,new)
+                  p.write_text(s,encoding='utf-8')
+                  changed.append(str(p))
+          print('Updated:', ', '.join(changed) if changed else 'none')
+          if not changed:
+              raise SystemExit('No Florida root navigation links found')
+          PY
+      - name: Commit Florida hub routing
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add '*.html' '**/*.html' || true
+          git commit -m "Route Florida navigation to LLM Florida hub"
+          git push origin HEAD:main
