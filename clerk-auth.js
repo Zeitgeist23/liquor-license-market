@@ -9,9 +9,9 @@
   var appearance = {
     variables: {
       colorPrimary: "#eda91a",
-      colorBackground: "#071d33",
-      colorInputBackground: "#0f2742",
-      colorInputText: "#f7f3ea",
+      colorBackground: "#102d4a",
+      colorInputBackground: "#f7f3ea",
+      colorInputText: "#071d33",
       colorText: "#f7f3ea",
       colorTextSecondary: "#c8d0da",
       colorDanger: "#ef6f6c",
@@ -34,7 +34,15 @@
     style.id = "llm-clerk-styles";
     style.textContent =
       ".llm-auth-card-box{box-shadow:0 24px 70px rgba(0,0,0,.48)!important}" +
-      ".llm-auth-card{border:1px solid rgba(237,169,26,.72)!important;background:#071d33!important}" +
+      ".llm-auth-card{border:1px solid rgba(237,169,26,.72)!important;background:#102d4a!important;color:#f7f3ea!important}" +
+      ".cl-card,.cl-footer{background:#102d4a!important;color:#f7f3ea!important}" +
+      ".cl-headerTitle{color:#eda91a!important}" +
+      ".cl-headerSubtitle,.cl-formFieldLabel,.cl-dividerText,.cl-footerActionText,.cl-socialButtonsBlockButtonText,.cl-footerPagesLink,.cl-identityPreviewText{color:#f7f3ea!important}" +
+      ".cl-formFieldInput{background:#f7f3ea!important;color:#071d33!important;border-color:rgba(237,169,26,.55)!important}" +
+      ".cl-formFieldInput::placeholder{color:#5d6874!important;opacity:1!important}" +
+      ".cl-socialButtonsBlockButton{background:#173a5d!important;border-color:rgba(237,169,26,.55)!important;color:#f7f3ea!important}" +
+      ".cl-footer{border-top-color:rgba(237,169,26,.38)!important}" +
+      ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
       ".llm-auth-title{font-family:Georgia,'Times New Roman',serif!important}" +
       ".llm-auth-primary{font-weight:800!important;color:#071d33!important;box-shadow:0 7px 22px rgba(237,169,26,.24)!important}" +
       ".llm-auth-link{font-weight:700!important}" +
