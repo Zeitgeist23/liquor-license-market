@@ -28,6 +28,16 @@
     }
   };
 
+  var profileAppearance = {
+    variables: appearance.variables,
+    elements: Object.assign({}, appearance.elements, {
+      modalContent: "llm-profile-modal-content",
+      modalBackdrop: "llm-profile-modal-backdrop",
+      cardBox: "llm-profile-card-box",
+      card: "llm-profile-card"
+    })
+  };
+
   function addAuthStyles() {
     if (document.getElementById("llm-clerk-styles")) return;
     var style = document.createElement("style");
@@ -45,6 +55,8 @@
       ".cl-footerActionLink,.cl-modalCloseButton{color:#eda91a!important}" +
       "*:has(>a[aria-label='Clerk logo'])>p,a[aria-label='Clerk logo'],a[aria-label='Clerk logo'] svg{color:#dbe5ef!important;opacity:1!important;filter:none!important}" +
       "a[aria-label='Clerk logo']:hover,a[aria-label='Clerk logo']:focus{color:#eda91a!important}" +
+      ".llm-profile-modal-content{width:min(900px,calc(100vw - 40px))!important;max-width:900px!important;height:min(620px,calc(100vh - 40px))!important;max-height:620px!important;min-height:0!important;margin:auto!important;box-sizing:border-box!important;overflow:hidden!important}" +
+      ".llm-profile-card-box,.llm-profile-card{width:100%!important;max-width:900px!important;height:100%!important;max-height:620px!important;min-height:0!important;box-sizing:border-box!important}" +
       "html.llm-profile-open [role='dialog']{width:min(900px,calc(100vw - 40px))!important;max-width:900px!important;height:min(620px,calc(100vh - 40px))!important;max-height:620px!important;min-height:0!important;margin:auto!important;box-sizing:border-box!important;overflow:hidden!important}" +
       "html.llm-profile-open [role='dialog']>.cl-cardBox,html.llm-profile-open [role='dialog']>.cl-card,html.llm-profile-open [role='dialog']>div{width:100%!important;max-width:900px!important;height:100%!important;max-height:620px!important;min-height:0!important;box-sizing:border-box!important}" +
       "html.llm-profile-open [role='dialog'] .cl-pageScrollBox,html.llm-profile-open [role='dialog'] .cl-scrollBox{max-height:620px!important;overflow-y:auto!important}" +
@@ -121,7 +133,7 @@
 
   function showUserProfile(clerk) {
     document.documentElement.classList.add("llm-profile-open");
-    clerk.openUserProfile({ appearance: appearance });
+    clerk.openUserProfile({ appearance: profileAppearance });
     window.setTimeout(function () {
       var observer = new MutationObserver(function () {
         if (!document.querySelector("[role='dialog']")) {
