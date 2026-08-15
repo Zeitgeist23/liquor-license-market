@@ -1,0 +1,66 @@
+name: Remove current homepage monogram
+
+on:
+  push:
+    paths:
+      - '.github/workflows/remove-home-monogram-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  remove-monogram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Remove current monogram from homepage
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          # Remove the broken/replacement monogram image entirely.
+          s, n = re.subn(r'\n?<img class="hero-llm-attached"[^>]*>\n?', '\n', s, count=1)
+          if n != 1:
+              raise SystemExit('hero-llm-attached image not found')
+
+          # Make the existing erase layer cover the entire old crest + gold lines baked into hero background.
+          s = re.sub(
+              r'\.hero-crest-erase\{[^}]*\}',
+              '.hero-crest-erase{position:absolute;z-index:31;left:5.6%;top:17.4%;width:23.6%;height:12.2%;background:#0d243f;pointer-events:none}',
+              s,
+              count=1
+          )
+
+          # Hide any CSS-rendered crest lines from earlier iterations.
+          s = re.sub(
+              r'\.hero-crest-lines\{[^}]*\}',
+              '.hero-crest-lines{display:none!important}',
+              s,
+              count=1
+          )
+
+          # Ensure the erase layer exists immediately above the hero background.
+          bg = '<img class="hero-bg" src="/hero-tilted.webp" alt="Liquor License Market — The Nation\'s Marketplace for Liquor Licenses">'
+          clear = bg + '\n<div class="hero-crest-erase" aria-hidden="true"></div>'
+          if '<div class="hero-crest-erase" aria-hidden="true"></div>' not in s:
+              if bg not in s:
+                  raise SystemExit('hero background markup not found')
+              s = s.replace(bg, clear, 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit homepage cleanup
+        shell: bash
+        run: |
+          git config user.name "LLM Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Remove current homepage monogram"
+          git push origin HEAD:main
