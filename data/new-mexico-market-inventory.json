@@ -1,6 +1,6 @@
 {
   "state": "New Mexico",
-  "updatedAt": "2026-08-16T06:57:34Z",
+  "updatedAt": "2026-08-16T12:59:38Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,102 +11,15 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/new-mexico/",
-      "count": 6,
-      "note": null
+      "count": 0,
+      "note": "sync error: HTTPSConnectionPool(host='liquorlicensemarketplace.com', port=443): Max retries exceeded with url: /new-mexico/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='liquorlicensemarketplace.com', port=443) at 0x7f4210cf9700>, 'Connection to liquorlicensemarketplace.com timed out. (connect timeout=20)'))"
     }
   ],
-  "rawRecordCount": 72,
-  "uniqueCount": 72,
+  "rawRecordCount": 66,
+  "uniqueCount": 66,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Bernalillo",
-      "typeCode": "Dispensers License",
-      "typeName": "Dispensers License",
-      "price": 700000,
-      "privatePrice": false,
-      "listedDate": "December 16, 2025",
-      "sourceId": null,
-      "title": "Bernalillo New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-dispensers-license-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-dispensers-license-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 16, 2025",
-          "price": 700000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 700000,
-      "priceMax": 700000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Bernalillo",
-      "typeCode": "Inter Local Dispenser (ILD)",
-      "typeName": "Inter Local Dispenser (ILD)",
-      "price": 240000,
-      "privatePrice": false,
-      "listedDate": "January 29, 2026",
-      "sourceId": null,
-      "title": "Bernalillo New Mexico – Inter Local Dispenser (ILD)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-inter-local-dispenser-ild-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bernalillo-new-mexico-inter-local-dispenser-ild-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 29, 2026",
-          "price": 240000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 240000,
-      "priceMax": 240000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Lincoln",
-      "typeCode": "Dispensers License",
-      "typeName": "Dispensers License",
-      "price": 750000,
-      "privatePrice": false,
-      "listedDate": "January 24, 2025",
-      "sourceId": null,
-      "title": "Lincoln New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lincoln-new-mexico-dispensers-license-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lincoln-new-mexico-dispensers-license-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 24, 2025",
-          "price": 750000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 750000,
-      "priceMax": 750000
-    },
     {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
@@ -1888,93 +1801,6 @@
         "AlcoholPermit.com"
       ],
       "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Fe",
-      "typeCode": "Dispensers License",
-      "typeName": "Dispensers License",
-      "price": 650000,
-      "privatePrice": false,
-      "listedDate": "January 24, 2025",
-      "sourceId": null,
-      "title": "Santa Fe New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 24, 2025",
-          "price": 650000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 650000,
-      "priceMax": 650000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Fe",
-      "typeCode": "Dispensers License",
-      "typeName": "Dispensers License",
-      "price": 700000,
-      "privatePrice": false,
-      "listedDate": "December 16, 2025",
-      "sourceId": null,
-      "title": "Santa Fe New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-fe-new-mexico-dispensers-license-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 16, 2025",
-          "price": 700000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 700000,
-      "priceMax": 700000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Taos",
-      "typeCode": "Dispensers License",
-      "typeName": "Dispensers License",
-      "price": 700000,
-      "privatePrice": false,
-      "listedDate": "December 16, 2025",
-      "sourceId": null,
-      "title": "Taos New Mexico – Dispensers License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/taos-new-mexico-dispensers-license-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/taos-new-mexico-dispensers-license-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 16, 2025",
-          "price": 700000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 700000,
-      "priceMax": 700000
     }
   ]
 }
