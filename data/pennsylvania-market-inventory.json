@@ -1,6 +1,6 @@
 {
   "state": "Pennsylvania",
-  "updatedAt": "2026-08-17T01:53:59Z",
+  "updatedAt": "2026-08-17T07:14:52Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -12,7 +12,7 @@
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/pennsylvania/",
       "count": 0,
-      "note": null
+      "note": "sync error: HTTPSConnectionPool(host='liquorlicensemarketplace.com', port=443): Max retries exceeded with url: /pennsylvania/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='liquorlicensemarketplace.com', port=443) at 0x7f350c985a60>, 'Connection to liquorlicensemarketplace.com timed out. (connect timeout=20)'))"
     }
   ],
   "rawRecordCount": 201,
