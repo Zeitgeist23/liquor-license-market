@@ -1,11 +1,11 @@
 {
   "state": "New Jersey",
-  "updatedAt": "2026-08-21T07:05:49Z",
+  "updatedAt": "2026-08-21T13:09:32Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
       "url": "https://alcoholpermit.com/liquor-licenses/new-jersey/",
-      "count": 0,
+      "count": 63,
       "note": null
     },
     {
@@ -15,8 +15,8 @@
       "note": null
     }
   ],
-  "rawRecordCount": 98,
-  "uniqueCount": 98,
+  "rawRecordCount": 161,
+  "uniqueCount": 161,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
@@ -2629,6 +2629,1707 @@
       "duplicateCount": 0,
       "priceMin": 200000,
       "priceMax": 200000
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Atlantic",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Atlantic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Atlantic",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Atlantic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Atlantic",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Atlantic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Atlantic+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Bergen",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Bergen County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Bergen",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Bergen County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Bergen",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Bergen County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Bergen+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Burlington",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Burlington County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Burlington",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Burlington County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Burlington",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Burlington County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Burlington+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Camden",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Camden County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Camden",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Camden County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Camden",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Camden County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Camden+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cape May",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Cape May County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cape May",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Cape May County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cape May",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Cape May County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cape+May+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cumberland",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Cumberland County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cumberland",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Cumberland County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Cumberland",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Cumberland County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Cumberland+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Essex",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Essex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Essex",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Essex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Essex",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Essex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Essex+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Gloucester",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Gloucester County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Gloucester",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Gloucester County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Gloucester",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Gloucester County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Gloucester+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hudson",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Hudson County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hudson",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Hudson County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hudson",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Hudson County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hudson+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hunterdon",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Hunterdon County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hunterdon",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Hunterdon County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Hunterdon",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Hunterdon County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Hunterdon+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Mercer",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Mercer County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Mercer",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Mercer County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Mercer",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Mercer County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Mercer+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Middlesex",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Middlesex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Middlesex",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Middlesex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Middlesex",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Middlesex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Middlesex+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Monmouth",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Monmouth County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Monmouth",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Monmouth County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Monmouth",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Monmouth County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Monmouth+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Morris",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Morris County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Morris",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Morris County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Morris",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Morris County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Morris+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Ocean",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Ocean County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Ocean",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Ocean County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Ocean",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Ocean County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Ocean+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Passaic",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Passaic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Passaic",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Passaic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Passaic",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Passaic County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Passaic+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Salem",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Salem County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Salem",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Salem County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Salem",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Salem County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Salem+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Somerset",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Somerset County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Somerset",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Somerset County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Somerset",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Somerset County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Somerset+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Sussex",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Sussex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Sussex",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Sussex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Sussex",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Sussex County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Sussex+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Union",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Union County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Union",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Union County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Union",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Union County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Union+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Warren",
+      "typeCode": "Type 32",
+      "typeName": "Type 32",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 32 – Private Listing New Jersey Warren County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+32",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+32",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Warren",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 33 – Private Listing New Jersey Warren County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+33",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+33",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Private Listing New Jersey Warren",
+      "typeCode": "Type 44",
+      "typeName": "Type 44",
+      "price": null,
+      "privatePrice": true,
+      "listedDate": null,
+      "sourceId": null,
+      "title": "New Jersey Type 44 – Private Listing New Jersey Warren County",
+      "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+44",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/private-license/?state_name=New+Jersey&county_name=Warren+County&type=Type+44",
+          "sourceId": null,
+          "listedDate": null,
+          "price": null,
+          "privatePrice": true
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0
     },
     {
       "source": "Liquor License Marketplace",
