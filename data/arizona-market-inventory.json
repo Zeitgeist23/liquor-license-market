@@ -1,6 +1,6 @@
 {
   "state": "Arizona",
-  "updatedAt": "2026-08-27T22:14:26Z",
+  "updatedAt": "2026-08-28T11:20:43Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -12,7 +12,7 @@
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/arizona/",
       "count": 0,
-      "note": "sync error: HTTPSConnectionPool(host='liquorlicensemarketplace.com', port=443): Max retries exceeded with url: /arizona/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='liquorlicensemarketplace.com', port=443) at 0x7fc9c98a4c20>, 'Connection to liquorlicensemarketplace.com timed out. (connect timeout=20)'))"
+      "note": null
     }
   ],
   "rawRecordCount": 45,
