@@ -1,6 +1,6 @@
 {
   "state": "Michigan",
-  "updatedAt": "2026-08-30T05:21:32Z",
+  "updatedAt": "2026-08-30T11:51:59Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,15 +11,2944 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/michigan/",
-      "count": 0,
+      "count": 136,
       "note": null
     }
   ],
-  "rawRecordCount": 249,
-  "uniqueCount": 249,
+  "rawRecordCount": 385,
+  "uniqueCount": 385,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegan",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 240000,
+      "privatePrice": false,
+      "listedDate": "December 16, 2025",
+      "sourceId": null,
+      "title": "Allegan Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegan-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegan-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 16, 2025",
+          "price": 240000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 240000,
+      "priceMax": 240000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bay",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 42000,
+      "privatePrice": false,
+      "listedDate": "July 14, 2025",
+      "sourceId": null,
+      "title": "Bay Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 14, 2025",
+          "price": 42000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 42000,
+      "priceMax": 42000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bay",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "February 11, 2025",
+      "sourceId": null,
+      "title": "Bay Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "February 11, 2025",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bay",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 225000,
+      "privatePrice": false,
+      "listedDate": "February 14, 2021",
+      "sourceId": null,
+      "title": "Bay Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 14, 2021",
+          "price": 225000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 225000,
+      "priceMax": 225000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berrien",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 75000,
+      "privatePrice": false,
+      "listedDate": "November 3, 2025",
+      "sourceId": null,
+      "title": "Berrien Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "November 3, 2025",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berrien",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Berrien Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berrien",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "January 28, 2026",
+      "sourceId": null,
+      "title": "Berrien Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "January 28, 2026",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berrien",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Berrien Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Calhoun",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "February 13, 2025",
+      "sourceId": null,
+      "title": "Calhoun Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 13, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Calhoun",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "March 25, 2025",
+      "sourceId": null,
+      "title": "Calhoun Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "March 25, 2025",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Calhoun",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 275000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Calhoun Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 275000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 275000,
+      "priceMax": 275000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Calhoun",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 325000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Calhoun Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 325000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 325000,
+      "priceMax": 325000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Calhoun",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 425000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Calhoun Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 425000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 425000,
+      "priceMax": 425000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Chippewa",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Chippewa Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chippewa-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chippewa-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Clinton",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 495000,
+      "privatePrice": false,
+      "listedDate": "May 6, 2025",
+      "sourceId": null,
+      "title": "Clinton Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clinton-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clinton-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 6, 2025",
+          "price": 495000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 495000,
+      "priceMax": 495000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dickinson",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "June 29, 2025",
+      "sourceId": null,
+      "title": "Dickinson Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dickinson-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dickinson-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 29, 2025",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dickinson",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Dickinson Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dickinson-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dickinson-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Eaton",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "February 13, 2025",
+      "sourceId": null,
+      "title": "Eaton Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/eaton-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/eaton-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 13, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 30000,
+      "privatePrice": false,
+      "listedDate": "October 20, 2025",
+      "sourceId": null,
+      "title": "Genesee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "October 20, 2025",
+          "price": 30000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 30000,
+      "priceMax": 30000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 30000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Genesee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 30000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 30000,
+      "priceMax": 30000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Genesee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 85000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Genesee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 85000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 85000,
+      "priceMax": 85000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Genesee Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 350000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Genesee Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 350000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 350000,
+      "priceMax": 350000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Genesee",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Genesee Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/genesee-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ingham",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 65000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Ingham Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ingham",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 72500,
+      "privatePrice": false,
+      "listedDate": "November 18, 2025",
+      "sourceId": null,
+      "title": "Ingham Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 18, 2025",
+          "price": 72500,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 72500,
+      "priceMax": 72500
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ingham",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Ingham Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ingham",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 350000,
+      "privatePrice": false,
+      "listedDate": "April 8, 2025",
+      "sourceId": null,
+      "title": "Ingham Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 8, 2025",
+          "price": 350000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 350000,
+      "priceMax": 350000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ingham",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 350000,
+      "privatePrice": false,
+      "listedDate": "December 7, 2025",
+      "sourceId": null,
+      "title": "Ingham Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ingham-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 7, 2025",
+          "price": 350000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 350000,
+      "priceMax": 350000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ionia",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 35000,
+      "privatePrice": false,
+      "listedDate": "May 6, 2025",
+      "sourceId": null,
+      "title": "Ionia Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ionia-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ionia-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 6, 2025",
+          "price": 35000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 35000,
+      "priceMax": 35000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Iosco",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Iosco Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/iosco-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/iosco-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Iosco",
+      "typeCode": "Class C Resort",
+      "typeName": "Class C Resort",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Iosco Michigan – Class C Resort",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/iosco-michigan-class-c-resort-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/iosco-michigan-class-c-resort-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Isabella",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Isabella Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/isabella-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/isabella-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Jackson",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Jackson Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/jackson-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/jackson-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 40000,
+      "privatePrice": false,
+      "listedDate": "January 28, 2026",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 28, 2026",
+          "price": 40000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 40000,
+      "priceMax": 40000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 65000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 75000,
+      "privatePrice": false,
+      "listedDate": "October 14, 2025",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "October 14, 2025",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "June 4, 2025",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-class-c-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "June 4, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kalamazoo",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 250000,
+      "privatePrice": false,
+      "listedDate": "April 3, 2025",
+      "sourceId": null,
+      "title": "Kalamazoo Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kalamazoo-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 3, 2025",
+          "price": 250000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 250000,
+      "priceMax": 250000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 115000,
+      "privatePrice": false,
+      "listedDate": "April 9, 2025",
+      "sourceId": null,
+      "title": "Kent Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 9, 2025",
+          "price": 115000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 115000,
+      "priceMax": 115000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Kent Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "February 12, 2026",
+      "sourceId": null,
+      "title": "Kent Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "February 12, 2026",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 165000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Kent Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 165000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 165000,
+      "priceMax": 165000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "December 10, 2024",
+      "sourceId": null,
+      "title": "Kent Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 10, 2024",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Kent",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Kent Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lapeer",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 170000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Lapeer Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lapeer-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lapeer-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 170000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 170000,
+      "priceMax": 170000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lapeer",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Lapeer Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lapeer-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lapeer-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lenawee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Lenawee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lenawee-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lenawee-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 40000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 40000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 40000,
+      "priceMax": 40000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 45000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 45000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 45000,
+      "priceMax": 45000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 48000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 48000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 48000,
+      "priceMax": 48000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-class-c-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 475000,
+      "privatePrice": false,
+      "listedDate": "February 17, 2026",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 17, 2026",
+          "price": 475000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 475000,
+      "priceMax": 475000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 475000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 475000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 475000,
+      "priceMax": 475000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 490000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 490000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 490000,
+      "priceMax": 490000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 495000,
+      "privatePrice": false,
+      "listedDate": "December 10, 2024",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 10, 2024",
+          "price": 495000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 495000,
+      "priceMax": 495000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 525000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 525000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 525000,
+      "priceMax": 525000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 550000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 550000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 550000,
+      "priceMax": 550000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "Tavern",
+      "typeName": "Tavern",
+      "price": 40000,
+      "privatePrice": false,
+      "listedDate": "April 17, 2025",
+      "sourceId": null,
+      "title": "Macomb Michigan – Tavern",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-tavern-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-tavern-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 17, 2025",
+          "price": 40000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 40000,
+      "priceMax": 40000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Marquette",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 40000,
+      "privatePrice": false,
+      "listedDate": "February 26, 2025",
+      "sourceId": null,
+      "title": "Marquette Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/marquette-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/marquette-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 26, 2025",
+          "price": 40000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 40000,
+      "priceMax": 40000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Menominee",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 18000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Menominee Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/menominee-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/menominee-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 18000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 18000,
+      "priceMax": 18000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Midland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Midland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/midland-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/midland-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Midland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Midland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/midland-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/midland-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Monroe Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2025",
+      "sourceId": null,
+      "title": "Monroe Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2025",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "September 30, 2025",
+      "sourceId": null,
+      "title": "Monroe Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "September 30, 2025",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "December 7, 2025",
+      "sourceId": null,
+      "title": "Monroe Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 7, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 325000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Monroe Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 325000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 325000,
+      "priceMax": 325000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Monroe Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montcalm",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 35000,
+      "privatePrice": false,
+      "listedDate": "March 13, 2025",
+      "sourceId": null,
+      "title": "Montcalm Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montcalm-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montcalm-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "March 13, 2025",
+          "price": 35000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 35000,
+      "priceMax": 35000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montcalm",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "May 14, 2024",
+      "sourceId": null,
+      "title": "Montcalm Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montcalm-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montcalm-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 14, 2024",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Muskegon",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 72000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Muskegon Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 72000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 72000,
+      "priceMax": 72000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Muskegon",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 85000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Muskegon Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 85000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 85000,
+      "priceMax": 85000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Muskegon",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "July 25, 2024",
+      "sourceId": null,
+      "title": "Muskegon Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/muskegon-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 25, 2024",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 130000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 130000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 130000,
+      "priceMax": 130000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "April 26, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "April 26, 2025",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 140000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 140000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 140000,
+      "priceMax": 140000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "September 16, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "September 16, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 160000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 160000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 160000,
+      "priceMax": 160000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "Class C Resort",
+      "typeName": "Class C Resort",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "June 16, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – Class C Resort",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-resort-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-class-c-resort-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 16, 2025",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "February 13, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 13, 2025",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 385000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 385000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 385000,
+      "priceMax": 385000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "October 9, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "October 9, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Oakland",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Oakland Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/oakland-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ottawa",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 48000,
+      "privatePrice": false,
+      "listedDate": "October 29, 2025",
+      "sourceId": null,
+      "title": "Ottawa Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "October 29, 2025",
+          "price": 48000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 48000,
+      "priceMax": 48000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ottawa",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Ottawa Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ottawa",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Ottawa Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Ottawa",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "August 1, 2025",
+      "sourceId": null,
+      "title": "Ottawa Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/ottawa-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "August 1, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
     {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
@@ -6742,6 +9671,1021 @@
         "AlcoholPermit.com"
       ],
       "duplicateCount": 0
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Saginaw",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 45000,
+      "privatePrice": false,
+      "listedDate": "July 14, 2025",
+      "sourceId": null,
+      "title": "Saginaw Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/saginaw-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/saginaw-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 14, 2025",
+          "price": 45000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 45000,
+      "priceMax": 45000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Saginaw",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Saginaw Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/saginaw-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/saginaw-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "St Clair",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "St Clair Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/st-clair-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/st-clair-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Tuscola",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 30000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Tuscola Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/tuscola-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/tuscola-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 30000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 30000,
+      "priceMax": 30000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Tuscola",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Tuscola Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/tuscola-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/tuscola-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washtenaw",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "December 4, 2025",
+      "sourceId": null,
+      "title": "Washtenaw Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 4, 2025",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washtenaw",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Washtenaw Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washtenaw",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 450000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Washtenaw Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 450000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 450000,
+      "priceMax": 450000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washtenaw",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 550000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Washtenaw Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washtenaw-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 550000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 550000,
+      "priceMax": 550000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "February 29, 2024",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 29, 2024",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 58000,
+      "privatePrice": false,
+      "listedDate": "January 12, 2026",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "January 12, 2026",
+          "price": 58000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 58000,
+      "priceMax": 58000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "September 18, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "September 18, 2025",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 63000,
+      "privatePrice": false,
+      "listedDate": "January 31, 2023",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "January 31, 2023",
+          "price": 63000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 63000,
+      "priceMax": 63000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 65000,
+      "privatePrice": false,
+      "listedDate": "November 7, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "November 7, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 65000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "February 29, 2024",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "February 29, 2024",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 75000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2019",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "December 31, 2019",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2019",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "December 31, 2019",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 85000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2021",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "December 31, 2021",
+          "price": 85000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 85000,
+      "priceMax": 85000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2019",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-11/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-11/",
+          "sourceId": null,
+          "listedDate": "December 31, 2019",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "November 4, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-12/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-12/",
+          "sourceId": null,
+          "listedDate": "November 4, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "June 1, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-13/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-13/",
+          "sourceId": null,
+          "listedDate": "June 1, 2025",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2022",
+      "sourceId": null,
+      "title": "Wayne Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-14/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-14/",
+          "sourceId": null,
+          "listedDate": "December 31, 2022",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "October 13, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "October 13, 2025",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 59000,
+      "privatePrice": false,
+      "listedDate": "August 4, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "August 4, 2025",
+          "price": 59000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 59000,
+      "priceMax": 59000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 65000,
+      "privatePrice": false,
+      "listedDate": "October 16, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "October 16, 2025",
+          "price": 65000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 65000,
+      "priceMax": 65000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 68000,
+      "privatePrice": false,
+      "listedDate": "May 19, 2021",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "May 19, 2021",
+          "price": 68000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 68000,
+      "priceMax": 68000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "July 5, 2019",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "July 5, 2019",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 95000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 95000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 95000,
+      "priceMax": 95000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "September 23, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "September 23, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 120000,
+      "privatePrice": false,
+      "listedDate": "February 23, 2025",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "February 23, 2025",
+          "price": 120000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 120000,
+      "priceMax": 120000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "May 2, 2024",
+      "sourceId": null,
+      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-11/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-11/",
+          "sourceId": null,
+          "listedDate": "May 2, 2024",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wexford",
+      "typeCode": "Class C",
+      "typeName": "Class C",
+      "price": 85000,
+      "privatePrice": false,
+      "listedDate": "December 19, 2024",
+      "sourceId": null,
+      "title": "Wexford Michigan – Class C",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wexford-michigan-class-c-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wexford-michigan-class-c-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 19, 2024",
+          "price": 85000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 85000,
+      "priceMax": 85000
     }
   ]
 }
