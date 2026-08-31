@@ -1,47 +1,8 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-08-25T18:58:57Z",
+  "updatedAt": "2026-08-31T22:52:41Z",
   "licenses": [
-    {
-      "county": "Orange",
-      "licenseNumber": "588196",
-      "licenseCode": "47-588196",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "August 28, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-08-28T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-588196.pdf"
-    },
-    {
-      "county": "Orange",
-      "licenseNumber": "596621",
-      "licenseCode": "47-596621",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "August 28, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-08-28T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400 Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-596621.pdf"
-    },
-    {
-      "county": "Orange",
-      "licenseNumber": "609694",
-      "licenseCode": "47-609694",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "August 28, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-08-28T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-609694.pdf"
-    },
     {
       "county": "San Diego",
       "licenseNumber": "589172",
@@ -67,6 +28,19 @@
       "minimumBid": 110000,
       "auctionLocation": "15015 Avenue of Science, Suite 200, San Diego, CA 92128",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-619928.pdf"
+    },
+    {
+      "county": "Orange",
+      "licenseNumber": "500249",
+      "licenseCode": "47-500249",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "September 4, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-09-04T10:00:00-07:00",
+      "minimumBid": 75000,
+      "auctionLocation": "1 MacArthur Place, Suite 400 Santa Ana, CA 92707",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-500249.pdf"
     },
     {
       "county": "Orange",
@@ -134,6 +108,19 @@
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice5-625253.pdf"
     },
     {
+      "county": "Yolo",
+      "licenseNumber": "625253",
+      "licenseCode": "47-625253",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-03T09:00:00-08:00",
+      "minimumBid": 15500,
+      "auctionLocation": "50 D Street, Room 230, Santa Rosa, CA 95404",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-638674.pdf"
+    },
+    {
       "county": "Alameda",
       "licenseNumber": "400415",
       "licenseCode": "47-400415",
@@ -145,6 +132,19 @@
       "minimumBid": 34000,
       "auctionLocation": "1515 Clay Street, Suite 300, Oakland, CA 94612",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-400415.pdf"
+    },
+    {
+      "county": "Ventura",
+      "licenseNumber": "575842",
+      "licenseCode": "47-575842",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 9, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-09T09:00:00-08:00",
+      "minimumBid": 20000,
+      "auctionLocation": "4820 McGrath St., Suite 260, Ventura CA 93003",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-575842.pdf"
     }
   ]
 }
