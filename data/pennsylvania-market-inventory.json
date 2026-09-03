@@ -1,6 +1,6 @@
 {
   "state": "Pennsylvania",
-  "updatedAt": "2026-09-03T11:10:42Z",
+  "updatedAt": "2026-09-03T16:23:50Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,15 +11,3321 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/pennsylvania/",
-      "count": 0,
-      "note": "sync error: HTTPSConnectionPool(host='liquorlicensemarketplace.com', port=443): Max retries exceeded with url: /pennsylvania/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='liquorlicensemarketplace.com', port=443) at 0x7fe075312330>, 'Connection to liquorlicensemarketplace.com timed out. (connect timeout=20)'))"
+      "count": 128,
+      "note": null
     }
   ],
-  "rawRecordCount": 201,
-  "uniqueCount": 201,
+  "rawRecordCount": 329,
+  "uniqueCount": 329,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 270000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-d-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-d-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 270000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 270000,
+      "priceMax": 270000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "June 12, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 12, 2025",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "June 17, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "June 17, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "May 27, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "May 27, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 105000,
+      "privatePrice": false,
+      "listedDate": "August 4, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "August 4, 2025",
+          "price": 105000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 105000,
+      "priceMax": 105000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "December 12, 2023",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "December 12, 2023",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "July 27, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "July 27, 2024",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "March 22, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "March 22, 2024",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "December 13, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "December 13, 2024",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 110000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "November 5, 2025",
+          "price": 110000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 110000,
+      "priceMax": 110000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 112000,
+      "privatePrice": false,
+      "listedDate": "January 17, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-11/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-11/",
+          "sourceId": null,
+          "listedDate": "January 17, 2025",
+          "price": 112000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 112000,
+      "priceMax": 112000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 115000,
+      "privatePrice": false,
+      "listedDate": "April 29, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-12/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-12/",
+          "sourceId": null,
+          "listedDate": "April 29, 2025",
+          "price": 115000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 115000,
+      "priceMax": 115000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 120000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-13/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-13/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 120000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 120000,
+      "priceMax": 120000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "December 4, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-14/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-14/",
+          "sourceId": null,
+          "listedDate": "December 4, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "July 23, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-15/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-15/",
+          "sourceId": null,
+          "listedDate": "July 23, 2024",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "September 4, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-16/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-16/",
+          "sourceId": null,
+          "listedDate": "September 4, 2025",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "May 20, 2025",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-17/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-17/",
+          "sourceId": null,
+          "listedDate": "May 20, 2025",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Allegheny",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 225000,
+      "privatePrice": false,
+      "listedDate": "December 13, 2024",
+      "sourceId": null,
+      "title": "Allegheny Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-18/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/allegheny-pennsylvania-type-r-liquor-license-18/",
+          "sourceId": null,
+          "listedDate": "December 13, 2024",
+          "price": 225000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 225000,
+      "priceMax": 225000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Armstrong",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "March 5, 2024",
+      "sourceId": null,
+      "title": "Armstrong Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/armstrong-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/armstrong-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "March 5, 2024",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Beaver",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 95000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Beaver Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 95000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 95000,
+      "priceMax": 95000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Beaver",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "July 13, 2022",
+      "sourceId": null,
+      "title": "Beaver Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "July 13, 2022",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Beaver",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Beaver Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/beaver-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "December 18, 2025",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 18, 2025",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 175000,
+      "privatePrice": false,
+      "listedDate": "December 31, 2024",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 31, 2024",
+          "price": 175000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 175000,
+      "priceMax": 175000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "August 14, 2024",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "August 14, 2024",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 250000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 250000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 250000,
+      "priceMax": 250000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 265000,
+      "privatePrice": false,
+      "listedDate": "March 5, 2024",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "March 5, 2024",
+          "price": 265000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 265000,
+      "priceMax": 265000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Berks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "June 3, 2024",
+      "sourceId": null,
+      "title": "Berks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berks-pennsylvania-type-r-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "June 3, 2024",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bradford",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "June 6, 2022",
+      "sourceId": null,
+      "title": "Bradford Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bradford-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bradford-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 6, 2022",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bucks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 365000,
+      "privatePrice": false,
+      "listedDate": "June 3, 2025",
+      "sourceId": null,
+      "title": "Bucks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 3, 2025",
+          "price": 365000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 365000,
+      "priceMax": 365000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bucks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Bucks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bucks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "December 13, 2024",
+      "sourceId": null,
+      "title": "Bucks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 13, 2024",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Bucks",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 395000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Bucks Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bucks-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 395000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 395000,
+      "priceMax": 395000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Centre",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 506000,
+      "privatePrice": false,
+      "listedDate": "August 9, 2024",
+      "sourceId": null,
+      "title": "Centre Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/centre-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/centre-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 9, 2024",
+          "price": 506000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 506000,
+      "priceMax": 506000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Chester",
+      "typeCode": "Type E",
+      "typeName": "Type E",
+      "price": 600000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Chester Pennsylvania – Type E",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-e-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-e-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 600000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 600000,
+      "priceMax": 600000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Chester",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 550000,
+      "privatePrice": false,
+      "listedDate": "April 1, 2025",
+      "sourceId": null,
+      "title": "Chester Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 1, 2025",
+          "price": 550000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 550000,
+      "priceMax": 550000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Chester",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 700000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Chester Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/chester-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 700000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 700000,
+      "priceMax": 700000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Clearfield",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Clearfield Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clearfield-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clearfield-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Clinton",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "April 3, 2025",
+      "sourceId": null,
+      "title": "Clinton Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clinton-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/clinton-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 3, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Cumberland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 850000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Cumberland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 850000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 850000,
+      "priceMax": 850000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Cumberland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 900000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Cumberland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 900000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 900000,
+      "priceMax": 900000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Cumberland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 1500000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Cumberland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/cumberland-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 1500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 1500000,
+      "priceMax": 1500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "August 26, 2025",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 26, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 186000,
+      "privatePrice": false,
+      "listedDate": "February 3, 2026",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "February 3, 2026",
+          "price": 186000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 186000,
+      "priceMax": 186000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 200000,
+      "privatePrice": false,
+      "listedDate": "March 28, 2025",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "March 28, 2025",
+          "price": 200000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 200000,
+      "priceMax": 200000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 209000,
+      "privatePrice": false,
+      "listedDate": "June 4, 2025",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "June 4, 2025",
+          "price": 209000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 209000,
+      "priceMax": 209000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 250000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 250000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 250000,
+      "priceMax": 250000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Dauphin",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 325000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Dauphin Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/dauphin-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 325000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 325000,
+      "priceMax": 325000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 385000,
+      "privatePrice": false,
+      "listedDate": "February 21, 2023",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-d-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-d-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 21, 2023",
+          "price": 385000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 385000,
+      "priceMax": 385000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 220000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 220000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 220000,
+      "priceMax": 220000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 225000,
+      "privatePrice": false,
+      "listedDate": "December 11, 2024",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 11, 2024",
+          "price": 225000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 225000,
+      "priceMax": 225000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 270000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 270000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 270000,
+      "priceMax": 270000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 270000,
+      "privatePrice": false,
+      "listedDate": "January 20, 2026",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "January 20, 2026",
+          "price": 270000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 270000,
+      "priceMax": 270000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 290000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 290000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 290000,
+      "priceMax": 290000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 295000,
+      "privatePrice": false,
+      "listedDate": "November 24, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "November 24, 2025",
+          "price": 295000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 295000,
+      "priceMax": 295000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-9/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-9/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 8, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "December 8, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 350000,
+      "privatePrice": false,
+      "listedDate": "March 25, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-11/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-11/",
+          "sourceId": null,
+          "listedDate": "March 25, 2025",
+          "price": 350000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 350000,
+      "priceMax": 350000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-12/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-12/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Delaware",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "November 14, 2025",
+      "sourceId": null,
+      "title": "Delaware Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-13/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/delaware-pennsylvania-type-r-liquor-license-13/",
+          "sourceId": null,
+          "listedDate": "November 14, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 96000,
+      "privatePrice": false,
+      "listedDate": "December 13, 2024",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 13, 2024",
+          "price": 96000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 96000,
+      "priceMax": 96000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": "August 1, 2025",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "August 1, 2025",
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 115000,
+      "privatePrice": false,
+      "listedDate": "August 1, 2025",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "August 1, 2025",
+          "price": 115000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 115000,
+      "priceMax": 115000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 125000,
+      "privatePrice": false,
+      "listedDate": "August 27, 2025",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "August 27, 2025",
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 130000,
+      "privatePrice": false,
+      "listedDate": "July 1, 2025",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "July 1, 2025",
+          "price": 130000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 130000,
+      "priceMax": 130000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 130000,
+      "privatePrice": false,
+      "listedDate": "September 11, 2023",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "September 11, 2023",
+          "price": 130000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 130000,
+      "priceMax": 130000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Erie",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "December 13, 2024",
+      "sourceId": null,
+      "title": "Erie Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/erie-pennsylvania-type-r-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "December 13, 2024",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Indiana",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 80000,
+      "privatePrice": false,
+      "listedDate": "May 7, 2024",
+      "sourceId": null,
+      "title": "Indiana Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/indiana-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/indiana-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 7, 2024",
+          "price": 80000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 80000,
+      "priceMax": 80000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Indiana",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 95000,
+      "privatePrice": false,
+      "listedDate": "April 12, 2020",
+      "sourceId": null,
+      "title": "Indiana Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/indiana-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/indiana-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "April 12, 2020",
+          "price": 95000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 95000,
+      "priceMax": 95000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lackawanna",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 85000,
+      "privatePrice": false,
+      "listedDate": "June 15, 2023",
+      "sourceId": null,
+      "title": "Lackawanna Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lackawanna-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lackawanna-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 15, 2023",
+          "price": 85000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 85000,
+      "priceMax": 85000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lancaster",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 289000,
+      "privatePrice": false,
+      "listedDate": "July 23, 2024",
+      "sourceId": null,
+      "title": "Lancaster Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 23, 2024",
+          "price": 289000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 289000,
+      "priceMax": 289000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lancaster",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 310000,
+      "privatePrice": false,
+      "listedDate": "July 11, 2022",
+      "sourceId": null,
+      "title": "Lancaster Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "July 11, 2022",
+          "price": 310000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 310000,
+      "priceMax": 310000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lancaster",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 325000,
+      "privatePrice": false,
+      "listedDate": "May 28, 2024",
+      "sourceId": null,
+      "title": "Lancaster Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lancaster-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "May 28, 2024",
+          "price": 325000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 325000,
+      "priceMax": 325000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lawrence",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 175000,
+      "privatePrice": false,
+      "listedDate": "August 8, 2025",
+      "sourceId": null,
+      "title": "Lawrence Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lawrence-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lawrence-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 8, 2025",
+          "price": 175000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 175000,
+      "priceMax": 175000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lebanon",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 490000,
+      "privatePrice": false,
+      "listedDate": "December 12, 2021",
+      "sourceId": null,
+      "title": "Lebanon Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lebanon-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lebanon-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 12, 2021",
+          "price": 490000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 490000,
+      "priceMax": 490000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-d-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-d-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 435000,
+      "privatePrice": false,
+      "listedDate": "December 17, 2021",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-d-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-d-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 17, 2021",
+          "price": 435000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 435000,
+      "priceMax": 435000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 258000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 258000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 258000,
+      "priceMax": 258000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 325000,
+      "privatePrice": false,
+      "listedDate": "November 19, 2025",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "November 19, 2025",
+          "price": 325000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 325000,
+      "priceMax": 325000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 350000,
+      "privatePrice": false,
+      "listedDate": "June 3, 2024",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "June 3, 2024",
+          "price": 350000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 350000,
+      "priceMax": 350000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lehigh",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 385000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Lehigh Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lehigh-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 385000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 385000,
+      "priceMax": 385000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Luzerne",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 67000,
+      "privatePrice": false,
+      "listedDate": "August 27, 2025",
+      "sourceId": null,
+      "title": "Luzerne Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 27, 2025",
+          "price": 67000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 67000,
+      "priceMax": 67000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Luzerne",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 70000,
+      "privatePrice": false,
+      "listedDate": "October 1, 2024",
+      "sourceId": null,
+      "title": "Luzerne Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "October 1, 2024",
+          "price": 70000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 70000,
+      "priceMax": 70000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Luzerne",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 86000,
+      "privatePrice": false,
+      "listedDate": "March 3, 2025",
+      "sourceId": null,
+      "title": "Luzerne Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/luzerne-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "March 3, 2025",
+          "price": 86000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 86000,
+      "priceMax": 86000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Mckean",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 55000,
+      "privatePrice": false,
+      "listedDate": "March 11, 2025",
+      "sourceId": null,
+      "title": "Mckean Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mckean-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mckean-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "March 11, 2025",
+          "price": 55000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 55000,
+      "priceMax": 55000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Mckean",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 60000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Mckean Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mckean-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mckean-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 60000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 60000,
+      "priceMax": 60000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Mercer",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 215000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Mercer Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mercer-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mercer-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 215000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 215000,
+      "priceMax": 215000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Mercer",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 275000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Mercer Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mercer-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mercer-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 275000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 275000,
+      "priceMax": 275000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Monroe",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 380000,
+      "privatePrice": false,
+      "listedDate": "January 20, 2026",
+      "sourceId": null,
+      "title": "Monroe Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 20, 2026",
+          "price": 380000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 380000,
+      "priceMax": 380000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montgomery",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 375000,
+      "privatePrice": false,
+      "listedDate": "April 21, 2025",
+      "sourceId": null,
+      "title": "Montgomery Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "April 21, 2025",
+          "price": 375000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 375000,
+      "priceMax": 375000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montgomery",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Montgomery Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montgomery",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "June 4, 2025",
+      "sourceId": null,
+      "title": "Montgomery Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "June 4, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Montgomery",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 450000,
+      "privatePrice": false,
+      "listedDate": "August 9, 2024",
+      "sourceId": null,
+      "title": "Montgomery Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/montgomery-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "August 9, 2024",
+          "price": 450000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 450000,
+      "priceMax": 450000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Northampton",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 400000,
+      "privatePrice": false,
+      "listedDate": "March 10, 2025",
+      "sourceId": null,
+      "title": "Northampton Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northampton-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northampton-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "March 10, 2025",
+          "price": 400000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 400000,
+      "priceMax": 400000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Northumberland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 75000,
+      "privatePrice": false,
+      "listedDate": "May 24, 2025",
+      "sourceId": null,
+      "title": "Northumberland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northumberland-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northumberland-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "May 24, 2025",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Northumberland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 75000,
+      "privatePrice": false,
+      "listedDate": "January 30, 2026",
+      "sourceId": null,
+      "title": "Northumberland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northumberland-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/northumberland-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "January 30, 2026",
+          "price": 75000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 75000,
+      "priceMax": 75000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 215000,
+      "privatePrice": false,
+      "listedDate": "June 4, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 4, 2025",
+          "price": 215000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 215000,
+      "priceMax": 215000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 215000,
+      "privatePrice": false,
+      "listedDate": "September 5, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "September 5, 2025",
+          "price": 215000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 215000,
+      "priceMax": 215000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type D",
+      "typeName": "Type D",
+      "price": 280000,
+      "privatePrice": false,
+      "listedDate": "October 20, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type D",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-d-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "October 20, 2025",
+          "price": 280000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 280000,
+      "priceMax": 280000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type E",
+      "typeName": "Type E",
+      "price": 145000,
+      "privatePrice": false,
+      "listedDate": "June 17, 2024",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type E",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-e-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-e-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 17, 2024",
+          "price": 145000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 145000,
+      "priceMax": 145000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 142000,
+      "privatePrice": false,
+      "listedDate": "September 25, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "September 25, 2025",
+          "price": 142000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 142000,
+      "priceMax": 142000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 145000,
+      "privatePrice": false,
+      "listedDate": "January 6, 2026",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "January 6, 2026",
+          "price": 145000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 145000,
+      "priceMax": 145000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 146000,
+      "privatePrice": false,
+      "listedDate": "March 22, 2024",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "March 22, 2024",
+          "price": 146000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 146000,
+      "priceMax": 146000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 155000,
+      "privatePrice": false,
+      "listedDate": "March 26, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "March 26, 2025",
+          "price": 155000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 155000,
+      "priceMax": 155000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 155000,
+      "privatePrice": false,
+      "listedDate": "April 29, 2024",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "April 29, 2024",
+          "price": 155000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 155000,
+      "priceMax": 155000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 155000,
+      "privatePrice": false,
+      "listedDate": "June 26, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-6/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-6/",
+          "sourceId": null,
+          "listedDate": "June 26, 2025",
+          "price": 155000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 155000,
+      "priceMax": 155000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 165000,
+      "privatePrice": false,
+      "listedDate": "February 27, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-7/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-7/",
+          "sourceId": null,
+          "listedDate": "February 27, 2025",
+          "price": 165000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 165000,
+      "priceMax": 165000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Philadelphia",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 165000,
+      "privatePrice": false,
+      "listedDate": "May 24, 2025",
+      "sourceId": null,
+      "title": "Philadelphia Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-8/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-8/",
+          "sourceId": null,
+          "listedDate": "May 24, 2025",
+          "price": 165000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 165000,
+      "priceMax": 165000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Pike",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 250000,
+      "privatePrice": false,
+      "listedDate": "December 25, 2021",
+      "sourceId": null,
+      "title": "Pike Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pike-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/pike-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 25, 2021",
+          "price": 250000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 250000,
+      "priceMax": 250000
+    },
     {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
@@ -5446,6 +8752,412 @@
         "AlcoholPermit.com"
       ],
       "duplicateCount": 0
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Schuylkill",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 40000,
+      "privatePrice": false,
+      "listedDate": "January 5, 2026",
+      "sourceId": null,
+      "title": "Schuylkill Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 5, 2026",
+          "price": 40000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 40000,
+      "priceMax": 40000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Schuylkill",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 50000,
+      "privatePrice": false,
+      "listedDate": "June 5, 2024",
+      "sourceId": null,
+      "title": "Schuylkill Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "June 5, 2024",
+          "price": 50000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 50000,
+      "priceMax": 50000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Susquehanna",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 86000,
+      "privatePrice": false,
+      "listedDate": "January 11, 2023",
+      "sourceId": null,
+      "title": "Susquehanna Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/susquehanna-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/susquehanna-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "January 11, 2023",
+          "price": 86000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 86000,
+      "priceMax": 86000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washington",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 95000,
+      "privatePrice": false,
+      "listedDate": "February 9, 2026",
+      "sourceId": null,
+      "title": "Washington Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "February 9, 2026",
+          "price": 95000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 95000,
+      "priceMax": 95000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Washington",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 300000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Washington Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Wayne",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 135000,
+      "privatePrice": false,
+      "listedDate": "October 1, 2025",
+      "sourceId": null,
+      "title": "Wayne Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "October 1, 2025",
+          "price": 135000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 135000,
+      "priceMax": 135000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Westmoreland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 78000,
+      "privatePrice": false,
+      "listedDate": "July 23, 2024",
+      "sourceId": null,
+      "title": "Westmoreland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "July 23, 2024",
+          "price": 78000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 78000,
+      "priceMax": 78000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Westmoreland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Westmoreland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Westmoreland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "November 5, 2024",
+      "sourceId": null,
+      "title": "Westmoreland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "November 5, 2024",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Westmoreland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 90000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Westmoreland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-4/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-4/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 90000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 90000,
+      "priceMax": 90000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Westmoreland",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 150000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Westmoreland Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-5/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/westmoreland-pennsylvania-type-r-liquor-license-5/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 150000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 150000,
+      "priceMax": 150000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "York",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 450000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "York Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 450000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 450000,
+      "priceMax": 450000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "York",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 450000,
+      "privatePrice": false,
+      "listedDate": "December 23, 2025",
+      "sourceId": null,
+      "title": "York Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license-2/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license-2/",
+          "sourceId": null,
+          "listedDate": "December 23, 2025",
+          "price": 450000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 450000,
+      "priceMax": 450000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "York",
+      "typeCode": "Type R",
+      "typeName": "Type R",
+      "price": 500000,
+      "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "York Pennsylvania – Type R",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/york-pennsylvania-type-r-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 500000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 500000,
+      "priceMax": 500000
     }
   ]
 }
