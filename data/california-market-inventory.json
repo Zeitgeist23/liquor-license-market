@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:49:59Z",
+  "updatedAt": "2026-09-08T21:23:14Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -10,12 +10,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/california/",
-      "count": 253,
+      "count": 252,
       "note": null
     }
   ],
-  "rawRecordCount": 845,
-  "uniqueCount": 821,
+  "rawRecordCount": 844,
+  "uniqueCount": 820,
   "duplicatesMerged": 24,
   "mergedCards": 24,
   "licenses": [
@@ -5197,35 +5197,6 @@
       "duplicateCount": 0,
       "priceMin": 223000,
       "priceMax": 223000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles",
-      "typeCode": "20",
-      "typeName": "Type 20",
-      "price": 223600,
-      "privatePrice": false,
-      "listedDate": "April 17, 2026",
-      "sourceId": null,
-      "title": "Los Angeles California – Type 20 – Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-20-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-20-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "April 17, 2026",
-          "price": 223600,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 223600,
-      "priceMax": 223600
     },
     {
       "source": "AlcoholPermit.com",
