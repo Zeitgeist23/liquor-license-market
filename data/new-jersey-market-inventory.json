@@ -1,6 +1,6 @@
 {
   "state": "New Jersey",
-  "updatedAt": "2026-09-09T04:38:37Z",
+  "updatedAt": "2026-09-09T11:19:07Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,12 +11,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/new-jersey/",
-      "count": 98,
+      "count": 97,
       "note": null
     }
   ],
-  "rawRecordCount": 161,
-  "uniqueCount": 161,
+  "rawRecordCount": 160,
+  "uniqueCount": 160,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
@@ -727,11 +727,11 @@
       "listedDate": "December 30, 2025",
       "sourceId": null,
       "title": "Essex New Jersey – Type 33",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license-3/",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license/",
       "sourceListings": [
         {
           "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license-3/",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license/",
           "sourceId": null,
           "listedDate": "December 30, 2025",
           "price": 150000,
@@ -785,11 +785,11 @@
       "listedDate": "December 30, 2025",
       "sourceId": null,
       "title": "Essex New Jersey – Type 33",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license/",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license-3/",
       "sourceListings": [
         {
           "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license/",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/essex-new-jersey-type-33-liquor-license-3/",
           "sourceId": null,
           "listedDate": "December 30, 2025",
           "price": 150000,
@@ -1159,6 +1159,35 @@
       "typeName": "Type 33",
       "price": 300000,
       "privatePrice": false,
+      "listedDate": "December 30, 2025",
+      "sourceId": null,
+      "title": "Hudson New Jersey – Type 33",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/hudson-new-jersey-type-33-liquor-license-10/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/hudson-new-jersey-type-33-liquor-license-10/",
+          "sourceId": null,
+          "listedDate": "December 30, 2025",
+          "price": 300000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 300000,
+      "priceMax": 300000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Hudson",
+      "typeCode": "Type 33",
+      "typeName": "Type 33",
+      "price": 300000,
+      "privatePrice": false,
       "listedDate": "November 14, 2019",
       "sourceId": null,
       "title": "Hudson New Jersey – Type 33",
@@ -1198,35 +1227,6 @@
           "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/hudson-new-jersey-type-33-liquor-license-11/",
           "sourceId": null,
           "listedDate": "November 5, 2024",
-          "price": 300000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 300000,
-      "priceMax": 300000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Hudson",
-      "typeCode": "Type 33",
-      "typeName": "Type 33",
-      "price": 300000,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Hudson New Jersey – Type 33",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/hudson-new-jersey-type-33-liquor-license-10/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/hudson-new-jersey-type-33-liquor-license-10/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
           "price": 300000,
           "privatePrice": false
         }
@@ -1875,35 +1875,6 @@
       "duplicateCount": 0,
       "priceMin": 375000,
       "priceMax": 375000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Middlesex",
-      "typeCode": "Type 33",
-      "typeName": "Type 33",
-      "price": 385000,
-      "privatePrice": false,
-      "listedDate": "February 6, 2026",
-      "sourceId": null,
-      "title": "Middlesex New Jersey – Type 33",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/middlesex-new-jersey-type-33-liquor-license-6/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/middlesex-new-jersey-type-33-liquor-license-6/",
-          "sourceId": null,
-          "listedDate": "February 6, 2026",
-          "price": 385000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 385000,
-      "priceMax": 385000
     },
     {
       "source": "Liquor License Marketplace",

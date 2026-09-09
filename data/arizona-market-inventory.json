@@ -1,6 +1,6 @@
 {
   "state": "Arizona",
-  "updatedAt": "2026-09-09T04:38:37Z",
+  "updatedAt": "2026-09-09T11:19:07Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -432,6 +432,35 @@
       "county": "Maricopa",
       "typeCode": "Series 7",
       "typeName": "Series 7",
+      "price": 41000,
+      "privatePrice": false,
+      "listedDate": "June 28, 2026",
+      "sourceId": null,
+      "title": "Maricopa County Arizona – Series 7",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+          "sourceId": null,
+          "listedDate": "June 28, 2026",
+          "price": 41000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 41000,
+      "priceMax": 41000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Maricopa",
+      "typeCode": "Series 7",
+      "typeName": "Series 7",
       "price": 42000,
       "privatePrice": false,
       "listedDate": "November 3, 2025",
@@ -490,19 +519,19 @@
       "county": "Maricopa",
       "typeCode": "Series 7",
       "typeName": "Series 7",
-      "price": 42250,
+      "price": 42500,
       "privatePrice": false,
-      "listedDate": "February 28, 2026",
+      "listedDate": "February 28, 2025",
       "sourceId": null,
       "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
       "sourceListings": [
         {
           "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-3/",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
           "sourceId": null,
-          "listedDate": "February 28, 2026",
-          "price": 42250,
+          "listedDate": "February 28, 2025",
+          "price": 42500,
           "privatePrice": false
         }
       ],
@@ -510,8 +539,8 @@
         "Liquor License Marketplace"
       ],
       "duplicateCount": 0,
-      "priceMin": 42250,
-      "priceMax": 42250
+      "priceMin": 42500,
+      "priceMax": 42500
     },
     {
       "source": "Liquor License Marketplace",
@@ -548,47 +577,18 @@
       "county": "Maricopa",
       "typeCode": "Series 7",
       "typeName": "Series 7",
-      "price": 42500,
-      "privatePrice": false,
-      "listedDate": "February 28, 2025",
-      "sourceId": null,
-      "title": "Maricopa Arizona – Series 7",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "February 28, 2025",
-          "price": 42500,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 42500,
-      "priceMax": 42500
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Maricopa",
-      "typeCode": "Series 7",
-      "typeName": "Series 7",
       "price": 44000,
       "privatePrice": false,
-      "listedDate": "February 28, 2026",
+      "listedDate": "August 28, 2026",
       "sourceId": null,
-      "title": "Maricopa Arizona – Series 7",
+      "title": "Maricopa County Arizona – Series 7",
       "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-6/",
       "sourceListings": [
         {
           "source": "Liquor License Marketplace",
           "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/maricopa-arizona-series-7-liquor-license-6/",
           "sourceId": null,
-          "listedDate": "February 28, 2026",
+          "listedDate": "August 28, 2026",
           "price": 44000,
           "privatePrice": false
         }
