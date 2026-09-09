@@ -1,6 +1,6 @@
 {
   "state": "Ohio",
-  "updatedAt": "2026-09-08T16:36:06Z",
+  "updatedAt": "2026-09-09T04:38:37Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -84,35 +84,6 @@
       "county": "Lucas",
       "typeCode": "D-5",
       "typeName": "D-5",
-      "price": 14000,
-      "privatePrice": false,
-      "listedDate": "February 14, 2026",
-      "sourceId": null,
-      "title": "Lucas Ohio – D-5",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lucas-ohio-d-5-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lucas-ohio-d-5-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 14, 2026",
-          "price": 14000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 14000,
-      "priceMax": 14000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Lucas",
-      "typeCode": "D-5",
-      "typeName": "D-5",
       "price": 15000,
       "privatePrice": false,
       "listedDate": "December 30, 2025",
@@ -164,6 +135,35 @@
       "duplicateCount": 0,
       "priceMin": 18000,
       "priceMax": 18000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Lucas",
+      "typeCode": "Statewide D-5",
+      "typeName": "Statewide D-5",
+      "price": 19000,
+      "privatePrice": false,
+      "listedDate": "June 14, 2026",
+      "sourceId": null,
+      "title": "Lucas Ohio – Statewide D-5",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lucas-ohio-d-5-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/lucas-ohio-d-5-liquor-license/",
+          "sourceId": null,
+          "listedDate": "June 14, 2026",
+          "price": 19000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 19000,
+      "priceMax": 19000
     },
     {
       "source": "Liquor License Marketplace",

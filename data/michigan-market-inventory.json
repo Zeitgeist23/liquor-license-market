@@ -1,6 +1,6 @@
 {
   "state": "Michigan",
-  "updatedAt": "2026-09-08T16:36:06Z",
+  "updatedAt": "2026-09-09T04:38:37Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -1273,11 +1273,11 @@
       "county": "Kent",
       "typeCode": "Class C",
       "typeName": "Class C",
-      "price": 150000,
+      "price": 147000,
       "privatePrice": false,
       "listedDate": "February 12, 2026",
       "sourceId": null,
-      "title": "Kent Michigan – Class C",
+      "title": "Kent County Michigan – Class C",
       "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
       "sourceListings": [
         {
@@ -1285,7 +1285,7 @@
           "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
           "sourceId": null,
           "listedDate": "February 12, 2026",
-          "price": 150000,
+          "price": 147000,
           "privatePrice": false
         }
       ],
@@ -1293,8 +1293,8 @@
         "Liquor License Marketplace"
       ],
       "duplicateCount": 0,
-      "priceMin": 150000,
-      "priceMax": 150000
+      "priceMin": 147000,
+      "priceMax": 147000
     },
     {
       "source": "Liquor License Marketplace",
@@ -1739,35 +1739,6 @@
       "typeName": "SDD (Specially Designated Distributors)",
       "price": 475000,
       "privatePrice": false,
-      "listedDate": "February 17, 2026",
-      "sourceId": null,
-      "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 17, 2026",
-          "price": 475000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 475000,
-      "priceMax": 475000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Macomb",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
-      "price": 475000,
-      "privatePrice": false,
       "listedDate": "December 30, 2025",
       "sourceId": null,
       "title": "Macomb Michigan – SDD (Specially Designated Distributors)",
@@ -1933,6 +1904,35 @@
       "duplicateCount": 0,
       "priceMin": 500000,
       "priceMax": 500000
+    },
+    {
+      "source": "Liquor License Marketplace",
+      "sourceKind": "third-party",
+      "county": "Macomb",
+      "typeCode": "SDD (Specially Designated Distributors)",
+      "typeName": "SDD (Specially Designated Distributors)",
+      "price": 505000,
+      "privatePrice": false,
+      "listedDate": "August 17, 2026",
+      "sourceId": null,
+      "title": "Macomb County Michigan – SDD (Specially Designated Distributors)",
+      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
+      "sourceListings": [
+        {
+          "source": "Liquor License Marketplace",
+          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/macomb-michigan-sdd-specially-designated-distributors-liquor-license/",
+          "sourceId": null,
+          "listedDate": "August 17, 2026",
+          "price": 505000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "Liquor License Marketplace"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 505000,
+      "priceMax": 505000
     },
     {
       "source": "Liquor License Marketplace",
