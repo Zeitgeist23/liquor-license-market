@@ -1,6 +1,6 @@
 {
   "state": "Michigan",
-  "updatedAt": "2026-09-10T20:49:55Z",
+  "updatedAt": "2026-09-11T04:36:36Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,12 +11,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/michigan/",
-      "count": 133,
+      "count": 126,
       "note": null
     }
   ],
-  "rawRecordCount": 382,
-  "uniqueCount": 382,
+  "rawRecordCount": 375,
+  "uniqueCount": 375,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
@@ -106,35 +106,6 @@
       "duplicateCount": 0,
       "priceMin": 50000,
       "priceMax": 50000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Bay",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
-      "price": 225000,
-      "privatePrice": false,
-      "listedDate": "February 14, 2021",
-      "sourceId": null,
-      "title": "Bay Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-sdd-specially-designated-distributors-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/bay-michigan-sdd-specially-designated-distributors-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 14, 2021",
-          "price": 225000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 225000,
-      "priceMax": 225000
     },
     {
       "source": "Liquor License Marketplace",
@@ -10022,122 +9993,6 @@
       "county": "Wayne",
       "typeCode": "Class C",
       "typeName": "Class C",
-      "price": 75000,
-      "privatePrice": false,
-      "listedDate": "December 31, 2019",
-      "sourceId": null,
-      "title": "Wayne Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-8/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-8/",
-          "sourceId": null,
-          "listedDate": "December 31, 2019",
-          "price": 75000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 75000,
-      "priceMax": 75000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "Class C",
-      "typeName": "Class C",
-      "price": 80000,
-      "privatePrice": false,
-      "listedDate": "December 31, 2019",
-      "sourceId": null,
-      "title": "Wayne Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-9/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-9/",
-          "sourceId": null,
-          "listedDate": "December 31, 2019",
-          "price": 80000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 80000,
-      "priceMax": 80000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "Class C",
-      "typeName": "Class C",
-      "price": 85000,
-      "privatePrice": false,
-      "listedDate": "December 31, 2021",
-      "sourceId": null,
-      "title": "Wayne Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-10/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-10/",
-          "sourceId": null,
-          "listedDate": "December 31, 2021",
-          "price": 85000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 85000,
-      "priceMax": 85000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "Class C",
-      "typeName": "Class C",
-      "price": 90000,
-      "privatePrice": false,
-      "listedDate": "December 31, 2019",
-      "sourceId": null,
-      "title": "Wayne Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-11/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-11/",
-          "sourceId": null,
-          "listedDate": "December 31, 2019",
-          "price": 90000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 90000,
-      "priceMax": 90000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "Class C",
-      "typeName": "Class C",
       "price": 100000,
       "privatePrice": false,
       "listedDate": "November 4, 2025",
@@ -10339,35 +10194,6 @@
       "county": "Wayne",
       "typeCode": "SDD (Specially Designated Distributors)",
       "typeName": "SDD (Specially Designated Distributors)",
-      "price": 68000,
-      "privatePrice": false,
-      "listedDate": "May 19, 2021",
-      "sourceId": null,
-      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "May 19, 2021",
-          "price": 68000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 68000,
-      "priceMax": 68000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
       "price": 70000,
       "privatePrice": false,
       "listedDate": "February 23, 2025",
@@ -10390,35 +10216,6 @@
       "duplicateCount": 0,
       "priceMin": 70000,
       "priceMax": 70000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
-      "price": 90000,
-      "privatePrice": false,
-      "listedDate": "July 5, 2019",
-      "sourceId": null,
-      "title": "Wayne Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-6/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-sdd-specially-designated-distributors-liquor-license-6/",
-          "sourceId": null,
-          "listedDate": "July 5, 2019",
-          "price": 90000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 90000,
-      "priceMax": 90000
     },
     {
       "source": "Liquor License Marketplace",
