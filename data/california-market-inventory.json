@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:44:22Z",
+  "updatedAt": "2026-09-11T21:15:41Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,7 +11,8 @@
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/california/",
       "count": 234,
-      "note": null
+      "note": "retrieval returned 0; retained 234 last-good records",
+      "retainedPrevious": true
     }
   ],
   "rawRecordCount": 826,
