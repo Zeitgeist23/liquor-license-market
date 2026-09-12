@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-09-12T15:48:00Z",
+  "updatedAt": "2026-09-12T20:55:29Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
       "url": "https://alcoholpermit.com/liquor-licenses/california/",
       "count": 592,
-      "note": null
+      "note": "retrieval returned 0; retained 592 last-good records",
+      "retainedPrevious": true
     },
     {
       "source": "Liquor License Marketplace",
