@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:16:12Z",
+  "updatedAt": "2026-09-13T16:36:21Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -10,12 +10,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/california/",
-      "count": 234,
+      "count": 186,
       "note": null
     }
   ],
-  "rawRecordCount": 826,
-  "uniqueCount": 804,
+  "rawRecordCount": 778,
+  "uniqueCount": 756,
   "duplicatesMerged": 22,
   "mergedCards": 22,
   "licenses": [
@@ -782,33 +782,6 @@
       "priceMax": 33000
     },
     {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Alameda County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 16, 2026",
-      "sourceId": null,
-      "title": "Alameda County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/alameda-california-type-47-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/alameda-california-type-47-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "January 16, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
       "county": "Alpine",
@@ -1436,33 +1409,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Butte County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Butte County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/butte-california-type-47-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/butte-california-type-47-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
@@ -2268,33 +2214,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Contra Costa County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Contra Costa County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/contra-costa-california-type-47-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/contra-costa-california-type-47-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
@@ -7215,87 +7134,6 @@
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
       "county": "Los Angeles County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-9/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-9/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 20, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 20, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 9, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-8/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-21-liquor-license-8/",
-          "sourceId": null,
-          "listedDate": "January 9, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
       "typeCode": "47",
       "typeName": "Type 47",
       "price": 55000,
@@ -7320,222 +7158,6 @@
       "duplicateCount": 0,
       "priceMin": 55000,
       "priceMax": 55000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 5, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-6/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-6/",
-          "sourceId": null,
-          "listedDate": "January 5, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 29, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-11/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-11/",
-          "sourceId": null,
-          "listedDate": "January 29, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-23/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-23/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 22, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 22, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 25, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "January 25, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 12, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-47-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "February 12, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-48-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-48-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Los Angeles County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 20, 2026",
-      "sourceId": null,
-      "title": "Los Angeles County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-48-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/los-angeles-california-type-48-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "January 20, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -8210,33 +7832,6 @@
       "duplicateCount": 0
     },
     {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Marin County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Marin County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/marin-california-type-47-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/marin-california-type-47-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
       "county": "Mariposa",
@@ -8789,60 +8384,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Mendocino County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "September 10, 2026",
-      "sourceId": null,
-      "title": "Mendocino County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mendocino-california-type-47-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mendocino-california-type-47-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "September 10, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Mendocino County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 17, 2026",
-      "sourceId": null,
-      "title": "Mendocino County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mendocino-california-type-48-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/mendocino-california-type-48-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 17, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
@@ -9851,33 +9392,6 @@
       "duplicateCount": 0,
       "priceMin": 179000,
       "priceMax": 179000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Monterey County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Monterey County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monterey-california-type-48-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monterey-california-type-48-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -11375,87 +10889,6 @@
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
       "county": "Orange County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 27, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "January 27, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 14, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 14, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Orange County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license-7/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-21-liquor-license-7/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
       "typeCode": "47",
       "typeName": "Type 47",
       "price": 84000,
@@ -11509,195 +10942,6 @@
       "duplicateCount": 0,
       "priceMin": 88000,
       "priceMax": 88000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 5, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-12/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-12/",
-          "sourceId": null,
-          "listedDate": "February 5, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 9, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-19/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-19/",
-          "sourceId": null,
-          "listedDate": "January 9, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 9, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-7/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-7/",
-          "sourceId": null,
-          "listedDate": "January 9, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 27, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-17/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-17/",
-          "sourceId": null,
-          "listedDate": "January 27, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 14, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-20/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-47-liquor-license-20/",
-          "sourceId": null,
-          "listedDate": "January 14, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Orange County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-48-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-48-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Orange County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 8, 2026",
-      "sourceId": null,
-      "title": "Orange County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-48-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/orange-california-type-48-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 8, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -12034,33 +11278,6 @@
       "duplicateCount": 0,
       "priceMin": 235000,
       "priceMax": 235000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Placer County",
-      "typeCode": "75",
-      "typeName": "Type 75",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 5, 2026",
-      "sourceId": null,
-      "title": "Placer County California – Type 75 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/placer-california-type-75-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/placer-california-type-75-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 5, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -12890,33 +12107,6 @@
       "priceMax": 63000
     },
     {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Riverside County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 20, 2026",
-      "sourceId": null,
-      "title": "Riverside County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/riverside-california-type-47-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/riverside-california-type-47-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "January 20, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
       "county": "Sacramento",
@@ -13463,33 +12653,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Sacramento County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 5, 2026",
-      "sourceId": null,
-      "title": "Sacramento County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/sacramento-california-type-47-liquor-license-4/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/sacramento-california-type-47-liquor-license-4/",
-          "sourceId": null,
-          "listedDate": "February 5, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
@@ -14367,33 +13530,6 @@
       "duplicateCount": 0,
       "priceMin": 9900,
       "priceMax": 9900
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Bernardino County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 15, 2026",
-      "sourceId": null,
-      "title": "San Bernardino County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-bernardino-california-type-48-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-bernardino-california-type-48-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 15, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -15485,87 +14621,6 @@
       "duplicateCount": 0,
       "priceMin": 25000,
       "priceMax": 25000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Diego County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 16, 2026",
-      "sourceId": null,
-      "title": "San Diego County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-8/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-8/",
-          "sourceId": null,
-          "listedDate": "January 16, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Diego County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 21, 2026",
-      "sourceId": null,
-      "title": "San Diego County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-5/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-5/",
-          "sourceId": null,
-          "listedDate": "January 21, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Diego County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "San Diego County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-15/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-diego-california-type-47-liquor-license-15/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -17079,33 +16134,6 @@
       "duplicateCount": 0
     },
     {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Luis Obispo County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "February 17, 2026",
-      "sourceId": null,
-      "title": "San Luis Obispo County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-luis-obispo-california-type-21-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-luis-obispo-california-type-21-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 17, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
       "county": "San Mateo",
@@ -17474,33 +16502,6 @@
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
       "county": "San Mateo County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "San Mateo County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-mateo-california-type-21-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-mateo-california-type-21-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Mateo County",
       "typeCode": "47",
       "typeName": "Type 47",
       "price": 87000,
@@ -17525,33 +16526,6 @@
       "duplicateCount": 0,
       "priceMin": 87000,
       "priceMax": 87000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "San Mateo County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 8, 2026",
-      "sourceId": null,
-      "title": "San Mateo County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-mateo-california-type-47-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/san-mateo-california-type-47-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 8, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -17896,60 +16870,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Barbara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Barbara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-barbara-california-type-47-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-barbara-california-type-47-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Barbara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Barbara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-barbara-california-type-47-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-barbara-california-type-47-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
@@ -18709,33 +17629,6 @@
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
       "county": "Santa Clara County",
-      "typeCode": "21",
-      "typeName": "Type 21",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 7, 2026",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 21 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-21-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-21-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 7, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
       "typeCode": "47",
       "typeName": "Type 47",
       "price": 58000,
@@ -18760,141 +17653,6 @@
       "duplicateCount": 0,
       "priceMin": 58000,
       "priceMax": 58000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-9/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-9/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-13/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-13/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 16, 2026",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-5/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-5/",
-          "sourceId": null,
-          "listedDate": "January 16, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 14, 2026",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-11/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-47-liquor-license-11/",
-          "sourceId": null,
-          "listedDate": "January 14, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Clara County",
-      "typeCode": "48",
-      "typeName": "Type 48",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Clara County California – Type 48 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-48-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-clara-california-type-48-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -19175,33 +17933,6 @@
       "priceMax": 95000
     },
     {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Santa Cruz County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Santa Cruz County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-cruz-california-type-47-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/santa-cruz-california-type-47-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
       "source": "AlcoholPermit.com",
       "sourceKind": "third-party",
       "county": "Shasta",
@@ -19418,33 +18149,6 @@
       ],
       "sourceNames": [
         "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Shasta County",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 14, 2026",
-      "sourceId": null,
-      "title": "Shasta County California – Type 47 Liquor License",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/shasta-california-type-47-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/shasta-california-type-47-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 14, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
       ],
       "duplicateCount": 0
     },
