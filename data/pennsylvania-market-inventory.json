@@ -1,6 +1,6 @@
 {
   "state": "Pennsylvania",
-  "updatedAt": "2026-09-13T20:47:34Z",
+  "updatedAt": "2026-09-14T04:52:48Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,12 +11,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/pennsylvania/",
-      "count": 121,
+      "count": 117,
       "note": null
     }
   ],
-  "rawRecordCount": 322,
-  "uniqueCount": 322,
+  "rawRecordCount": 318,
+  "uniqueCount": 318,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
@@ -2546,33 +2546,6 @@
     {
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
-      "county": "Monroe",
-      "typeCode": "Type R",
-      "typeName": "Type R",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 20, 2026",
-      "sourceId": null,
-      "title": "Monroe County Pennsylvania – Type R",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-pennsylvania-type-r-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/monroe-pennsylvania-type-r-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 20, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
       "county": "Montgomery",
       "typeCode": "Type R",
       "typeName": "Type R",
@@ -3091,33 +3064,6 @@
       "duplicateCount": 0,
       "priceMin": 165000,
       "priceMax": 165000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Philadelphia",
-      "typeCode": "Type R",
-      "typeName": "Type R",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 6, 2026",
-      "sourceId": null,
-      "title": "Philadelphia County Pennsylvania – Type R",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/philadelphia-pennsylvania-type-r-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 6, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "AlcoholPermit.com",
@@ -8578,33 +8524,6 @@
     {
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
-      "county": "Schuylkill",
-      "typeCode": "Type R",
-      "typeName": "Type R",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 5, 2026",
-      "sourceId": null,
-      "title": "Schuylkill County Pennsylvania – Type R",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/schuylkill-pennsylvania-type-r-liquor-license/",
-          "sourceId": null,
-          "listedDate": "January 5, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
       "county": "Susquehanna",
       "typeCode": "Type R",
       "typeName": "Type R",
@@ -8630,35 +8549,6 @@
       "duplicateCount": 0,
       "priceMin": 86000,
       "priceMax": 86000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Washington",
-      "typeCode": "Type R",
-      "typeName": "Type R",
-      "price": 95000,
-      "privatePrice": false,
-      "listedDate": "February 9, 2026",
-      "sourceId": null,
-      "title": "Washington County Pennsylvania – Type R",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/washington-pennsylvania-type-r-liquor-license/",
-          "sourceId": null,
-          "listedDate": "February 9, 2026",
-          "price": 95000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 95000,
-      "priceMax": 95000
     },
     {
       "source": "Liquor License Marketplace",

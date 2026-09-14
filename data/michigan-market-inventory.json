@@ -1,6 +1,6 @@
 {
   "state": "Michigan",
-  "updatedAt": "2026-09-13T20:47:34Z",
+  "updatedAt": "2026-09-14T04:52:48Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11,12 +11,12 @@
     {
       "source": "Liquor License Marketplace",
       "url": "https://liquorlicensemarketplace.com/michigan/",
-      "count": 126,
+      "count": 122,
       "note": null
     }
   ],
-  "rawRecordCount": 375,
-  "uniqueCount": 375,
+  "rawRecordCount": 371,
+  "uniqueCount": 371,
   "duplicatesMerged": 0,
   "mergedCards": 0,
   "licenses": [
@@ -197,33 +197,6 @@
     {
       "source": "Liquor License Marketplace",
       "sourceKind": "third-party",
-      "county": "Berrien",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Berrien County Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-sdd-specially-designated-distributors-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/berrien-michigan-sdd-specially-designated-distributors-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
       "county": "Calhoun",
       "typeCode": "Class C",
       "typeName": "Class C",
@@ -278,33 +251,6 @@
       "duplicateCount": 0,
       "priceMin": 125000,
       "priceMax": 125000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Calhoun",
-      "typeCode": "SDD (Specially Designated Distributors)",
-      "typeName": "SDD (Specially Designated Distributors)",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "December 30, 2025",
-      "sourceId": null,
-      "title": "Calhoun County Michigan – SDD (Specially Designated Distributors)",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/calhoun-michigan-sdd-specially-designated-distributors-liquor-license/",
-          "sourceId": null,
-          "listedDate": "December 30, 2025",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "Liquor License Marketplace",
@@ -1175,35 +1121,6 @@
       "duplicateCount": 0,
       "priceMin": 125000,
       "priceMax": 125000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Kent",
-      "typeCode": "Class C",
-      "typeName": "Class C",
-      "price": 147000,
-      "privatePrice": false,
-      "listedDate": "February 12, 2026",
-      "sourceId": null,
-      "title": "Kent County Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/kent-michigan-class-c-liquor-license-3/",
-          "sourceId": null,
-          "listedDate": "February 12, 2026",
-          "price": 147000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 147000,
-      "priceMax": 147000
     },
     {
       "source": "Liquor License Marketplace",
@@ -10073,33 +9990,6 @@
       "duplicateCount": 0,
       "priceMin": 150000,
       "priceMax": 150000
-    },
-    {
-      "source": "Liquor License Marketplace",
-      "sourceKind": "third-party",
-      "county": "Wayne",
-      "typeCode": "Class C",
-      "typeName": "Class C",
-      "price": null,
-      "privatePrice": false,
-      "listedDate": "January 12, 2026",
-      "sourceId": null,
-      "title": "Wayne County Michigan – Class C",
-      "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-2/",
-      "sourceListings": [
-        {
-          "source": "Liquor License Marketplace",
-          "sourceUrl": "https://liquorlicensemarketplace.com/liquor-license/wayne-michigan-class-c-liquor-license-2/",
-          "sourceId": null,
-          "listedDate": "January 12, 2026",
-          "price": null,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "Liquor License Marketplace"
-      ],
-      "duplicateCount": 0
     },
     {
       "source": "Liquor License Marketplace",
