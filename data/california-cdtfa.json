@@ -1,8 +1,34 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-09-22T16:59:03Z",
+  "updatedAt": "2026-09-28T23:18:29Z",
   "licenses": [
+    {
+      "county": "Lake",
+      "licenseNumber": "611355",
+      "licenseCode": "47-611355",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "September 30, 2026",
+      "auctionTime": "1:00 PM",
+      "auctionDateTime": "2026-09-30T13:00:00-07:00",
+      "minimumBid": 18000,
+      "auctionLocation": "2480 Hilborn Way, Suite 200, Fairfield, CA 94534",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-611355.pdf"
+    },
+    {
+      "county": "Orange",
+      "licenseNumber": "586670",
+      "licenseCode": "47-586670",
+      "typeCode": "47",
+      "typeName": "California ABC License",
+      "auctionDate": "October 16, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-10-16T10:00:00-07:00",
+      "minimumBid": 75000,
+      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-586670.pdf"
+    },
     {
       "county": "Yolo",
       "licenseNumber": "638674",
@@ -17,6 +43,19 @@
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-638674.pdf"
     },
     {
+      "county": "Tulare",
+      "licenseNumber": "646406",
+      "licenseCode": "47-646406",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "1:00 PM",
+      "auctionDateTime": "2026-11-03T13:00:00-08:00",
+      "minimumBid": 23500,
+      "auctionLocation": "8050 N. Palm Ave. Suite 205, Fresno CA, 93711",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-646406.pdf"
+    },
+    {
       "county": "Alameda",
       "licenseNumber": "400415",
       "licenseCode": "47-400415",
@@ -28,6 +67,19 @@
       "minimumBid": 34000,
       "auctionLocation": "1515 Clay Street, Suite 300, Oakland, CA 94612",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-400415.pdf"
+    },
+    {
+      "county": "Alameda",
+      "licenseNumber": "622549",
+      "licenseCode": "47-622549",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-04T10:00:00-08:00",
+      "minimumBid": 34000,
+      "auctionLocation": "1515 Clay Street, Room 1107, Oakland, CA 94612",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-622549.pdf"
     },
     {
       "county": "Ventura",
