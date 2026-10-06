@@ -1,20 +1,20 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-09-28T23:18:29Z",
+  "updatedAt": "2026-10-06T00:05:21Z",
   "licenses": [
     {
-      "county": "Lake",
-      "licenseNumber": "611355",
-      "licenseCode": "47-611355",
+      "county": "Orange",
+      "licenseNumber": "500249",
+      "licenseCode": "47-500249",
       "typeCode": "47",
       "typeName": "On-Sale General",
-      "auctionDate": "September 30, 2026",
-      "auctionTime": "1:00 PM",
-      "auctionDateTime": "2026-09-30T13:00:00-07:00",
-      "minimumBid": 18000,
-      "auctionLocation": "2480 Hilborn Way, Suite 200, Fairfield, CA 94534",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-611355.pdf"
+      "auctionDate": "October 16, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-10-16T10:00:00-07:00",
+      "minimumBid": 75000,
+      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-500249.pdf"
     },
     {
       "county": "Orange",
@@ -28,6 +28,45 @@
       "minimumBid": 75000,
       "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-586670.pdf"
+    },
+    {
+      "county": "Orange",
+      "licenseNumber": "609948",
+      "licenseCode": "47-609948",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "October 16, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-10-16T10:00:00-07:00",
+      "minimumBid": 75000,
+      "auctionLocation": "1 MacArthur Place , Suite 400, Santa Ana, CA 92707-5944",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-609948.pdf"
+    },
+    {
+      "county": "Alameda",
+      "licenseNumber": "614877",
+      "licenseCode": "47-614877",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "October 28, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-10-28T10:00:00-07:00",
+      "minimumBid": 34000,
+      "auctionLocation": "1515 Clay Street, Suite 303, Oakland, CA 94612",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-614877.pdf"
+    },
+    {
+      "county": "Contra Costa",
+      "licenseNumber": "655778",
+      "licenseCode": "47-655778",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "October 28, 2026",
+      "auctionTime": "10:30 AM",
+      "auctionDateTime": "2026-10-28T10:30:00-07:00",
+      "minimumBid": 22500,
+      "auctionLocation": "1515 Clay Street, Suite 303, Oakland, CA 94612",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-655778.pdf"
     },
     {
       "county": "Yolo",
@@ -54,6 +93,84 @@
       "minimumBid": 23500,
       "auctionLocation": "8050 N. Palm Ave. Suite 205, Fresno CA, 93711",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-646406.pdf"
+    },
+    {
+      "county": "Riverside",
+      "licenseNumber": "550620",
+      "licenseCode": "47-550620",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 35000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-550620.pdf"
+    },
+    {
+      "county": "Riverside",
+      "licenseNumber": "654334",
+      "licenseCode": "47-654334",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 35000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-654334.pdf"
+    },
+    {
+      "county": "Riverside",
+      "licenseNumber": "656599",
+      "licenseCode": "47-656599",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 35000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-656599.pdf"
+    },
+    {
+      "county": "Riverside",
+      "licenseNumber": "597522",
+      "licenseCode": "48-597522",
+      "typeCode": "48",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 35000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-597522.pdf"
+    },
+    {
+      "county": "San Bernardino",
+      "licenseNumber": "420615",
+      "licenseCode": "21-420615",
+      "typeCode": "21",
+      "typeName": "Off-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 15000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-420615.pdf"
+    },
+    {
+      "county": "San Bernardino",
+      "licenseNumber": "453806",
+      "licenseCode": "48-453806",
+      "typeCode": "48",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "9:00 AM",
+      "auctionDateTime": "2026-11-04T09:00:00-08:00",
+      "minimumBid": 35000,
+      "auctionLocation": "3737 Main Street, Suite 1000, Riverside, CA 92501",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-453806.pdf"
     },
     {
       "county": "Alameda",
@@ -119,6 +236,32 @@
       "minimumBid": 28500,
       "auctionLocation": "8050 N. Palm Avenue, Suite 205, Fresno, CA 93711",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-645400.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "551148",
+      "licenseCode": "47-551148",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 18, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-18T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-551148.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "585703",
+      "licenseCode": "47-585703",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 18, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-18T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-585703.pdf"
     }
   ]
 }
