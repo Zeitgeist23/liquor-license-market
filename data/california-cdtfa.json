@@ -1,7 +1,7 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-10-06T00:05:21Z",
+  "updatedAt": "2026-10-13T00:43:47Z",
   "licenses": [
     {
       "county": "Orange",
@@ -80,6 +80,84 @@
       "minimumBid": 15500,
       "auctionLocation": "50 D Street, Room 230, Santa Rosa, CA 95404",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-638674.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "525678",
+      "licenseCode": "47-525678",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "505 North Brand Blvd., Suite 700, Glendale, CA 91203",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-525678.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "545880",
+      "licenseCode": "47-545880",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "505 North Brand Blvd. Suite 700, Glendale, CA 91203",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-545880.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "569081",
+      "licenseCode": "47-569081",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "505 North Brand Blvd. Suite 700, GLENDALE CA 91203",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-569081.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "592578",
+      "licenseCode": "47-592578",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "505 N Brand Blvd. Suite 700, Glendale, CA 9120",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-592578.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "599213",
+      "licenseCode": "47-599213",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "505 North Brand Blvd. Suite 700, Glendale, CA 91203",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice6-599213.pdf"
+    },
+    {
+      "county": "Los Angeles",
+      "licenseNumber": "625253",
+      "licenseCode": "47-625253",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 3, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-03T10:00:00-08:00",
+      "minimumBid": 55000,
+      "auctionLocation": "5505 North Brand Blvd. Suite 700, Glendale, CA 91203",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice6-625253.pdf"
     },
     {
       "county": "Tulare",
@@ -225,6 +303,19 @@
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-560081.pdf"
     },
     {
+      "county": "Santa Clara",
+      "licenseNumber": "486903",
+      "licenseCode": "47-486903",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 13, 2026",
+      "auctionTime": "11:30 AM",
+      "auctionDateTime": "2026-11-13T11:30:00-08:00",
+      "minimumBid": 45000,
+      "auctionLocation": "11741 Technology Drive, Suite 100, San Jose, CA 95110",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-486903.pdf"
+    },
+    {
       "county": "Fresno",
       "licenseNumber": "645400",
       "licenseCode": "47-645400",
@@ -262,6 +353,32 @@
       "minimumBid": 55000,
       "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-585703.pdf"
+    },
+    {
+      "county": "Kern",
+      "licenseNumber": "618921",
+      "licenseCode": "47-618921",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "December 2, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-12-02T10:00:00-08:00",
+      "minimumBid": 25000,
+      "auctionLocation": "1800 30th Street, Suite 380, Bakersfield, CA 93301-1922",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-618921.pdf"
+    },
+    {
+      "county": "Kern",
+      "licenseNumber": "548972",
+      "licenseCode": "47-548972",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "December 2, 2026",
+      "auctionTime": "11:00 AM",
+      "auctionDateTime": "2026-12-02T11:00:00-08:00",
+      "minimumBid": 25000,
+      "auctionLocation": "1800 30th Street, Suite 380, Bakersfield, CA 93301",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-548972.pdf"
     }
   ]
 }
