@@ -1,47 +1,8 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-10-13T00:43:47Z",
+  "updatedAt": "2026-10-19T22:22:54Z",
   "licenses": [
-    {
-      "county": "Orange",
-      "licenseNumber": "500249",
-      "licenseCode": "47-500249",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "October 16, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-10-16T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-500249.pdf"
-    },
-    {
-      "county": "Orange",
-      "licenseNumber": "586670",
-      "licenseCode": "47-586670",
-      "typeCode": "47",
-      "typeName": "California ABC License",
-      "auctionDate": "October 16, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-10-16T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-586670.pdf"
-    },
-    {
-      "county": "Orange",
-      "licenseNumber": "609948",
-      "licenseCode": "47-609948",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "October 16, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-10-16T10:00:00-07:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place , Suite 400, Santa Ana, CA 92707-5944",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-609948.pdf"
-    },
     {
       "county": "Alameda",
       "licenseNumber": "614877",
@@ -277,6 +238,19 @@
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-622549.pdf"
     },
     {
+      "county": "Shasta",
+      "licenseNumber": "592866",
+      "licenseCode": "48-592866",
+      "typeCode": "48",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 4, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-04T10:00:00-08:00",
+      "minimumBid": 19000,
+      "auctionLocation": "2881 Churn Creek Road, Suite B, Redding, CA 96002",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-592866.pdf"
+    },
+    {
       "county": "Ventura",
       "licenseNumber": "575842",
       "licenseCode": "47-575842",
@@ -314,6 +288,19 @@
       "minimumBid": 45000,
       "auctionLocation": "11741 Technology Drive, Suite 100, San Jose, CA 95110",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-486903.pdf"
+    },
+    {
+      "county": "Santa Clara",
+      "licenseNumber": "481827",
+      "licenseCode": "47-481827",
+      "typeCode": "48",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 13, 2026",
+      "auctionTime": "12:00 PM",
+      "auctionDateTime": "2026-11-13T12:00:00-08:00",
+      "minimumBid": 45000,
+      "auctionLocation": "1741 Technology Drive, S uite 100, San Jose, CA 95110",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-481827.pdf"
     },
     {
       "county": "Fresno",
