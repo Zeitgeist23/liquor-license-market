@@ -1,34 +1,8 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-10-19T22:22:54Z",
+  "updatedAt": "2026-10-30T22:23:56Z",
   "licenses": [
-    {
-      "county": "Alameda",
-      "licenseNumber": "614877",
-      "licenseCode": "47-614877",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "October 28, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-10-28T10:00:00-07:00",
-      "minimumBid": 34000,
-      "auctionLocation": "1515 Clay Street, Suite 303, Oakland, CA 94612",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-614877.pdf"
-    },
-    {
-      "county": "Contra Costa",
-      "licenseNumber": "655778",
-      "licenseCode": "47-655778",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "October 28, 2026",
-      "auctionTime": "10:30 AM",
-      "auctionDateTime": "2026-10-28T10:30:00-07:00",
-      "minimumBid": 22500,
-      "auctionLocation": "1515 Clay Street, Suite 303, Oakland, CA 94612",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-655778.pdf"
-    },
     {
       "county": "Yolo",
       "licenseNumber": "638674",
@@ -292,7 +266,7 @@
     {
       "county": "Santa Clara",
       "licenseNumber": "481827",
-      "licenseCode": "47-481827",
+      "licenseCode": "48-481827",
       "typeCode": "48",
       "typeName": "On-Sale General",
       "auctionDate": "November 13, 2026",
@@ -340,6 +314,32 @@
       "minimumBid": 55000,
       "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-585703.pdf"
+    },
+    {
+      "county": "Sacramento",
+      "licenseNumber": "586375",
+      "licenseCode": "47-586375",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 19, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-19T10:00:00-08:00",
+      "minimumBid": 20000,
+      "auctionLocation": "651 Bannon Street, Suite 100, Sacramento, CA 95811",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-586375.pdf"
+    },
+    {
+      "county": "San Joaquin",
+      "licenseNumber": "644328",
+      "licenseCode": "48-644328",
+      "typeCode": "48",
+      "typeName": "On-Sale General",
+      "auctionDate": "November 19, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-11-19T10:00:00-08:00",
+      "minimumBid": 18000,
+      "auctionLocation": "651 Bannon Street, Suite 100, Sacramento, CA 95811",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-644328.pdf"
     },
     {
       "county": "Kern",
