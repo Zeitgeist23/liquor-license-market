@@ -1,34 +1,8 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-11-06T06:52:12Z",
+  "updatedAt": "2026-11-11T06:28:33Z",
   "licenses": [
-    {
-      "county": "Ventura",
-      "licenseNumber": "575842",
-      "licenseCode": "47-575842",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 9, 2026",
-      "auctionTime": "9:00 AM",
-      "auctionDateTime": "2026-11-09T09:00:00-08:00",
-      "minimumBid": 20000,
-      "auctionLocation": "4820 McGrath St., Suite 260, Ventura CA 93003",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-575842.pdf"
-    },
-    {
-      "county": "Orange",
-      "licenseNumber": "560081",
-      "licenseCode": "47-560081",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 10, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-11-10T10:00:00-08:00",
-      "minimumBid": 75000,
-      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-560081.pdf"
-    },
     {
       "county": "Santa Clara",
       "licenseNumber": "486903",
@@ -145,6 +119,32 @@
       "minimumBid": 18000,
       "auctionLocation": "651 Bannon Street, Suite 100, Sacramento, CA 95811",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-644328.pdf"
+    },
+    {
+      "county": "Fresno",
+      "licenseNumber": "641484",
+      "licenseCode": "47-641484",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "December 10, 2026",
+      "auctionTime": "2:00 PM",
+      "auctionDateTime": "2026-12-10T14:00:00-08:00",
+      "minimumBid": 28000,
+      "auctionLocation": "8050 N. Palm Avenue, Suite 205, Fresno, CA 93711-5510",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-641484.pdf"
+    },
+    {
+      "county": "Orange",
+      "licenseNumber": "580629",
+      "licenseCode": "47-580629",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "March 15, 2027",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2027-03-15T10:00:00-07:00",
+      "minimumBid": 75000,
+      "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-580629.pdf"
     }
   ]
 }
