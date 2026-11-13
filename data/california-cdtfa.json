@@ -1,7 +1,7 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-11-11T06:28:33Z",
+  "updatedAt": "2026-11-13T19:45:09Z",
   "licenses": [
     {
       "county": "Santa Clara",
@@ -26,7 +26,7 @@
       "auctionTime": "12:00 PM",
       "auctionDateTime": "2026-11-13T12:00:00-08:00",
       "minimumBid": 45000,
-      "auctionLocation": "1741 Technology Drive, S uite 100, San Jose, CA 95110",
+      "auctionLocation": "1741 Technology Drive, Suite 100, San Jose, CA 95110",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-481827.pdf"
     },
     {
