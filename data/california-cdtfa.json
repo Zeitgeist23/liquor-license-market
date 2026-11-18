@@ -1,73 +1,8 @@
 {
   "source": "California Department of Tax and Fee Administration",
   "sourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/liquor-licenses-for-sale.htm",
-  "updatedAt": "2026-11-13T19:45:09Z",
+  "updatedAt": "2026-11-18T20:35:02Z",
   "licenses": [
-    {
-      "county": "Santa Clara",
-      "licenseNumber": "486903",
-      "licenseCode": "47-486903",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 13, 2026",
-      "auctionTime": "11:30 AM",
-      "auctionDateTime": "2026-11-13T11:30:00-08:00",
-      "minimumBid": 45000,
-      "auctionLocation": "11741 Technology Drive, Suite 100, San Jose, CA 95110",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-486903.pdf"
-    },
-    {
-      "county": "Santa Clara",
-      "licenseNumber": "481827",
-      "licenseCode": "48-481827",
-      "typeCode": "48",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 13, 2026",
-      "auctionTime": "12:00 PM",
-      "auctionDateTime": "2026-11-13T12:00:00-08:00",
-      "minimumBid": 45000,
-      "auctionLocation": "1741 Technology Drive, Suite 100, San Jose, CA 95110",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-481827.pdf"
-    },
-    {
-      "county": "Fresno",
-      "licenseNumber": "645400",
-      "licenseCode": "47-645400",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 18, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-11-18T10:00:00-08:00",
-      "minimumBid": 28500,
-      "auctionLocation": "8050 N. Palm Avenue, Suite 205, Fresno, CA 93711",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-645400.pdf"
-    },
-    {
-      "county": "Los Angeles",
-      "licenseNumber": "551148",
-      "licenseCode": "47-551148",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 18, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-11-18T10:00:00-08:00",
-      "minimumBid": 55000,
-      "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-551148.pdf"
-    },
-    {
-      "county": "Los Angeles",
-      "licenseNumber": "585703",
-      "licenseCode": "47-585703",
-      "typeCode": "47",
-      "typeName": "On-Sale General",
-      "auctionDate": "November 18, 2026",
-      "auctionTime": "10:00 AM",
-      "auctionDateTime": "2026-11-18T10:00:00-08:00",
-      "minimumBid": 55000,
-      "auctionLocation": "12750 Center Court Drive South, Suite 400, Cerritos, CA 90703",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-585703.pdf"
-    },
     {
       "county": "Kern",
       "licenseNumber": "618921",
@@ -93,6 +28,19 @@
       "minimumBid": 25000,
       "auctionLocation": "1800 30th Street, Suite 380, Bakersfield, CA 93301",
       "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-548972.pdf"
+    },
+    {
+      "county": "Fresno",
+      "licenseNumber": "550016",
+      "licenseCode": "47-550016",
+      "typeCode": "47",
+      "typeName": "On-Sale General",
+      "auctionDate": "December 8, 2026",
+      "auctionTime": "10:00 AM",
+      "auctionDateTime": "2026-12-08T10:00:00-08:00",
+      "minimumBid": 28500,
+      "auctionLocation": "8050 North Palm Avenue, Suite 205, Fresno, CA 93711",
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-550016.pdf"
     },
     {
       "county": "Sacramento",
@@ -139,12 +87,12 @@
       "licenseCode": "47-580629",
       "typeCode": "47",
       "typeName": "On-Sale General",
-      "auctionDate": "March 15, 2027",
+      "auctionDate": "December 11, 2026",
       "auctionTime": "10:00 AM",
-      "auctionDateTime": "2027-03-15T10:00:00-07:00",
+      "auctionDateTime": "2026-12-11T10:00:00-08:00",
       "minimumBid": 75000,
       "auctionLocation": "1 MacArthur Place, Suite 400, Santa Ana, CA 92707",
-      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice-580629.pdf"
+      "noticeUrl": "https://cdtfa.ca.gov/taxes-and-fees/Notice2-580629.pdf"
     }
   ]
 }
