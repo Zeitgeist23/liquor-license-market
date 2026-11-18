@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T21:17:58Z",
+  "updatedAt": "2026-11-18T07:54:34Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -11167,14 +11167,14 @@
       "price": 5000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "221",
+      "sourceId": "222",
       "title": "California Type 20 Liquor License – Sacramento County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id221/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id222/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id221/",
-          "sourceId": "221",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id222/",
+          "sourceId": "222",
           "listedDate": null,
           "price": 5000,
           "privatePrice": false
@@ -11196,14 +11196,14 @@
       "price": 5000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "222",
+      "sourceId": "221",
       "title": "California Type 20 Liquor License – Sacramento County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id222/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id221/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id222/",
-          "sourceId": "222",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/sacramento-county-ca/type-20-id221/",
+          "sourceId": "221",
           "listedDate": null,
           "price": 5000,
           "privatePrice": false
