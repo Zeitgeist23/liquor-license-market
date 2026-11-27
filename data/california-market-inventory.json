@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T21:54:01Z",
+  "updatedAt": "2026-11-27T09:01:35Z",
   "sources": [
     {
       "source": "AlcoholPermit.com",
@@ -3370,14 +3370,14 @@
       "price": 6000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "212",
+      "sourceId": "214",
       "title": "California Type 20 Liquor License – Kern County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id212/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id214/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id212/",
-          "sourceId": "212",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id214/",
+          "sourceId": "214",
           "listedDate": null,
           "price": 6000,
           "privatePrice": false
@@ -3399,14 +3399,14 @@
       "price": 6000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "214",
+      "sourceId": "212",
       "title": "California Type 20 Liquor License – Kern County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id214/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id212/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id214/",
-          "sourceId": "214",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/kern-county-ca/type-20-id212/",
+          "sourceId": "212",
           "listedDate": null,
           "price": 6000,
           "privatePrice": false
@@ -4366,6 +4366,35 @@
       "price": 6000,
       "privatePrice": false,
       "listedDate": null,
+      "sourceId": "215",
+      "title": "California Type 20 Liquor License – Los Angeles County",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id215/",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id215/",
+          "sourceId": "215",
+          "listedDate": null,
+          "price": 6000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 6000,
+      "priceMax": 6000
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Los Angeles",
+      "typeCode": "20",
+      "typeName": "Type 20",
+      "price": 6000,
+      "privatePrice": false,
+      "listedDate": null,
       "sourceId": "216",
       "title": "California Type 20 Liquor License – Los Angeles County",
       "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id216/",
@@ -4403,35 +4432,6 @@
           "source": "AlcoholPermit.com",
           "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id217/",
           "sourceId": "217",
-          "listedDate": null,
-          "price": 6000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 6000,
-      "priceMax": 6000
-    },
-    {
-      "source": "AlcoholPermit.com",
-      "sourceKind": "third-party",
-      "county": "Los Angeles",
-      "typeCode": "20",
-      "typeName": "Type 20",
-      "price": 6000,
-      "privatePrice": false,
-      "listedDate": null,
-      "sourceId": "215",
-      "title": "California Type 20 Liquor License – Los Angeles County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id215/",
-      "sourceListings": [
-        {
-          "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-20-id215/",
-          "sourceId": "215",
           "listedDate": null,
           "price": 6000,
           "privatePrice": false
@@ -5520,6 +5520,35 @@
       "price": 100000,
       "privatePrice": false,
       "listedDate": null,
+      "sourceId": "54",
+      "title": "California Type 47 Liquor License – Los Angeles County",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id54/",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id54/",
+          "sourceId": "54",
+          "listedDate": null,
+          "price": 100000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 100000,
+      "priceMax": 100000
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Los Angeles",
+      "typeCode": "47",
+      "typeName": "Type 47",
+      "price": 100000,
+      "privatePrice": false,
+      "listedDate": null,
       "sourceId": "57",
       "title": "California Type 47 Liquor License – Los Angeles County",
       "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id57/",
@@ -5557,35 +5586,6 @@
           "source": "AlcoholPermit.com",
           "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id60/",
           "sourceId": "60",
-          "listedDate": null,
-          "price": 100000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 100000,
-      "priceMax": 100000
-    },
-    {
-      "source": "AlcoholPermit.com",
-      "sourceKind": "third-party",
-      "county": "Los Angeles",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": 100000,
-      "privatePrice": false,
-      "listedDate": null,
-      "sourceId": "54",
-      "title": "California Type 47 Liquor License – Los Angeles County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id54/",
-      "sourceListings": [
-        {
-          "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id54/",
-          "sourceId": "54",
           "listedDate": null,
           "price": 100000,
           "privatePrice": false
@@ -5781,35 +5781,6 @@
       "price": 125000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "46",
-      "title": "California Type 47 Liquor License – Los Angeles County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id46/",
-      "sourceListings": [
-        {
-          "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id46/",
-          "sourceId": "46",
-          "listedDate": null,
-          "price": 125000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 125000,
-      "priceMax": 125000
-    },
-    {
-      "source": "AlcoholPermit.com",
-      "sourceKind": "third-party",
-      "county": "Los Angeles",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": 125000,
-      "privatePrice": false,
-      "listedDate": null,
       "sourceId": "55",
       "title": "California Type 47 Liquor License – Los Angeles County",
       "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id55/",
@@ -5836,17 +5807,46 @@
       "county": "Los Angeles",
       "typeCode": "47",
       "typeName": "Type 47",
-      "price": 130000,
+      "price": 125000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "51",
+      "sourceId": "46",
       "title": "California Type 47 Liquor License – Los Angeles County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id51/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id46/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id51/",
-          "sourceId": "51",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id46/",
+          "sourceId": "46",
+          "listedDate": null,
+          "price": 125000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 125000,
+      "priceMax": 125000
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "Los Angeles",
+      "typeCode": "47",
+      "typeName": "Type 47",
+      "price": 130000,
+      "privatePrice": false,
+      "listedDate": null,
+      "sourceId": "53",
+      "title": "California Type 47 Liquor License – Los Angeles County",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id53/",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id53/",
+          "sourceId": "53",
           "listedDate": null,
           "price": 130000,
           "privatePrice": false
@@ -5868,14 +5868,14 @@
       "price": 130000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "53",
+      "sourceId": "51",
       "title": "California Type 47 Liquor License – Los Angeles County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id53/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id51/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id53/",
-          "sourceId": "53",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/los-angeles-county-ca/type-47-id51/",
+          "sourceId": "51",
           "listedDate": null,
           "price": 130000,
           "privatePrice": false
@@ -12337,14 +12337,14 @@
       "price": 70000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "88",
+      "sourceId": "86",
       "title": "California Type 47 Liquor License – San Bernardino County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id88/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id86/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id88/",
-          "sourceId": "88",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id86/",
+          "sourceId": "86",
           "listedDate": null,
           "price": 70000,
           "privatePrice": false
@@ -12366,14 +12366,14 @@
       "price": 70000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "86",
+      "sourceId": "88",
       "title": "California Type 47 Liquor License – San Bernardino County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id86/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id88/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id86/",
-          "sourceId": "86",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-bernardino-county-ca/type-47-id88/",
+          "sourceId": "88",
           "listedDate": null,
           "price": 70000,
           "privatePrice": false
@@ -14226,14 +14226,14 @@
       "price": 150000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "25",
+      "sourceId": "21",
       "title": "California Type 48 Liquor License – San Francisco County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id25/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id21/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id25/",
-          "sourceId": "25",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id21/",
+          "sourceId": "21",
           "listedDate": null,
           "price": 150000,
           "privatePrice": false
@@ -14255,14 +14255,14 @@
       "price": 150000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "21",
+      "sourceId": "25",
       "title": "California Type 48 Liquor License – San Francisco County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id21/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id25/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id21/",
-          "sourceId": "21",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-francisco-county-ca/type-48-id25/",
+          "sourceId": "25",
           "listedDate": null,
           "price": 150000,
           "privatePrice": false
@@ -14603,6 +14603,35 @@
       "price": 30000,
       "privatePrice": false,
       "listedDate": null,
+      "sourceId": "103",
+      "title": "California Type 47 Liquor License – San Joaquin County",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id103/",
+      "sourceListings": [
+        {
+          "source": "AlcoholPermit.com",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id103/",
+          "sourceId": "103",
+          "listedDate": null,
+          "price": 30000,
+          "privatePrice": false
+        }
+      ],
+      "sourceNames": [
+        "AlcoholPermit.com"
+      ],
+      "duplicateCount": 0,
+      "priceMin": 30000,
+      "priceMax": 30000
+    },
+    {
+      "source": "AlcoholPermit.com",
+      "sourceKind": "third-party",
+      "county": "San Joaquin",
+      "typeCode": "47",
+      "typeName": "Type 47",
+      "price": 30000,
+      "privatePrice": false,
+      "listedDate": null,
       "sourceId": "106",
       "title": "California Type 47 Liquor License – San Joaquin County",
       "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id106/",
@@ -14640,35 +14669,6 @@
           "source": "AlcoholPermit.com",
           "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id107/",
           "sourceId": "107",
-          "listedDate": null,
-          "price": 30000,
-          "privatePrice": false
-        }
-      ],
-      "sourceNames": [
-        "AlcoholPermit.com"
-      ],
-      "duplicateCount": 0,
-      "priceMin": 30000,
-      "priceMax": 30000
-    },
-    {
-      "source": "AlcoholPermit.com",
-      "sourceKind": "third-party",
-      "county": "San Joaquin",
-      "typeCode": "47",
-      "typeName": "Type 47",
-      "price": 30000,
-      "privatePrice": false,
-      "listedDate": null,
-      "sourceId": "103",
-      "title": "California Type 47 Liquor License – San Joaquin County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id103/",
-      "sourceListings": [
-        {
-          "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-joaquin-county-ca/type-47-id103/",
-          "sourceId": "103",
           "listedDate": null,
           "price": 30000,
           "privatePrice": false
@@ -15194,14 +15194,14 @@
       "price": 8000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "228",
+      "sourceId": "230",
       "title": "California Type 20 Liquor License – San Mateo County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id228/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id230/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id228/",
-          "sourceId": "228",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id230/",
+          "sourceId": "230",
           "listedDate": null,
           "price": 8000,
           "privatePrice": false
@@ -15223,14 +15223,14 @@
       "price": 8000,
       "privatePrice": false,
       "listedDate": null,
-      "sourceId": "230",
+      "sourceId": "228",
       "title": "California Type 20 Liquor License – San Mateo County",
-      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id230/",
+      "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id228/",
       "sourceListings": [
         {
           "source": "AlcoholPermit.com",
-          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id230/",
-          "sourceId": "230",
+          "sourceUrl": "https://alcoholpermit.com/liquor-license/california/san-mateo-county-ca/type-20-id228/",
+          "sourceId": "228",
           "listedDate": null,
           "price": 8000,
           "privatePrice": false
